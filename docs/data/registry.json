@@ -69,6 +69,16 @@
       "role": "Merangkum aktivitas semua robot menjadi laporan untuk user",
       "schedule": "harian 20:00 WIB (rencana)",
       "status": "planned"
+    },
+    {
+      "id": "muse",
+      "name": "Muse",
+      "role": "Koordinator + anggota: terima perintah user via chat, teruskan tugas ke robot, rangkum laporan",
+      "platform": "chat",
+      "schedule": "siaga",
+      "status": "active",
+      "last_run": "2026-10-08",
+      "notes": "Asisten utama user; juga tercatat sebagai anggota rumah robot"
     }
   ]
 }
