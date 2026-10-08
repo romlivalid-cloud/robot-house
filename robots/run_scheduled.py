@@ -16,6 +16,13 @@ REG = os.path.join(ROOT, "robots", "registry.json")
 
 
 def main():
+    # Ambil perintah user dari Issues dulu agar robot membacanya di siklus ini
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "robots"))
+        import fetch_commands
+        fetch_commands.main()
+    except Exception as e:
+        print(f"[dispatcher] fetch perintah gagal, lanjut: {e}")
     try:
         with open(REG, encoding="utf-8") as f:
             robots = json.load(f).get("robots", [])
