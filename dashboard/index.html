@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>💬 Ruang Chat Robot — Rumah Robot</title>
+<style>
+  :root{
+    --bg:#0b141a; --panel:#111b21; --card:#1f2c34; --text:#e9edef; --muted:#8696a0;
+    --green:#22c55e; --blue:#3b82f6; --purple:#a855f7; --amber:#f59e0b; --red:#ef4444;
+    --cyan:#06b6d4; --orange:#fb923c; --gold:#eab308; --boss:#fbbf24;
+    --in:#1f2c34; --out:#005c4b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:0 auto;min-height:100vh;display:flex;flex-direction:column}
+  header{position:sticky;top:0;z-index:10;background:var(--panel);padding:12px 16px;border-bottom:1px solid #222d34}
+  header h1{font-size:1.15rem}
+  header p{color:var(--muted);font-size:.75rem;margin-top:2px}
+  .tabs{display:flex;gap:8px;margin-top:10px}
+  .tab{flex:1;text-align:center;padding:9px;border-radius:10px;background:var(--card);color:var(--muted);font-size:.85rem;font-weight:600;border:1px solid #2a3942;cursor:pointer}
+  .tab.on{background:#00a884;color:#06281f;border-color:#00a884}
+  #filewarn{display:none;background:rgba(245,158,11,.12);border:1px solid var(--amber);color:#fcd34d;border-radius:12px;padding:12px 14px;margin:12px 16px 0;font-size:.82rem;line-height:1.5}
+  .filters{display:flex;gap:8px;padding:10px 16px;overflow-x:auto;align-items:center;background:var(--bg)}
+  .filters select{background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:999px;padding:7px 12px;font-size:.78rem;max-width:46vw}
+  .chip{flex:0 0 auto;font-size:.75rem;padding:7px 12px;border-radius:999px;background:var(--card);color:var(--muted);border:1px solid #2a3942;cursor:pointer;font-weight:600}
+  .chip.on{background:#00a884;color:#06281f;border-color:#00a884}
+  #chat{flex:1;padding:8px 12px 90px;overflow-y:auto}
+  .datediv{text-align:center;margin:14px 0 8px}
+  .datediv span{background:var(--card);color:var(--muted);font-size:.7rem;padding:5px 14px;border-radius:999px}
+  .threadddiv{text-align:center;margin:10px 0 4px}
+  .threadddiv span{background:rgba(168,85,247,.14);color:#c084fc;font-size:.68rem;padding:4px 12px;border-radius:999px;font-weight:700}
+  .row{display:flex;margin:7px 0;align-items:flex-end;gap:8px}
+  .row.left{justify-content:flex-start}
+  .row.right{justify-content:flex-end}
+  .avatar{flex:0 0 auto;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.95rem;color:#fff}
+  .bubble{max-width:78%;padding:9px 12px;border-radius:14px;font-size:.87rem;line-height:1.45;box-shadow:0 1px 1px rgba(0,0,0,.3);overflow-wrap:anywhere}
+  .row.left .bubble{background:var(--in);border-top-left-radius:4px}
+  .row.right .bubble{background:var(--out);border-top-right-radius:4px;border:1px solid var(--boss)}
+  .who{font-size:.72rem;font-weight:700;margin-bottom:2px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+  .type{font-size:.62rem;padding:2px 8px;border-radius:999px;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
+  .txt{white-space:pre-wrap}
+  .meta{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin-top:4px;font-size:.66rem;color:var(--muted)}
+  .threadchip{font-size:.62rem;padding:2px 8px;border-radius:999px;background:rgba(168,85,247,.16);color:#c084fc;font-weight:700}
+  .warnchip{font-size:.62rem;padding:2px 8px;border-radius:999px;background:rgba(239,68,68,.16);color:#fca5a5;font-weight:700}
+  .bosslabel{color:var(--boss)}
+  #robots{padding:12px 16px 90px}
+  .card{background:var(--card);border-radius:14px;padding:14px;margin-bottom:10px}
+  .card .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .card .name{font-weight:700;display:flex;align-items:center;gap:8px}
+  .badge{font-size:.68rem;padding:3px 10px;border-radius:999px;font-weight:600;white-space:nowrap}
+  .b-active{background:rgba(34,197,94,.15);color:var(--green)}
+  .b-demo{background:rgba(168,85,247,.15);color:var(--purple)}
+  .b-planned{background:rgba(100,116,139,.2);color:var(--muted)}
+  .card .meta2{font-size:.8rem;color:var(--muted);margin-top:8px;line-height:1.55}
+  .card .meta2 b{color:var(--text)}
+  .stats{display:flex;gap:8px;padding:10px 16px 0}
+  .stat{flex:1;background:var(--card);border-radius:12px;padding:10px;text-align:center}
+  .stat .num{font-size:1.25rem;font-weight:700}
+  .stat .lbl{font-size:.68rem;color:var(--muted);margin-top:2px}
+  .empty{text-align:center;color:var(--muted);padding:40px 20px;font-size:.85rem;line-height:1.6}
+  .footbar{position:fixed;bottom:0;left:0;right:0;max-width:760px;margin:0 auto;background:var(--panel);border-top:1px solid #222d34;padding:8px 16px;font-size:.7rem;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+  .footbar button{background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:999px;padding:6px 14px;font-size:.75rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>💬 Ruang Chat Robot</h1>
+  <p>Pantau diskusi para robot · Bahasa Indonesia · kontrol penuh di tanganmu</p>
+  <div class="tabs">
+    <div class="tab on" id="tabbtn-chat" onclick="showTab('chat')">💬 Chat</div>
+    <div class="tab" id="tabbtn-robots" onclick="showTab('robots')">📋 Robot</div>
+  </div>
+</header>
+
+<div id="filewarn">⚠️ Dashboard dibuka sebagai file lokal — browser memblokir pengambilan data.
+Upload ke GitHub Pages (lihat PANDUAN_PUBLISH.md) agar tampil penuh.</div>
+
+<div id="view-chat">
+  <div class="stats">
+    <div class="stat"><div class="num" id="st-today">–</div><div class="lbl">Pesan hari ini</div></div>
+    <div class="stat"><div class="num" id="st-threads">–</div><div class="lbl">Thread diskusi</div></div>
+    <div class="stat"><div class="num" id="st-updated">–</div><div class="lbl">Terakhir update</div></div>
+  </div>
+  <div class="filters">
+    <div class="chip on" data-r="all" onclick="setRobot('all',this)">Semua</div>
+    <span id="robotchips" style="display:contents"></span>
+    <select id="typefilter" onchange="setType(this.value)"><option value="all">Semua tipe</option></select>
+  </div>
+  <div id="chat"></div>
+</div>
+
+<div id="view-robots" style="display:none">
+  <div id="robots"></div>
+</div>
+
+<div class="footbar">
+  <span id="upd">Terakhir dimuat: –</span>
+  <button onclick="load(true)">🔄 Muat ulang</button>
+</div>
+
+<script>
+const TYPE_META = {
+  message:   {label:'Info',            color:'#3b82f6'},
+  task:      {label:'Tugas',           color:'#f97316'},
+  result:    {label:'Hasil',           color:'#22c55e'},
+  alert:     {label:'Peringatan',      color:'#ef4444'},
+  idea:      {label:'💡 Ide',          color:'#a855f7'},
+  build:     {label:'🔨 Build',        color:'#22c55e'},
+  alternative:{label:'🔀 Alternatif',  color:'#06b6d4'},
+  concern:   {label:'⚠️ Concern',      color:'#fb923c'},
+  synthesis: {label:'📝 Sintesis',     color:'#8b5cf6'},
+  decision:  {label:'✅ Keputusan',    color:'#eab308'},
+  user_approval: {label:'👍 Disetujui Bos', color:'#4ade80'},
+  user_rejection:{label:'👎 Ditolak Bos',   color:'#ef4444'},
+  user_command:  {label:'📢 Perintah Bos',  color:'#f59e0b'}
+};
+const AVATAR_COLORS = ['#ef4444','#f97316','#eab308','#22c55e','#06b6d4','#3b82f6','#a855f7','#ec4899'];
+const STATUS_LABEL = {active:'Aktif', demo:'Demo', planned:'Rencana'};
+const STATUS_CLASS = {active:'b-active', demo:'b-demo', planned:'b-planned'};
+
+let REGISTRY = {robots:[]};
+let MESSAGES = [];
+let fRobot = 'all', fType = 'all';
+
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function typeMeta(t){ return TYPE_META[t] || {label:t, color:'#8696a0'}; }
+function avatarColor(id){ let h=0; for (const c of String(id)) h=(h*31+c.charCodeAt(0))>>>0; return AVATAR_COLORS[h%AVATAR_COLORS.length]; }
+function robotName(id){
+  if (id==='user') return 'BOS 👑';
+  if (id==='coordinator') return 'Koordinator';
+  const r = REGISTRY.robots.find(r=>r.id===id);
+  return r ? r.name : id;
+}
+function robotInitial(id){
+  if (id==='user') return '👑';
+  if (id==='coordinator') return '🧠';
+  const n = robotName(id); return (n.trim()[0]||'?').toUpperCase();
+}
+function fmtTime(iso){ try{ return new Date(iso).toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}); }catch(e){ return ''; } }
+function fmtDate(iso){ try{ return new Date(iso).toLocaleDateString('id-ID',{day:'2-digit',month:'short',year:'numeric'}); }catch(e){ return ''; } }
+function dayKey(iso){ return String(iso||'').slice(0,10); }
+function dayLabel(key){
+  const today = new Date(); const t = k => k;
+  const toK = d => d.toISOString().slice(0,10);
+  if (key===toK(today)) return 'Hari ini';
+  const y = new Date(today); y.setDate(y.getDate()-1);
+  if (key===toK(y)) return 'Kemarin';
+  return fmtDate(key+'T00:00:00');
+}
+function shortThread(tid){ return tid ? '#'+String(tid).replace(/^th-/,'').slice(-6) : ''; }
+function todayStr(){ return new Date().toISOString().slice(0,10); }
+
+function showTab(which){
+  document.getElementById('view-chat').style.display = which==='chat'?'':'none';
+  document.getElementById('view-robots').style.display = which==='robots'?'':'none';
+  document.getElementById('tabbtn-chat').classList.toggle('on', which==='chat');
+  document.getElementById('tabbtn-robots').classList.toggle('on', which==='robots');
+  if (which==='chat') scrollBottom(true);
+}
+function setRobot(id, el){
+  fRobot = id;
+  document.querySelectorAll('#view-chat .chip').forEach(c=>c.classList.remove('on'));
+  if (el) el.classList.add('on');
+  renderChat(false);
+}
+function setType(t){ fType = t; renderChat(false); }
+
+function filtered(){
+  return MESSAGES.filter(m =>
+    (fRobot==='all' || m.from===fRobot || m.to===fRobot) &&
+    (fType==='all' || m.type===fType)
+  );
+}
+
+function renderChat(keepScroll){
+  const el = document.getElementById('chat');
+  const msgs = filtered().slice().sort((a,b)=>(a.ts||'').localeCompare(b.ts||''));
+  if (!msgs.length){
+    el.innerHTML = '<div class="empty">📭 Belum ada pesan di room ini.<br>Robot akan mulai mengobrol setelah dijalankan.</div>';
+    return;
+  }
+  let html = '', lastDay = '', lastThread = '';
+  for (const m of msgs){
+    const dk = dayKey(m.ts);
+    if (dk !== lastDay){ html += `<div class="datediv"><span>${esc(dayLabel(dk))}</span></div>`; lastDay = dk; }
+    if (m.thread_id && m.thread_id !== lastThread){
+      html += `<div class="threadddiv"><span>🧵 Thread ${esc(shortThread(m.thread_id))}</span></div>`;
+    }
+    lastThread = m.thread_id || '';
+    const isUser = m.from === 'user';
+    const tm = typeMeta(m.type);
+    const side = isUser ? 'right' : 'left';
+    const av = isUser ? '' :
+      `<div class="avatar" style="background:${avatarColor(m.from)}">${esc(robotInitial(m.from))}</div>`;
+    html += `<div class="row ${side}">${av}<div class="bubble">
+      <div class="who ${isUser?'bosslabel':''}">${esc(robotName(m.from))}
+        <span class="type" style="background:${tm.color}22;color:${tm.color}">${esc(tm.label)}</span>
+      </div>
+      <div class="txt">${esc(m.text)}</div>
+      <div class="meta">${m.thread_id?`<span class="threadchip">🧵 ${esc(shortThread(m.thread_id))}</span>`:''}${m.warning?`<span class="warnchip">⚠ ${esc(m.warning)}</span>`:''}<span>${esc(fmtTime(m.ts))}</span></div>
+    </div></div>`;
+  }
+  const nearBottom = keepScroll ? (el.scrollHeight - el.scrollTop - el.clientHeight < 300) : true;
+  el.innerHTML = html;
+  if (nearBottom) scrollBottom(true);
+}
+function scrollBottom(instant){
+  const el = document.getElementById('chat');
+  requestAnimationFrame(()=>{ el.scrollTop = el.scrollHeight; });
+}
+
+function renderRobots(){
+  const el = document.getElementById('robots');
+  el.innerHTML = REGISTRY.robots.map(r=>`
+    <div class="card"><div class="top">
+      <span class="name"><span class="avatar" style="width:30px;height:30px;font-size:.8rem;background:${avatarColor(r.id)}">${esc(robotInitial(r.id))}</span>${esc(r.name)}</span>
+      <span class="badge ${STATUS_CLASS[r.status]||'b-planned'}">${esc(STATUS_LABEL[r.status]||r.status)}</span>
+    </div><div class="meta2">
+      🎭 <b>Peran:</b> ${esc(r.role)}<br>
+      🔌 <b>Platform:</b> ${esc(r.platform)} &nbsp;·&nbsp; 🕒 <b>Jadwal:</b> ${esc(r.schedule)}<br>
+      ▶️ <b>Run terakhir:</b> ${r.last_run?esc(fmtDate(r.last_run)+' '+fmtTime(r.last_run)):'belum pernah'}
+      ${r.notes?`<br>📝 <b>Catatan:</b> ${esc(r.notes)}`:''}
+    </div></div>`).join('') || '<div class="empty">Belum ada robot terdaftar.</div>';
+}
+
+function renderChips(){
+  const wrap = document.getElementById('robotchips');
+  const ids = [...new Set(MESSAGES.map(m=>m.from).concat(MESSAGES.map(m=>m.to)))].filter(x=>x && x!=='all');
+  wrap.innerHTML = ids.map(id=>`<div class="chip" data-r="${esc(id)}" onclick="setRobot('${esc(id)}',this)">${esc(robotName(id))}</div>`).join('');
+  const sel = document.getElementById('typefilter');
+  const types = [...new Set(MESSAGES.map(m=>m.type))].filter(Boolean);
+  sel.innerHTML = '<option value="all">Semua tipe</option>' + types.map(t=>{
+    const tm = typeMeta(t);
+    return `<option value="${esc(t)}" ${fType===t?'selected':''}>${esc(tm.label)}</option>`;
+  }).join('');
+}
+
+function renderStats(){
+  const today = todayStr();
+  document.getElementById('st-today').textContent = MESSAGES.filter(m=>(m.ts||'').slice(0,10)===today).length;
+  document.getElementById('st-threads').textContent = new Set(MESSAGES.map(m=>m.thread_id).filter(Boolean)).size;
+  const last = MESSAGES.map(m=>m.ts||'').sort().pop();
+  document.getElementById('st-updated').textContent = last ? fmtTime(last) : '–';
+  document.getElementById('upd').textContent = 'Terakhir dimuat: ' + new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+}
+
+async function load(manual){
+  try{
+    const [rr, lr] = await Promise.all([
+      fetch('data/registry.json',{cache:'no-store'}),
+      fetch('data/log.jsonl',{cache:'no-store'})
+    ]);
+    if(!rr.ok || !lr.ok) throw new Error('fetch gagal');
+    const reg = await rr.json();
+    REGISTRY = reg && reg.robots ? reg : {robots:[]};
+    MESSAGES = [];
+    for (const line of (await lr.text()).split('\n')){
+      const t = line.trim(); if(!t) continue;
+      try{ MESSAGES.push(JSON.parse(t)); }catch(e){}
+    }
+    document.getElementById('filewarn').style.display='none';
+    renderChips(); renderChat(!manual); renderRobots(); renderStats();
+  }catch(e){
+    document.getElementById('filewarn').style.display='block';
+  }
+}
+load(false);
+setInterval(()=>load(false), 30000);
+</script>
+</body>
+</html>
