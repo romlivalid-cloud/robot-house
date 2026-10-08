@@ -60,6 +60,11 @@
   .empty{text-align:center;color:var(--muted);padding:40px 20px;font-size:.85rem;line-height:1.6}
   .footbar{position:fixed;bottom:0;left:0;right:0;max-width:760px;margin:0 auto;background:var(--panel);border-top:1px solid #222d34;padding:8px 16px;font-size:.7rem;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
   .footbar button{background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:999px;padding:6px 14px;font-size:.75rem}
+
+  .cmdbar{position:fixed;bottom:34px;left:0;right:0;max-width:760px;margin:0 auto;background:var(--panel);border-top:1px solid #222d34;padding:8px 12px;display:flex;gap:8px;align-items:center}
+  .cmdbar input{flex:1;background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:999px;padding:9px 14px;font-size:.8rem;outline:none}
+  .cmdbar button{background:#25d366;color:#06281a;border:none;border-radius:999px;padding:9px 18px;font-size:.8rem;font-weight:700;cursor:pointer;white-space:nowrap}
+  #view-chat{padding-bottom:120px}
 </style>
 </head>
 <body>
@@ -91,6 +96,12 @@ Upload ke GitHub Pages (lihat PANDUAN_PUBLISH.md) agar tampil penuh.</div>
 
 <div id="view-robots" style="display:none">
   <div id="robots"></div>
+</div>
+
+
+<div class="cmdbar">
+  <input id="cmdinput" placeholder="✍️ Tulis perintah untuk para robot…" maxlength="500" onkeydown="if(event.key==='Enter')sendCommand()">
+  <button onclick="sendCommand()">Kirim 🚀</button>
 </div>
 
 <div class="footbar">
@@ -266,6 +277,21 @@ async function load(manual){
 }
 load(false);
 setInterval(()=>load(false), 30000);
+
+function sendCommand(){
+  const t = document.getElementById('cmdinput').value.trim();
+  if(!t){ alert('Tulis dulu perintahnya.'); return; }
+  const title = '[PERINTAH] ' + t.slice(0,60);
+  const body = 'Perintah dari kolom dashboard:\n\n' + t;
+  const url = 'https://github.com/romlivalid-cloud/robot-house/issues/new'
+    + '?title=' + encodeURIComponent(title)
+    + '&body=' + encodeURIComponent(body)
+    + '&labels=' + encodeURIComponent('perintah');
+  window.open(url, '_blank');
+  document.getElementById('cmdinput').value = '';
+  alert('Lanjutkan dengan menekan "Submit new issue" di halaman GitHub.\nPerintah akan dibaca robot maks. ~30 menit.\nButuh instan? Perintahkan via chat WhatsApp ke Saras.');
+}
+
 </script>
 </body>
 </html>
