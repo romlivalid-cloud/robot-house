@@ -71,14 +71,14 @@
       "status": "planned"
     },
     {
-      "id": "muse",
-      "name": "Muse",
+      "id": "satria",
+      "name": "Satria",
       "role": "Koordinator + anggota: terima perintah user via chat, teruskan tugas ke robot, rangkum laporan",
       "platform": "chat",
       "schedule": "siaga",
       "status": "active",
       "last_run": "2026-10-08",
-      "notes": "Asisten utama user; juga tercatat sebagai anggota rumah robot"
+      "notes": "Asisten utama user (dulu Muse); koordinator + anggota rumah robot"
     }
   ]
 }
