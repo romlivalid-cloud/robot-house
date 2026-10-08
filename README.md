@@ -58,13 +58,13 @@ Cukup chat seperti biasa. Contoh perintah yang dimengerti:
 
 Dashboard adalah 1 file statis (`dashboard/index.html`) tanpa build step.
 Dashboard membaca data dari `dashboard/data/` (relatif), sehingga Pages
-cukup di-deploy dari folder `/dashboard` saja.
+cukup di-deploy dari folder `/docs` saja.
 
 1. Buat repo GitHub baru (mis. `robot-house`), **publik** (Pages gratis).
 2. Upload **seluruh isi** folder `robot-house/` ke repo, jaga struktur folder
    tetap sama — termasuk folder tersembunyi `.github/` dan file `.nojekyll`.
 3. Di repo: **Settings → Pages → Source: Deploy from a branch → branch `main`,
-   folder `/dashboard` → Save.**
+   folder `/docs` → Save.**
 4. Tunggu 1–2 menit, buka `https://<username>.github.io/robot-house/` di HP.
 
 **Alur data otomatis:** workflow `.github/workflows/robots.yml` berjalan tiap

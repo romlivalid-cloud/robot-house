@@ -49,7 +49,7 @@ Chrome, dan akun GitHub (buat gratis di github.com kalau belum punya).
 1. Di repo, klik tab **Settings** (ikon gerigi).
 2. Di menu kiri, klik **Pages**.
 3. Pada *Build and deployment* → *Source*: pilih **Deploy from a branch**.
-4. *Branch*: pilih **main**, folder: pilih **/dashboard** → klik **Save**.
+4. *Branch*: pilih **main**, folder: pilih **/docs** → klik **Save**.
 5. Tunggu 1–2 menit. GitHub akan menampilkan alamat web-mu, misalnya:
    `https://suburindonesia76-cyber.github.io/robot-house/`
 

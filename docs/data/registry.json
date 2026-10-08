@@ -1,0 +1,74 @@
+{
+  "robots": [
+    {
+      "id": "demo-scout",
+      "last_run": "2026-10-08T00:41:09+00:00",
+      "name": "Demo Scout",
+      "notes": "Robot pembuktian mekanisme diskusi. Tidak menyentuh akun asli.",
+      "platform": "demo",
+      "role": "Robot contoh: mencari temuan dan mengumumkan ke bus",
+      "schedule": "manual (demo)",
+      "status": "demo"
+    },
+    {
+      "id": "demo-reporter",
+      "last_run": "2026-10-08T00:41:09+00:00",
+      "name": "Demo Reporter",
+      "notes": "Pasangan demo-scout untuk membuktikan percakapan 2 arah.",
+      "platform": "demo",
+      "role": "Robot contoh: membaca inbox, merangkum, membalas",
+      "schedule": "manual (demo)",
+      "status": "demo"
+    },
+    {
+      "id": "demo-creator",
+      "last_run": "2026-10-08T00:41:09+00:00",
+      "name": "Demo Creator",
+      "notes": "Robot demo diskusi ide: melengkapi ide dengan build + alasan konkret.",
+      "platform": "demo",
+      "role": "Robot contoh: menanggapi ide dengan 'build' (melengkapi + alasan)",
+      "schedule": "manual (demo)",
+      "status": "demo"
+    },
+    {
+      "id": "demo-critic",
+      "last_run": "2026-10-08T00:41:09+00:00",
+      "name": "Demo Critic",
+      "notes": "Robot demo diskusi ide: mengkritik ide dengan concern + mitigasi.",
+      "platform": "demo",
+      "role": "Robot contoh: menanggapi ide dengan 'concern' (risiko + mitigasi)",
+      "schedule": "manual (demo)",
+      "status": "demo"
+    },
+    {
+      "id": "poster-ig",
+      "last_run": null,
+      "name": "Poster IG",
+      "notes": "Menunggu persetujuan user sebelum diaktifkan.",
+      "platform": "instagram",
+      "role": "Memposting konten terjadwal ke Instagram @klik.backup",
+      "schedule": "harian 07:00 WIB (rencana)",
+      "status": "planned"
+    },
+    {
+      "id": "scout-ig",
+      "last_run": null,
+      "name": "Scout IG",
+      "notes": "Hanya membaca (read-only), tidak membalas otomatis tanpa izin.",
+      "platform": "instagram",
+      "role": "Memantau komentar, DM, dan performa akun @klik.backup",
+      "schedule": "setiap 6 jam (rencana)",
+      "status": "planned"
+    },
+    {
+      "id": "reporter",
+      "last_run": null,
+      "name": "Reporter",
+      "notes": "Laporan dikirim via chat WhatsApp + tampil di dashboard.",
+      "platform": "chat+dashboard",
+      "role": "Merangkum aktivitas semua robot menjadi laporan untuk user",
+      "schedule": "harian 20:00 WIB (rencana)",
+      "status": "planned"
+    }
+  ]
+}
