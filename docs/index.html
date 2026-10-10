@@ -108,7 +108,7 @@ Upload ke GitHub Pages (lihat PANDUAN_PUBLISH.md) agar tampil penuh.</div>
 
 <div class="footbar">
   <span id="upd">Terakhir dimuat: –</span>
-  <button onclick="load(true)">🔄 Muat ulang</button>
+  <button onclick="load(true)">🔄 Muat ulang</button> <button onclick="gantiToken()" title="Hapus token GitHub dari HP ini">🔑</button>
 </div>
 
 <script>
@@ -281,19 +281,43 @@ load(false);
 setInterval(()=>load(false), 30000);
 
 function sendCommand(){
-  const t = document.getElementById('cmdinput').value.trim();
+  const input = document.getElementById('cmdinput');
+  const t = input.value.trim();
   if(!t){ alert('Tulis dulu perintahnya.'); return; }
-  const title = '[PERINTAH] ' + t.slice(0,60);
-  const body = 'Perintah dari kolom dashboard:\n\n' + t;
-  const url = 'https://github.com/romlivalid-cloud/robot-house/issues/new'
-    + '?title=' + encodeURIComponent(title)
-    + '&body=' + encodeURIComponent(body)
-    + '&labels=' + encodeURIComponent('perintah');
-  window.open(url, '_blank');
-  document.getElementById('cmdinput').value = '';
-  alert('Lanjutkan dengan menekan "Submit new issue" di halaman GitHub.\nPerintah akan dibaca robot maks. ~30 menit.\nButuh instan? Perintahkan via chat WhatsApp ke Saras.');
+  let token = localStorage.getItem('gh_token');
+  if(!token){
+    token = prompt('Tempel token GitHub kamu\n(disimpan HANYA di HP ini, tidak dikirim ke mana pun selain api.github.com):');
+    if(!token) return;
+    token = token.trim();
+    localStorage.setItem('gh_token', token);
+  }
+  const btn = document.querySelector('.cmdbar button');
+  btn.disabled = true; btn.textContent = 'Mengirim…';
+  fetch('https://api.github.com/repos/romlivalid-cloud/robot-house/issues', {
+    method: 'POST',
+    headers: {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json'},
+    body: JSON.stringify({title: '[PERINTAH] ' + t.slice(0,60), body: 'Perintah dari kolom dashboard:\n\n' + t, labels: ['perintah']})
+  }).then(function(r){
+    if(r.status === 401 || r.status === 403){
+      localStorage.removeItem('gh_token');
+      alert('Token ditolak GitHub. Token dihapus dari HP — coba lagi dengan token baru.');
+    } else if(!r.ok){
+      alert('Gagal mengirim (' + r.status + '). Coba lagi.');
+    } else {
+      input.value = '';
+      alert('Perintah terkirim! 🚀\nDibaca robot maks. ~30 menit.\nButuh instan? Perintahkan via chat WhatsApp ke Saras.');
+    }
+  }).catch(function(e){
+    alert('Gagal terhubung: ' + e.message);
+  }).finally(function(){
+    btn.disabled = false; btn.textContent = 'Kirim 🚀';
+  });
 }
 
+function gantiToken(){
+  localStorage.removeItem('gh_token');
+  alert('Token dihapus dari HP ini. Perintah berikutnya akan minta token baru.');
+}
 </script>
 </body>
 </html>
