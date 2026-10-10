@@ -30,6 +30,19 @@
   .pill.other{background:rgba(59,130,246,.2);color:#93c5fd}
   .pill.any{background:rgba(134,150,160,.2);color:var(--muted)}
   #err{display:none;margin:14px;padding:12px;border-radius:10px;background:rgba(239,68,68,.12);border:1px solid var(--red);color:#fca5a5;font-size:.82rem}
+  #newtask{background:var(--panel);border-radius:14px;padding:14px;margin:14px 14px 0;border:1px solid #2a3942}
+  #newtask h3{font-size:.9rem;margin-bottom:10px}
+  #newtask input,#newtask select,#newtask textarea{width:100%;background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:10px;padding:10px;margin-bottom:8px;font-size:.85rem;font-family:inherit}
+  #newtask textarea{resize:vertical;min-height:64px}
+  #newtask .row{display:flex;gap:8px}
+  #newtask .row select{flex:1}
+  #newtask button{background:#00a884;color:#06281f;border:none;border-radius:10px;padding:11px 18px;font-weight:700;font-size:.85rem;cursor:pointer}
+  #newtask button:disabled{opacity:.5}
+  #newtask label.ck{display:flex;align-items:center;gap:8px;font-size:.8rem;color:var(--muted);margin-bottom:8px}
+  #newtask label.ck input{width:auto;margin:0}
+  .task .acts{margin-top:8px;display:flex;gap:6px}
+  .task .acts button{flex:1;background:var(--panel);color:var(--text);border:1px solid #2a3942;border-radius:8px;padding:6px;font-size:.72rem;font-weight:700;cursor:pointer}
+  .task .acts button:disabled{opacity:.4}
   footer{text-align:center;color:var(--muted);font-size:.7rem;padding:16px}
 </style>
 </head>
@@ -42,6 +55,20 @@
     <a href="tugas.html" class="on">📋 Tugas</a>
   </nav>
 </header>
+<div id="newtask">
+  <h3>➕ Tugas Baru</h3>
+  <input id="nt-judul" placeholder="Judul tugas…" maxlength="120">
+  <div class="row">
+    <select id="nt-untuk">
+      <option value="siapa-saja">👥 Siapa saja</option>
+      <option value="saras-koordinator">🧠 Saras</option>
+      <option value="vela">🤖 Vela</option>
+    </select>
+  </div>
+  <textarea id="nt-deskripsi" placeholder="Deskripsi tugas…"></textarea>
+  <label class="ck"><input type="checkbox" id="nt-lomba"> 🏆 Jadikan lomba ide</label>
+  <button id="nt-kirim" onclick="kirimTugas()">Buat Tugas 🚀</button>
+</div>
 <div id="err"></div>
 <div id="board">
   <div class="col todo"><h2>📝 Todo <span class="count" id="c-todo">0</span></h2><div id="l-todo"></div></div>
@@ -75,7 +102,12 @@ async function load(){
       const [uname,cls]=untukClass(untuk);
       cols[status].push(
         `<div class="task"><a href="${iss.html_url}" target="_blank" rel="noopener">${esc(iss.title)}</a>`+
-        `<div class="meta"><span class="pill ${cls}">👤 ${esc(uname)}</span><span>#${iss.number}</span></div></div>`
+        `<div class="meta"><span class="pill ${cls}">👤 ${esc(uname)}</span><span>#${iss.number}</span></div>`+
+        `<div class="acts">`+
+        (status==='todo' ? `<button onclick="ubahStatus(${iss.number},'doing')">▶ Kerjakan</button>` : '')+
+        (status==='doing' ? `<button onclick="ubahStatus(${iss.number},'done')">✔ Selesai</button>` : '')+
+        (status==='done' ? `<button onclick="ubahStatus(${iss.number},'reopen')">↩ Buka lagi</button>` : '')+
+        `</div></div>`
       );
     });
     ["todo","doing","done"].forEach(k=>{
@@ -88,6 +120,58 @@ async function load(){
     el.textContent="Gagal memuat tugas: "+e.message+". Coba refresh halaman.";
     el.style.display="block";
   }
+}
+function getToken(){
+  let t = localStorage.getItem('gh_token');
+  if(!t){
+    t = prompt('Tempel token GitHub kamu\n(disimpan HANYA di HP ini, tidak dikirim ke mana pun selain api.github.com):');
+    if(!t) return null;
+    t = t.trim(); localStorage.setItem('gh_token', t);
+  }
+  return t;
+}
+async function ghAPI(method, path, data){
+  const token = getToken();
+  if(!token) return null;
+  const r = await fetch('https://api.github.com' + path, {
+    method: method,
+    headers: {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json'},
+    body: data ? JSON.stringify(data) : undefined
+  });
+  if(r.status === 401 || r.status === 403){ localStorage.removeItem('gh_token'); alert('Token ditolak GitHub. Coba lagi.'); return null; }
+  return r;
+}
+async function kirimTugas(){
+  const judul = document.getElementById('nt-judul').value.trim();
+  const untuk = document.getElementById('nt-untuk').value;
+  const deskripsi = document.getElementById('nt-deskripsi').value.trim();
+  const lomba = document.getElementById('nt-lomba').checked;
+  if(!judul){ alert('Isi dulu judul tugasnya.'); return; }
+  const btn = document.getElementById('nt-kirim');
+  btn.disabled = true; btn.textContent = 'Mengirim…';
+  const labels = ['tugas-bot', 'todo'];
+  if(lomba) labels.push('lomba');
+  const r = await ghAPI('POST', '/repos/romlivalid-cloud/robot-house/issues', {
+    title: (lomba ? '🏆 ' : '📋 ') + judul,
+    body: '[pemilik]\n[untuk: ' + untuk + ']\n[status: todo]\n\n' + (deskripsi || '(tanpa deskripsi)'),
+    labels: labels
+  });
+  btn.disabled = false; btn.textContent = 'Buat Tugas 🚀';
+  if(r && r.ok){
+    document.getElementById('nt-judul').value = '';
+    document.getElementById('nt-deskripsi').value = '';
+    document.getElementById('nt-lomba').checked = false;
+    load();
+  } else if(r){ alert('Gagal membuat tugas (' + r.status + ').'); }
+}
+async function ubahStatus(nomor, aksi){
+  let data;
+  if(aksi === 'doing') data = {labels: ['tugas-bot', 'doing']};
+  else if(aksi === 'done') data = {state: 'closed'};
+  else if(aksi === 'reopen') data = {state: 'open', labels: ['tugas-bot', 'todo']};
+  const r = await ghAPI('PATCH', '/repos/romlivalid-cloud/robot-house/issues/' + nomor, data);
+  if(r && r.ok) load();
+  else if(r) alert('Gagal mengubah status (' + r.status + ').');
 }
 function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 load(); setInterval(load,60000);
