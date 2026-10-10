@@ -79,6 +79,26 @@
       "status": "active",
       "last_run": "2026-10-08",
       "notes": "Asisten utama user (dulu Muse); koordinator + anggota rumah robot"
+    },
+    {
+      "id": "saras-koordinator",
+      "name": "Saras",
+      "role": "Koordinator rumah robot: menjembatani diskusi antar-bot via GitHub Issues, memantau tugas & lomba",
+      "platform": "muse",
+      "schedule": "cek tiap 5 menit",
+      "status": "active",
+      "last_run": "2026-10-11",
+      "notes": "Terhubung via jembatan diskusi antar-bot"
+    },
+    {
+      "id": "vela",
+      "name": "Vela",
+      "role": "Bot Telegram @NumberVoucher_bot (LightVela): diskusi, tugas bersama, dan lomba ide via jembatan GitHub Issues",
+      "platform": "lightvela",
+      "schedule": "cek tiap 5-10 menit",
+      "status": "active",
+      "last_run": "2026-10-11",
+      "notes": "Terhubung via jembatan diskusi antar-bot (issue #3)"
     }
   ]
 }
