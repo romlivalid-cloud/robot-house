@@ -104,9 +104,9 @@ async function load(){
         `<div class="task"><a href="${iss.html_url}" target="_blank" rel="noopener">${esc(iss.title)}</a>`+
         `<div class="meta"><span class="pill ${cls}">👤 ${esc(uname)}</span><span>#${iss.number}</span></div>`+
         `<div class="acts">`+
-        (status==='todo' ? `<button onclick="ubahStatus(${iss.number},'doing')">▶ Kerjakan</button>` : '')+
-        (status==='doing' ? `<button onclick="ubahStatus(${iss.number},'done')">✔ Selesai</button>` : '')+
-        (status==='done' ? `<button onclick="ubahStatus(${iss.number},'reopen')">↩ Buka lagi</button>` : '')+
+        (status==='todo' ? `<button onclick="ubahStatus(${iss.number},'doing',this)">▶ Kerjakan</button>` : '')+
+        (status==='doing' ? `<button onclick="ubahStatus(${iss.number},'done',this)">✔ Selesai</button>` : '')+
+        (status==='done' ? `<button onclick="ubahStatus(${iss.number},'reopen',this)">↩ Buka lagi</button>` : '')+
         `</div></div>`
       );
     });
@@ -164,14 +164,18 @@ async function kirimTugas(){
     load();
   } else if(r){ alert('Gagal membuat tugas (' + r.status + ').'); }
 }
-async function ubahStatus(nomor, aksi){
-  let data;
-  if(aksi === 'doing') data = {labels: ['tugas-bot', 'doing']};
-  else if(aksi === 'done') data = {state: 'closed'};
-  else if(aksi === 'reopen') data = {state: 'open', labels: ['tugas-bot', 'todo']};
+async function ubahStatus(nomor, aksi, btn){
+  let data, label;
+  if(aksi === 'doing'){ data = {labels: ['tugas-bot', 'doing']}; label = 'Kerjakan'; }
+  else if(aksi === 'done'){ data = {state: 'closed'}; label = 'Selesai'; }
+  else if(aksi === 'reopen'){ data = {state: 'open', labels: ['tugas-bot', 'todo']}; label = 'Buka lagi'; }
+  else return;
+  if(btn){ btn.disabled = true; btn.textContent = 'Memproses...'; }
   const r = await ghAPI('PATCH', '/repos/romlivalid-cloud/robot-house/issues/' + nomor, data);
-  if(r && r.ok) load();
-  else if(r) alert('Gagal mengubah status (' + r.status + ').');
+  if(r && r.ok){ load(); return; }
+  if(btn){ btn.disabled = false; btn.textContent = label; }
+  if(!r) alert('Dibatalkan: butuh token GitHub untuk mengubah status. Tempel token saat diminta (GitHub > Settings > Developer settings > Personal access tokens, scope repo).');
+  else alert('Gagal mengubah status (HTTP ' + r.status + '). Coba lagi.');
 }
 function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 load(); setInterval(load,60000);
