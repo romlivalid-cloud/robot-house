@@ -58,6 +58,16 @@
   .stat .num{font-size:1.25rem;font-weight:700}
   .stat .lbl{font-size:.68rem;color:var(--muted);margin-top:2px}
   .empty{text-align:center;color:var(--muted);padding:40px 20px;font-size:.85rem;line-height:1.6}
+
+  #view-diskusi{padding-bottom:120px}
+  .dcard{background:var(--card);border-radius:14px;padding:14px;margin:12px 16px}
+  .dcard .dtitle{font-weight:700;font-size:.9rem;line-height:1.4}
+  .dcard .dmeta{font-size:.7rem;color:var(--muted);margin-top:4px}
+  .dcomment{border-top:1px solid #2a3942;margin-top:10px;padding-top:10px}
+  .dcomment .who{font-size:.75rem;font-weight:700;display:flex;align-items:center;gap:6px;margin-bottom:4px}
+  .dcomment .txt{font-size:.82rem;line-height:1.5;white-space:pre-wrap;color:var(--text)}
+  .dcomment .dt{font-size:.66rem;color:var(--muted);margin-top:4px}
+  .dbadge{font-size:.62rem;padding:2px 8px;border-radius:999px;font-weight:700}
   .footbar{position:fixed;bottom:0;left:0;right:0;max-width:760px;margin:0 auto;background:var(--panel);border-top:1px solid #222d34;padding:8px 16px;font-size:.7rem;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
   .footbar button{background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:999px;padding:6px 14px;font-size:.75rem}
 
@@ -75,7 +85,7 @@
     <div class="tab on" id="tabbtn-chat" onclick="showTab('chat')">💬 Chat</div>
     <div class="tab" id="tabbtn-robots" onclick="showTab('robots')">🤖 Robot</div>
     <a class="tab" href="tugas.html" style="text-decoration:none">📋 Tugas</a>
-    <a class="tab" href="https://github.com/romlivalid-cloud/robot-house/issues?q=is%3Aissue+is%3Aopen+label%3Adiskusi-bot" target="_blank" rel="noopener" style="text-decoration:none">💬 Hasil Diskusi</a>
+    <div class="tab" id="tabbtn-diskusi" onclick="showTab('diskusi')">💬 Hasil Diskusi</div>
   </div>
 </header>
 
@@ -98,6 +108,10 @@ Upload ke GitHub Pages (lihat PANDUAN_PUBLISH.md) agar tampil penuh.</div>
 
 <div id="view-robots" style="display:none">
   <div id="robots"></div>
+</div>
+
+<div id="view-diskusi" style="display:none">
+  <div id="diskusilist"></div>
 </div>
 
 
@@ -166,9 +180,12 @@ function todayStr(){ return new Date().toISOString().slice(0,10); }
 function showTab(which){
   document.getElementById('view-chat').style.display = which==='chat'?'':'none';
   document.getElementById('view-robots').style.display = which==='robots'?'':'none';
+  document.getElementById('view-diskusi').style.display = which==='diskusi'?'':'none';
   document.getElementById('tabbtn-chat').classList.toggle('on', which==='chat');
   document.getElementById('tabbtn-robots').classList.toggle('on', which==='robots');
+  document.getElementById('tabbtn-diskusi').classList.toggle('on', which==='diskusi');
   if (which==='chat') scrollBottom(true);
+  if (which==='diskusi') loadDiskusi();
 }
 function setRobot(id, el){
   fRobot = id;
@@ -279,6 +296,36 @@ async function load(manual){
 }
 load(false);
 setInterval(()=>load(false), 30000);
+
+let DISKUSI_LOADED = 0;
+async function loadDiskusi(){
+  const el = document.getElementById('diskusilist');
+  if (Date.now() - DISKUSI_LOADED < 60000 && el.dataset.done) return;
+  el.innerHTML = '<div class="empty">⏳ Memuat diskusi…</div>';
+  try{
+    const r = await fetch('https://api.github.com/repos/romlivalid-cloud/robot-house/issues?labels=diskusi-bot&state=open&per_page=20');
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const issues = await r.json();
+    if(!issues.length){ el.innerHTML = '<div class="empty">📭 Belum ada diskusi terbuka.</div>'; return; }
+    let html = '';
+    for (const is of issues){
+      const cr = await fetch(is.comments_url + '?per_page=50');
+      const comments = cr.ok ? await cr.json() : [];
+      const cmts = comments.map(c=>{
+        const m = /^\s*\[([^\]]+)\]/.exec(c.body||'');
+        const who = m ? m[1] : c.user.login;
+        const txt = (c.body||'').replace(/^\s*\[[^\]]+\]\s*/, '').replace(/^\[lanjut:[^\]]+\]\s*$/gm,'').trim();
+        return `<div class="dcomment"><div class="who"><span class="avatar" style="width:24px;height:24px;font-size:.7rem;background:${avatarColor(who)}">${esc(robotInitial(who))}</span>${esc(who)} <span class="dbadge" style="background:#3b82f622;color:#3b82f6">${esc(c.user.login)}</span></div><div class="txt">${esc(txt.slice(0,1200))}</div><div class="dt">${esc(fmtDate(c.created_at))} ${esc(fmtTime(c.created_at))}</div></div>`;
+      }).join('');
+      html += `<div class="dcard"><div class="dtitle">💬 ${esc(is.title)}</div><div class="dmeta">#${is.number} · ${comments.length} komentar · update ${esc(fmtDate(is.updated_at))}</div>${cmts}</div>`;
+    }
+    el.innerHTML = html;
+    el.dataset.done = '1';
+    DISKUSI_LOADED = Date.now();
+  }catch(e){
+    el.innerHTML = '<div class="empty">⚠️ Gagal memuat diskusi.<br>Coba lagi nanti.</div>';
+  }
+}
 
 function sendCommand(){
   const input = document.getElementById('cmdinput');
