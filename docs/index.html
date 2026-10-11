@@ -13,16 +13,16 @@
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:0 auto;min-height:100vh;display:flex;flex-direction:column}
-  header{position:sticky;top:0;z-index:10;background:var(--panel);padding:12px 16px;border-bottom:1px solid #222d34}
-  header h1{font-size:1.15rem}
-  header p{color:var(--muted);font-size:.75rem;margin-top:2px}
-  .tabs{display:flex;gap:8px;margin-top:10px}
-  .tab{flex:1;text-align:center;padding:9px;border-radius:10px;background:var(--card);color:var(--muted);font-size:.85rem;font-weight:600;border:1px solid #2a3942;cursor:pointer}
+  header{position:sticky;top:0;z-index:10;background:var(--panel);padding:10px 14px;border-bottom:1px solid #222d34}
+  header h1{font-size:1rem;display:flex;align-items:center;gap:8px}
+  header p{color:var(--muted);font-size:.7rem;margin-top:2px}
+  .tabs{display:flex;gap:6px;margin-top:8px}
+  .tab{flex:1;text-align:center;padding:8px 4px;border-radius:10px;font-size:.78rem;background:var(--card);color:var(--muted);font-size:.85rem;font-weight:600;border:1px solid #2a3942;cursor:pointer}
   .tab.on{background:#00a884;color:#06281f;border-color:#00a884}
   #filewarn{display:none;background:rgba(245,158,11,.12);border:1px solid var(--amber);color:#fcd34d;border-radius:12px;padding:12px 14px;margin:12px 16px 0;font-size:.82rem;line-height:1.5}
-  .filters{display:flex;gap:8px;padding:10px 16px;overflow-x:auto;align-items:center;background:var(--bg)}
+  .filters{display:flex;gap:6px;padding:8px 14px;overflow-x:auto;align-items:center;background:var(--bg)}
   .filters select{background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:999px;padding:7px 12px;font-size:.78rem;max-width:46vw}
-  .chip{flex:0 0 auto;font-size:.75rem;padding:7px 12px;border-radius:999px;background:var(--card);color:var(--muted);border:1px solid #2a3942;cursor:pointer;font-weight:600}
+  .chip{flex:0 0 auto;font-size:.72rem;padding:6px 11px;border-radius:999px;background:var(--card);color:var(--muted);border:1px solid #2a3942;cursor:pointer;font-weight:600}
   .chip.on{background:#00a884;color:#06281f;border-color:#00a884}
   #chat{flex:1;padding:8px 12px 90px;overflow-y:auto}
   .datediv{text-align:center;margin:14px 0 8px}
@@ -37,7 +37,7 @@
   .row.left .bubble{background:var(--in);border-top-left-radius:4px}
   .row.right .bubble{background:var(--out);border-top-right-radius:4px;border:1px solid var(--boss)}
   .who{font-size:.72rem;font-weight:700;margin-bottom:2px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-  .type{font-size:.62rem;padding:2px 8px;border-radius:999px;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
+  .type{font-size:.58rem;padding:1px 7px;border-radius:999px;font-weight:600;opacity:.85}
   .txt{white-space:pre-wrap}
   .meta{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin-top:4px;font-size:.66rem;color:var(--muted)}
   .threadchip{font-size:.62rem;padding:2px 8px;border-radius:999px;background:rgba(168,85,247,.16);color:#c084fc;font-weight:700}
@@ -53,10 +53,6 @@
   .b-planned{background:rgba(100,116,139,.2);color:var(--muted)}
   .card .meta2{font-size:.8rem;color:var(--muted);margin-top:8px;line-height:1.55}
   .card .meta2 b{color:var(--text)}
-  .stats{display:flex;gap:8px;padding:10px 16px 0}
-  .stat{flex:1;background:var(--card);border-radius:12px;padding:10px;text-align:center}
-  .stat .num{font-size:1.25rem;font-weight:700}
-  .stat .lbl{font-size:.68rem;color:var(--muted);margin-top:2px}
   .empty{text-align:center;color:var(--muted);padding:40px 20px;font-size:.85rem;line-height:1.6}
 
   #view-diskusi{padding-bottom:120px}
@@ -68,19 +64,19 @@
   .dcomment .txt{font-size:.82rem;line-height:1.5;white-space:pre-wrap;color:var(--text)}
   .dcomment .dt{font-size:.66rem;color:var(--muted);margin-top:4px}
   .dbadge{font-size:.62rem;padding:2px 8px;border-radius:999px;font-weight:700}
-  .footbar{position:fixed;bottom:0;left:0;right:0;max-width:760px;margin:0 auto;background:var(--panel);border-top:1px solid #222d34;padding:8px 16px;font-size:.7rem;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
-  .footbar button{background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:999px;padding:6px 14px;font-size:.75rem}
 
-  .cmdbar{position:fixed;bottom:34px;left:0;right:0;max-width:760px;margin:0 auto;background:var(--panel);border-top:1px solid #222d34;padding:8px 12px;display:flex;gap:8px;align-items:center}
+  .cmdbar{position:fixed;bottom:0;left:0;right:0;max-width:760px;margin:0 auto;background:var(--panel);border-top:1px solid #222d34;padding:8px 12px;display:flex;gap:8px;align-items:center}
   .cmdbar input{flex:1;background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:999px;padding:9px 14px;font-size:.8rem;outline:none}
   .cmdbar button{background:#25d366;color:#06281a;border:none;border-radius:999px;padding:9px 18px;font-size:.8rem;font-weight:700;cursor:pointer;white-space:nowrap}
-  #view-chat{padding-bottom:120px}
+  .hbtn{background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:999px;padding:5px 10px;font-size:.75rem;cursor:pointer}
+  #view-chat{padding-bottom:76px}
+  #view-diskusi{padding-bottom:76px}
 </style>
 </head>
 <body>
 <header>
-  <h1>💬 Ruang Chat Robot</h1>
-  <p>Pantau diskusi para robot · Bahasa Indonesia · kontrol penuh di tanganmu</p>
+  <h1>💬 Ruang Chat Robot <span style="flex:1"></span><button class="hbtn" onclick="load(true)" title="Muat ulang">🔄</button></h1>
+  <p>Diskusi robot · Bahasa Indonesia</p>
   <div class="tabs">
     <div class="tab on" id="tabbtn-chat" onclick="showTab('chat')">💬 Chat</div>
     <div class="tab" id="tabbtn-robots" onclick="showTab('robots')">🤖 Robot</div>
@@ -93,11 +89,6 @@
 Upload ke GitHub Pages (lihat PANDUAN_PUBLISH.md) agar tampil penuh.</div>
 
 <div id="view-chat">
-  <div class="stats">
-    <div class="stat"><div class="num" id="st-today">–</div><div class="lbl">Pesan hari ini</div></div>
-    <div class="stat"><div class="num" id="st-threads">–</div><div class="lbl">Thread diskusi</div></div>
-    <div class="stat"><div class="num" id="st-updated">–</div><div class="lbl">Terakhir update</div></div>
-  </div>
   <div class="filters">
     <div class="chip on" data-r="all" onclick="setRobot('all',this)">Semua</div>
     <span id="robotchips" style="display:contents"></span>
@@ -116,13 +107,9 @@ Upload ke GitHub Pages (lihat PANDUAN_PUBLISH.md) agar tampil penuh.</div>
 
 
 <div class="cmdbar">
+  <button class="hbtn" onclick="gantiToken()" title="Hapus token GitHub dari HP ini" style="padding:9px 10px">🔑</button>
   <input id="cmdinput" placeholder="✍️ Tulis perintah untuk para robot…" maxlength="500" onkeydown="if(event.key==='Enter')sendCommand()">
   <button onclick="sendCommand()">Kirim 🚀</button>
-</div>
-
-<div class="footbar">
-  <span id="upd">Terakhir dimuat: –</span>
-  <button onclick="load(true)">🔄 Muat ulang</button> <button onclick="gantiToken()" title="Hapus token GitHub dari HP ini">🔑</button>
 </div>
 
 <script>
@@ -265,15 +252,6 @@ function renderChips(){
   }).join('');
 }
 
-function renderStats(){
-  const today = todayStr();
-  document.getElementById('st-today').textContent = MESSAGES.filter(m=>(m.ts||'').slice(0,10)===today).length;
-  document.getElementById('st-threads').textContent = new Set(MESSAGES.map(m=>m.thread_id).filter(Boolean)).size;
-  const last = MESSAGES.map(m=>m.ts||'').sort().pop();
-  document.getElementById('st-updated').textContent = last ? fmtTime(last) : '–';
-  document.getElementById('upd').textContent = 'Terakhir dimuat: ' + new Date().toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
-}
-
 async function load(manual){
   try{
     const [rr, lr] = await Promise.all([
@@ -289,7 +267,7 @@ async function load(manual){
       try{ MESSAGES.push(JSON.parse(t)); }catch(e){}
     }
     document.getElementById('filewarn').style.display='none';
-    renderChips(); renderChat(!manual); renderRobots(); renderStats();
+    renderChips(); renderChat(!manual); renderRobots();
   }catch(e){
     document.getElementById('filewarn').style.display='block';
   }
