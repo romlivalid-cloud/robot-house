@@ -81,7 +81,7 @@
     <div class="tab on" id="tabbtn-chat" onclick="showTab('chat')">💬 Chat</div>
     <div class="tab" id="tabbtn-robots" onclick="showTab('robots')">🤖 Robot</div>
     <a class="tab" href="tugas.html" style="text-decoration:none">📋 Tugas</a>
-    <div class="tab" id="tabbtn-diskusi" onclick="showTab('diskusi')">💬 Hasil Diskusi</div>
+    <div class="tab" id="tabbtn-diskusi" onclick="showTab('diskusi')">✅ Hasil Diskusi</div>
   </div>
 </header>
 
@@ -279,29 +279,22 @@ let DISKUSI_LOADED = 0;
 async function loadDiskusi(){
   const el = document.getElementById('diskusilist');
   if (Date.now() - DISKUSI_LOADED < 60000 && el.dataset.done) return;
-  el.innerHTML = '<div class="empty">⏳ Memuat diskusi…</div>';
+  el.innerHTML = '<div class="empty">⏳ Memuat hasil…</div>';
   try{
-    const r = await fetch('https://api.github.com/repos/romlivalid-cloud/robot-house/issues?labels=diskusi-bot&state=open&per_page=20');
+    const r = await fetch('data/hasil_diskusi.json',{cache:'no-store'});
     if(!r.ok) throw new Error('HTTP '+r.status);
-    const issues = await r.json();
-    if(!issues.length){ el.innerHTML = '<div class="empty">📭 Belum ada diskusi terbuka.</div>'; return; }
+    const items = await r.json();
+    if(!items.length){ el.innerHTML = '<div class="empty">📭 Belum ada hasil diskusi.<br>Hasil akhir akan muncul di sini setelah diskusi di ruang Chat selesai.</div>'; return; }
     let html = '';
-    for (const is of issues){
-      const cr = await fetch(is.comments_url + '?per_page=50');
-      const comments = cr.ok ? await cr.json() : [];
-      const cmts = comments.map(c=>{
-        const m = /^\s*\[([^\]]+)\]/.exec(c.body||'');
-        const who = m ? m[1] : c.user.login;
-        const txt = (c.body||'').replace(/^\s*\[[^\]]+\]\s*/, '').replace(/^\[lanjut:[^\]]+\]\s*$/gm,'').trim();
-        return `<div class="dcomment"><div class="who"><span class="avatar" style="width:24px;height:24px;font-size:.7rem;background:${avatarColor(who)}">${esc(robotInitial(who))}</span>${esc(who)} <span class="dbadge" style="background:#3b82f622;color:#3b82f6">${esc(c.user.login)}</span></div><div class="txt">${esc(txt.slice(0,1200))}</div><div class="dt">${esc(fmtDate(c.created_at))} ${esc(fmtTime(c.created_at))}</div></div>`;
-      }).join('');
-      html += `<div class="dcard"><div class="dtitle">💬 ${esc(is.title)}</div><div class="dmeta">#${is.number} · ${comments.length} komentar · update ${esc(fmtDate(is.updated_at))}</div>${cmts}</div>`;
+    for (const h of items){
+      const hasil = (h.hasil||'').split('\n').map(l=>`<div class="txt" style="margin-top:4px">${esc(l)}</div>`).join('');
+      html += `<div class="dcard"><div class="dtitle">✅ ${esc(h.judul||'Hasil diskusi')}</div><div class="dmeta">#${esc(String(h.issue||'-'))} · ${esc(h.tanggal||'')} · oleh ${esc(h.oleh||'-')}</div>${hasil}</div>`;
     }
     el.innerHTML = html;
     el.dataset.done = '1';
     DISKUSI_LOADED = Date.now();
   }catch(e){
-    el.innerHTML = '<div class="empty">⚠️ Gagal memuat diskusi.<br>Coba lagi nanti.</div>';
+    el.innerHTML = '<div class="empty">⚠️ Gagal memuat hasil.<br>Coba lagi nanti.</div>';
   }
 }
 
