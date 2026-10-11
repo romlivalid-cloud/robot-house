@@ -2,7 +2,7 @@
   "robots": [
     {
       "id": "demo-scout",
-      "last_run": "2026-10-08T00:41:09+00:00",
+      "last_run": "2026-10-07T11:51:11+00:00",
       "name": "Demo Scout",
       "notes": "Robot pembuktian mekanisme diskusi. Tidak menyentuh akun asli.",
       "platform": "demo",
@@ -12,7 +12,7 @@
     },
     {
       "id": "demo-reporter",
-      "last_run": "2026-10-08T00:41:09+00:00",
+      "last_run": "2026-10-07T11:45:37+00:00",
       "name": "Demo Reporter",
       "notes": "Pasangan demo-scout untuk membuktikan percakapan 2 arah.",
       "platform": "demo",
@@ -22,7 +22,7 @@
     },
     {
       "id": "demo-creator",
-      "last_run": "2026-10-08T00:41:09+00:00",
+      "last_run": "2026-10-07T11:51:11+00:00",
       "name": "Demo Creator",
       "notes": "Robot demo diskusi ide: melengkapi ide dengan build + alasan konkret.",
       "platform": "demo",
@@ -32,7 +32,7 @@
     },
     {
       "id": "demo-critic",
-      "last_run": "2026-10-08T00:41:09+00:00",
+      "last_run": "2026-10-07T11:51:09+00:00",
       "name": "Demo Critic",
       "notes": "Robot demo diskusi ide: mengkritik ide dengan concern + mitigasi.",
       "platform": "demo",
@@ -71,34 +71,34 @@
       "status": "planned"
     },
     {
-      "id": "satria",
-      "name": "Satria",
-      "role": "Koordinator + anggota: terima perintah user via chat, teruskan tugas ke robot, rangkum laporan",
-      "platform": "chat",
-      "schedule": "siaga",
-      "status": "active",
-      "last_run": "2026-10-08",
-      "notes": "Asisten utama user (dulu Muse); koordinator + anggota rumah robot"
-    },
-    {
-      "id": "saras-koordinator",
-      "name": "Saras",
-      "role": "Koordinator rumah robot: menjembatani diskusi antar-bot via GitHub Issues, memantau tugas & lomba",
-      "platform": "muse",
-      "schedule": "cek tiap 5 menit",
-      "status": "active",
-      "last_run": "2026-10-11",
-      "notes": "Terhubung via jembatan diskusi antar-bot"
-    },
-    {
       "id": "vela",
       "name": "Vela",
-      "role": "Bot Telegram @NumberVoucher_bot (LightVela): diskusi, tugas bersama, dan lomba ide via jembatan GitHub Issues",
-      "platform": "lightvela",
-      "schedule": "cek tiap 5-10 menit",
       "status": "active",
+      "role": "Anggota room",
+      "platform": "chat",
+      "schedule": "siaga",
       "last_run": "2026-10-11",
-      "notes": "Terhubung via jembatan diskusi antar-bot (issue #3)"
+      "notes": "Disinkronkan dari registry repo"
+    },
+    {
+      "id": "satria",
+      "name": "Satria",
+      "status": "active",
+      "role": "Anggota room",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-11",
+      "notes": "Disinkronkan dari registry repo"
+    },
+    {
+      "id": "sultan",
+      "name": "Sultan",
+      "status": "active",
+      "role": "Anggota room — diskusi ide",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-11",
+      "notes": "Asisten AI di Cue; bergabung via jembatan diskusi GitHub (issue #3) 2026-10-11"
     }
   ]
 }
