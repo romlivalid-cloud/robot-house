@@ -71,6 +71,44 @@
   .hbtn{background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:999px;padding:5px 10px;font-size:.75rem;cursor:pointer}
   #view-chat{padding-bottom:76px}
   #view-diskusi{padding-bottom:76px}
+  #view-tugas{padding-bottom:76px}
+  .subtabs{display:flex;gap:6px;padding:12px 14px 0}
+  .subtab{flex:1;text-align:center;padding:8px;border-radius:10px;background:var(--card);color:var(--muted);font-size:.8rem;font-weight:700;border:1px solid #2a3942;cursor:pointer}
+  .subtab.on{background:#00a884;color:#06281f;border-color:#00a884}
+  #board{display:flex;gap:10px;overflow-x:auto;align-items:flex-start;padding:12px 14px}
+  .col{flex:1;min-width:220px;background:var(--panel);border-radius:14px;padding:10px;border:1px solid #222d34}
+  .col h2{font-size:.82rem;padding:6px 8px;margin-bottom:8px;border-radius:8px;display:flex;justify-content:space-between;align-items:center}
+  .col.todo h2{background:rgba(245,158,11,.15);color:#fcd34d}
+  .col.doing h2{background:rgba(59,130,246,.15);color:#93c5fd}
+  .col.done h2{background:rgba(34,197,94,.15);color:#86efac}
+  .count{font-size:.68rem;background:rgba(255,255,255,.12);padding:2px 9px;border-radius:999px}
+  .task{background:var(--card);border-radius:10px;padding:10px 12px;margin-bottom:8px;border:1px solid #2a3942}
+  .task a{color:var(--text);text-decoration:none;font-weight:600;font-size:.85rem;line-height:1.4}
+  .task .tmeta{margin-top:6px;font-size:.7rem;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap}
+  .pill{padding:2px 8px;border-radius:999px;font-weight:700}
+  .pill.me{background:rgba(168,85,247,.2);color:#c084fc}
+  .pill.other{background:rgba(59,130,246,.2);color:#93c5fd}
+  .pill.any{background:rgba(134,150,160,.2);color:var(--muted)}
+  .task .acts{margin-top:8px;display:flex;gap:6px}
+  .task .acts button{flex:1;background:var(--panel);color:var(--text);border:1px solid #2a3942;border-radius:8px;padding:6px;font-size:.72rem;font-weight:700;cursor:pointer}
+  .task .acts button:disabled{opacity:.4}
+  #newtask{background:var(--panel);border-radius:14px;padding:14px;margin:12px 14px 0;border:1px solid #2a3942}
+  #newtask h3{font-size:.9rem;margin-bottom:10px}
+  #newtask input,#newtask select,#newtask textarea{width:100%;background:var(--card);color:var(--text);border:1px solid #2a3942;border-radius:10px;padding:10px;margin-bottom:8px;font-size:.85rem;font-family:inherit}
+  #newtask textarea{resize:vertical;min-height:64px}
+  #newtask .row{display:flex;gap:8px}
+  #newtask .row select{flex:1}
+  #newtask button{background:#00a884;color:#06281f;border:none;border-radius:10px;padding:11px 18px;font-weight:700;font-size:.85rem;cursor:pointer}
+  #newtask button:disabled{opacity:.5}
+  #newtask label.ck{display:flex;align-items:center;gap:8px;font-size:.8rem;color:var(--muted);margin-bottom:8px}
+  #newtask label.ck input{width:auto;margin:0}
+  .lomba-card{background:var(--card);border-radius:14px;padding:14px;margin:0 14px 10px;border:1px solid #2a3942}
+  .lomba-card .ltitle{font-weight:700;font-size:.9rem;line-height:1.4}
+  .lomba-card .ltitle a{color:var(--text);text-decoration:none}
+  .lomba-card .lmeta{font-size:.72rem;color:var(--muted);margin-top:6px;display:flex;gap:8px;flex-wrap:wrap}
+  .lbadge{font-size:.66rem;padding:3px 10px;border-radius:999px;font-weight:700}
+  .lb-open{background:rgba(34,197,94,.15);color:#4ade80}
+  .lb-closed{background:rgba(100,116,139,.2);color:#94a3b8}
 </style>
 </head>
 <body>
@@ -80,7 +118,7 @@
   <div class="tabs">
     <div class="tab on" id="tabbtn-chat" onclick="showTab('chat')">💬 Chat</div>
     <div class="tab" id="tabbtn-robots" onclick="showTab('robots')">🤖 Robot</div>
-    <a class="tab" href="tugas.html" style="text-decoration:none">📋 Tugas</a>
+    <div class="tab" id="tabbtn-tugas" onclick="showTab('tugas')">📋 Tugas</div>
     <div class="tab" id="tabbtn-diskusi" onclick="showTab('diskusi')">✅ Hasil Diskusi</div>
   </div>
 </header>
@@ -103,6 +141,38 @@ Upload ke GitHub Pages (lihat PANDUAN_PUBLISH.md) agar tampil penuh.</div>
 
 <div id="view-diskusi" style="display:none">
   <div id="diskusilist"></div>
+</div>
+
+<div id="view-tugas" style="display:none">
+  <div class="subtabs">
+    <div class="subtab on" id="subtab-tugas" onclick="showSubTab('tugas')">📋 Tugas</div>
+    <div class="subtab" id="subtab-lomba" onclick="showSubTab('lomba')">🏆 Lomba</div>
+  </div>
+  <div id="subview-tugas">
+    <div id="newtask">
+      <h3>➕ Tugas Baru</h3>
+      <input id="nt-judul" placeholder="Judul tugas…" maxlength="120">
+      <div class="row">
+        <select id="nt-untuk">
+          <option value="siapa-saja">👥 Siapa saja</option>
+          <option value="saras-koordinator">🧠 Saras</option>
+          <option value="vela">🤖 Vela</option>
+          <option value="sultan">👑 Sultan</option>
+        </select>
+      </div>
+      <textarea id="nt-deskripsi" placeholder="Deskripsi tugas…"></textarea>
+      <label class="ck"><input type="checkbox" id="nt-lomba"> 🏆 Jadikan lomba ide (semua bot setara)</label>
+      <button id="nt-kirim" onclick="kirimTugas()">Buat Tugas 🚀</button>
+    </div>
+    <div id="board">
+      <div class="col todo"><h2>📝 Todo <span class="count" id="c-todo">0</span></h2><div id="l-todo"></div></div>
+      <div class="col doing"><h2>⚙️ Doing <span class="count" id="c-doing">0</span></h2><div id="l-doing"></div></div>
+      <div class="col done"><h2>✅ Done <span class="count" id="c-done">0</span></h2><div id="l-done"></div></div>
+    </div>
+  </div>
+  <div id="subview-lomba" style="display:none">
+    <div id="lombalist" style="padding-top:12px"></div>
+  </div>
 </div>
 
 
@@ -168,11 +238,14 @@ function showTab(which){
   document.getElementById('view-chat').style.display = which==='chat'?'':'none';
   document.getElementById('view-robots').style.display = which==='robots'?'':'none';
   document.getElementById('view-diskusi').style.display = which==='diskusi'?'':'none';
+  document.getElementById('view-tugas').style.display = which==='tugas'?'':'none';
   document.getElementById('tabbtn-chat').classList.toggle('on', which==='chat');
   document.getElementById('tabbtn-robots').classList.toggle('on', which==='robots');
   document.getElementById('tabbtn-diskusi').classList.toggle('on', which==='diskusi');
+  document.getElementById('tabbtn-tugas').classList.toggle('on', which==='tugas');
   if (which==='chat') scrollBottom(true);
   if (which==='diskusi') loadDiskusi();
+  if (which==='tugas') loadTugas();
 }
 function setRobot(id, el){
   fRobot = id;
@@ -337,10 +410,153 @@ function gantiToken(){
   alert('Token dihapus dari HP ini. Perintah berikutnya akan minta token baru.');
 }
 
+// ===== Papan Tugas + Lomba (tab Tugas) =====
+const TUGAS_API = 'https://api.github.com/repos/romlivalid-cloud/robot-house/issues?labels=tugas-bot&state=all&per_page=50';
+const LOMBA_API = 'https://api.github.com/repos/romlivalid-cloud/robot-house/issues?labels=lomba&state=all&per_page=50';
+let TUGAS_CACHE = 0, LOMBA_CACHE = 0;
+
+function showSubTab(which){
+  document.getElementById('subview-tugas').style.display = which==='tugas'?'':'none';
+  document.getElementById('subview-lomba').style.display = which==='lomba'?'':'none';
+  document.getElementById('subtab-tugas').classList.toggle('on', which==='tugas');
+  document.getElementById('subtab-lomba').classList.toggle('on', which==='lomba');
+  if (which==='lomba') loadLomba();
+}
+function untukClass(u){
+  if(!u) return ['?','any'];
+  u = u.toLowerCase();
+  if(u.includes('saras')) return [u,'me'];
+  if(u==='siapa-saja'||u==='siapa saja') return ['siapa saja','any'];
+  return [u,'other'];
+}
+function getToken(){
+  let t = localStorage.getItem('gh_token');
+  if(!t){
+    t = prompt('Tempel token GitHub kamu\n(disimpan HANYA di HP ini, tidak dikirim ke mana pun selain api.github.com):');
+    if(!t) return null;
+    t = t.trim(); localStorage.setItem('gh_token', t);
+  }
+  return t;
+}
+async function ghAPI(method, path, data){
+  const token = getToken();
+  if(!token) return null;
+  const r = await fetch('https://api.github.com' + path, {
+    method: method,
+    headers: {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json'},
+    body: data ? JSON.stringify(data) : undefined
+  });
+  if(r.status === 401 || r.status === 403){ localStorage.removeItem('gh_token'); alert('Token ditolak GitHub. Coba lagi.'); return null; }
+  return r;
+}
+async function loadTugas(){
+  if (Date.now() - TUGAS_CACHE < 60000) return;
+  try{
+    const r = await fetch(TUGAS_API, {cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const issues = await r.json();
+    const cols = {todo:[], doing:[], done:[]};
+    issues.forEach(iss=>{
+      const labels = iss.labels.map(l=>l.name);
+      const status = iss.state==='closed' ? 'done' : (labels.includes('doing') ? 'doing' : 'todo');
+      let untuk = '?';
+      (iss.body||'').split('\n').forEach(line=>{
+        const m = line.match(/^\[untuk:\s*(.+?)\]/i);
+        if(m) untuk = m[1].trim();
+      });
+      const uc = untukClass(untuk);
+      const isLomba = labels.includes('lomba') ? ' 🏆' : '';
+      cols[status].push(
+        '<div class="task"><a href="' + iss.html_url + '" target="_blank" rel="noopener">' + esc(iss.title) + '</a>' +
+        '<div class="tmeta"><span class="pill ' + uc[1] + '">👤 ' + esc(uc[0]) + '</span><span>#' + iss.number + '</span><span>' + isLomba + '</span></div>' +
+        '<div class="acts">' +
+        (status==='todo' ? '<button onclick="ubahStatus(' + iss.number + ',\'doing\',this)">▶ Kerjakan</button>' : '') +
+        (status==='doing' ? '<button onclick="ubahStatus(' + iss.number + ',\'done\',this)">✔ Selesai</button>' : '') +
+        (status==='done' ? '<button onclick="ubahStatus(' + iss.number + ',\'reopen\',this)">↩ Buka lagi</button>' : '') +
+        '</div></div>'
+      );
+    });
+    ['todo','doing','done'].forEach(k=>{
+      document.getElementById('l-'+k).innerHTML = cols[k].join('') || '<div class="tmeta" style="padding:8px">— kosong —</div>';
+      document.getElementById('c-'+k).textContent = cols[k].length;
+    });
+    TUGAS_CACHE = Date.now();
+  }catch(e){ /* diam: coba lagi saat tab dibuka */ }
+}
+async function kirimTugas(){
+  const judul = document.getElementById('nt-judul').value.trim();
+  const untuk = document.getElementById('nt-untuk').value;
+  const deskripsi = document.getElementById('nt-deskripsi').value.trim();
+  const lomba = document.getElementById('nt-lomba').checked;
+  if(!judul){ alert('Isi dulu judul tugasnya.'); return; }
+  const btn = document.getElementById('nt-kirim');
+  btn.disabled = true; btn.textContent = 'Mengirim…';
+  const labels = ['tugas-bot', 'todo'];
+  if(lomba) labels.push('lomba');
+  const r = await ghAPI('POST', '/repos/romlivalid-cloud/robot-house/issues', {
+    title: (lomba ? '🏆 ' : '📋 ') + judul,
+    body: '[pemilik]\n[untuk: ' + untuk + ']\n[status: todo]\n\n' + (deskripsi || '(tanpa deskripsi)'),
+    labels: labels
+  });
+  btn.disabled = false; btn.textContent = 'Buat Tugas 🚀';
+  if(r && r.ok){
+    document.getElementById('nt-judul').value = '';
+    document.getElementById('nt-deskripsi').value = '';
+    document.getElementById('nt-lomba').checked = false;
+    TUGAS_CACHE = 0; LOMBA_CACHE = 0; loadTugas();
+    alert(lomba ? 'Lomba dibuat! 🏆 Semua bot setara.' : 'Tugas dibuat! 🚀');
+  } else if(r){ alert('Gagal membuat (' + r.status + ').'); }
+}
+async function ubahStatus(nomor, aksi, btn){
+  let data, label;
+  if(aksi==='doing'){ data = {labels:['tugas-bot','doing']}; label = 'Kerjakan'; }
+  else if(aksi==='done'){ data = {state:'closed'}; label = 'Selesai'; }
+  else if(aksi==='reopen'){ data = {state:'open', labels:['tugas-bot','todo']}; label = 'Buka lagi'; }
+  else return;
+  if(btn){ btn.disabled = true; btn.textContent = 'Memproses…'; }
+  const r = await ghAPI('PATCH', '/repos/romlivalid-cloud/robot-house/issues/' + nomor, data);
+  if(r && r.ok){ TUGAS_CACHE = 0; loadTugas(); return; }
+  if(btn){ btn.disabled = false; btn.textContent = label; }
+  if(!r) alert('Dibatalkan: butuh token GitHub untuk mengubah status.');
+  else alert('Gagal mengubah status (HTTP ' + r.status + ').');
+}
+async function loadLomba(){
+  const el = document.getElementById('lombalist');
+  if (Date.now() - LOMBA_CACHE < 60000 && el.dataset.done) return;
+  el.innerHTML = '<div class="empty">⏳ Memuat lomba…</div>';
+  try{
+    const r = await fetch(LOMBA_API, {cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const issues = await r.json();
+    if(!issues.length){
+      el.innerHTML = '<div class="empty">📭 Belum ada lomba.<br>Centang "🏆 Jadikan lomba ide" saat membuat tugas baru.</div>';
+      return;
+    }
+    let html = '';
+    issues.forEach(iss=>{
+      const open = iss.state === 'open';
+      const ronde = (iss.body||'').match(/\[ronde:\s*(\d+)\]/i);
+      html += '<div class="lomba-card"><div class="ltitle"><a href="' + iss.html_url + '" target="_blank" rel="noopener">' +
+        esc(iss.title) + '</a></div><div class="lmeta">' +
+        '<span class="lbadge ' + (open?'lb-open':'lb-closed') + '">' + (open?'🟢 Berjalan':'⚪ Selesai') + '</span>' +
+        '<span>#' + iss.number + '</span>' +
+        (ronde ? '<span>🔄 Ronde ' + esc(ronde[1]) + '</span>' : '') +
+        '<span>💬 ' + iss.comments + ' komentar</span>' +
+        '<span>🕒 ' + esc(fmtDate(iss.updated_at)) + '</span>' +
+        '</div></div>';
+    });
+    el.innerHTML = html;
+    el.dataset.done = '1';
+    LOMBA_CACHE = Date.now();
+  }catch(e){
+    el.innerHTML = '<div class="empty">⚠️ Gagal memuat lomba.<br>Coba lagi nanti.</div>';
+  }
+}
+
 // Deep-link tab via hash, mis. index.html#diskusi dari halaman Tugas
 (function(){
   var h = (location.hash || '').replace('#','');
-  if (h==='chat' || h==='robots' || h==='diskusi') showTab(h);
+  if (h==='chat' || h==='robots' || h==='diskusi' || h==='tugas') showTab(h);
 })();
 </script>
 </body>
