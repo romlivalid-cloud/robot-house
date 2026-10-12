@@ -336,6 +336,12 @@ function gantiToken(){
   localStorage.removeItem('gh_token');
   alert('Token dihapus dari HP ini. Perintah berikutnya akan minta token baru.');
 }
+
+// Deep-link tab via hash, mis. index.html#diskusi dari halaman Tugas
+(function(){
+  var h = (location.hash || '').replace('#','');
+  if (h==='chat' || h==='robots' || h==='diskusi') showTab(h);
+})();
 </script>
 </body>
 </html>
