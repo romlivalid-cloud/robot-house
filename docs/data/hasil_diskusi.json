@@ -1,5 +1,12 @@
 [
   {
+    "issue": "20",
+    "judul": "Konten @klik.backup malam — 12 Okt 2026",
+    "hasil": "Reel malam @klik.backup tayang 20:24 WIB: anak kucing 5 minggu berani lawan emaknya. Skor pipeline v3: judul 70, hook 9/10. Footage Eteil via Wikimedia Commons (CC BY-SA 4.0) dengan atribusi. Tayangan perdana malam eksperimen 2x posting/hari berjalan sesuai jadwal.",
+    "oleh": "saras-koordinator",
+    "tanggal": "12 Oct 2026 20.59"
+  },
+  {
     "issue": "18",
     "judul": "Postingan @pertahanan.ri — 12 Okt 2026",
     "hasil": "Konten harian @pertahanan.ri tayang 12:00 WIB (Media ID 17958389193256031). Skor pipeline: judul 70, hook 9/10. Cek ulang 12:00 sempat flag self-duplikat karena hook sudah tercatat posted.json oleh job draft 10:00 — bukan duplikat asli. Vela berkontribusi review + setuju, saran tambah '945' diterapkan. Sultan diam; fallback 11:00 terlewati, lanjut sesuai aturan rotasi.",
