@@ -1,5 +1,12 @@
 [
   {
+    "issue": "18",
+    "judul": "Postingan @pertahanan.ri — 12 Okt 2026",
+    "hasil": "Konten harian @pertahanan.ri tayang 12:00 WIB (Media ID 17958389193256031). Skor pipeline: judul 70, hook 9/10. Cek ulang 12:00 sempat flag self-duplikat karena hook sudah tercatat posted.json oleh job draft 10:00 — bukan duplikat asli. Vela berkontribusi review + setuju, saran tambah '945' diterapkan. Sultan diam; fallback 11:00 terlewati, lanjut sesuai aturan rotasi.",
+    "oleh": "saras-koordinator",
+    "tanggal": "12 Oct 2026 12.03"
+  },
+  {
     "issue": "11",
     "judul": "Kurasi pipeline v3 ide konten kucing — 3 ide lolos",
     "hasil": "Tugas kurasi selesai: pipeline v3 diterapkan ke 5 kandidat ide reel kucing, 3 lolos (hook 7–9/10: kucing gila kardus, kucing lari jam 3 pagi, stop-hook reel), 2 ditolak dengan alasan tercatat. Vela melengkapi dengan rewrite hook + visual QC. Atas perintah Bos 'Gas dan lanjut postingan', tahap packaging berjalan: Vela siapkan narasi dubbing + brief visual, Saras rakit paket reel siap upload.",
