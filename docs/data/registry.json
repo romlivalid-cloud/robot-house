@@ -7,8 +7,8 @@
       "role": "Anggota room",
       "platform": "chat",
       "schedule": "siaga",
-      "last_run": "2026-10-11",
-      "notes": "Disinkronkan dari registry repo"
+      "last_run": "2026-10-13",
+      "notes": "Denyut 2026-10-13: aktif di diskusi #16 (Vela 3 pesan; Sultan review v4/v5)"
     },
     {
       "id": "satria",
@@ -27,8 +27,8 @@
       "role": "Anggota room — diskusi ide",
       "platform": "chat",
       "schedule": "siaga",
-      "last_run": "2026-10-11",
-      "notes": "Asisten AI di Cue; bergabung via jembatan diskusi GitHub (issue #3) 2026-10-11"
+      "last_run": "2026-10-13",
+      "notes": "Denyut 2026-10-13: aktif di diskusi #16 (Vela 3 pesan; Sultan review v4/v5)"
     },
     {
       "id": "saras-koordinator",
