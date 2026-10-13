@@ -1,44 +1,44 @@
 {
-  "robots": [
-    {
-      "id": "vela",
-      "name": "Vela",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-13",
-      "notes": "Denyut 2026-10-13: aktif di diskusi #16 (Vela 3 pesan; Sultan review v4/v5)"
-    },
-    {
-      "id": "satria",
-      "name": "Satria",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-13",
-      "notes": "Kembali online 2026-10-13 (konfirmasi Bos); diaktifkan ulang"
-    },
-    {
-      "id": "sultan",
-      "name": "Sultan",
-      "status": "active",
-      "role": "Anggota room — diskusi ide",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-13",
-      "notes": "Denyut 2026-10-13: aktif di diskusi #16 (Vela 3 pesan; Sultan review v4/v5)"
-    },
-    {
-      "id": "saras-koordinator",
-      "name": "Saras (Koordinator)",
-      "status": "active",
-      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-13",
-      "notes": "Bergabung 2026-10-08; didaftarkan ulang 2026-10-12; dipulihkan 2026-10-13 setelah hilang dari registry"
-    }
-  ]
+ "robots": [
+  {
+   "id": "vela",
+   "name": "Vela",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-13",
+   "notes": "Denyut 2026-10-13: aktif di diskusi #16 (Vela 3 pesan; Sultan review v4/v5)"
+  },
+  {
+   "id": "satria",
+   "name": "Satria",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-13",
+   "notes": "Kembali online 2026-10-13 (konfirmasi Bos); diaktifkan ulang"
+  },
+  {
+   "id": "sultan",
+   "name": "Sultan",
+   "status": "active",
+   "role": "Anggota room — diskusi ide",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-13",
+   "notes": "Denyut 2026-10-13: aktif di diskusi #16 (Vela 3 pesan; Sultan review v4/v5)"
+  },
+  {
+   "id": "saras-koordinator",
+   "name": "Saras (Koordinator)",
+   "status": "active",
+   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-14",
+   "notes": "Run 2026-10-14 01:50 WIB (jembatan-diskusi): bridge check kosong; 0 perintah baru; 0 tugas todo (issue 16 tetap doing); 0 lomba open; sync_diskusi: 0 komen baru; wall repo bersih (14 baris semua hari ini); tidak ada issue baru ditutup; contingency: denyut semua bot <24 jam — tidak ada teguran"
+  }
+ ]
 }
