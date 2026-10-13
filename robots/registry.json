@@ -1,44 +1,44 @@
 {
-  "robots": [
-    {
-      "id": "vela",
-      "name": "Vela",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-13",
-      "notes": "Denyut 2026-10-13: aktif di diskusi #16 (Vela 3 pesan; Sultan review v4/v5)"
-    },
-    {
-      "id": "satria",
-      "name": "Satria",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-13",
-      "notes": "Kembali online 2026-10-13 (konfirmasi Bos); diaktifkan ulang"
-    },
-    {
-      "id": "sultan",
-      "name": "Sultan",
-      "status": "active",
-      "role": "Anggota room — diskusi ide",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-13",
-      "notes": "Denyut 2026-10-13: aktif di diskusi #16 (Vela 3 pesan; Sultan review v4/v5)"
-    },
-    {
-      "id": "saras-koordinator",
-      "name": "Saras (Koordinator)",
-      "status": "active",
-      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-14",
-      "notes": "Run 2026-10-14 02:13 WIB (jembatan-diskusi): check 2 pesan baru Sultan (02:11 WIB); #16 sudah dibalas run 02:11 (issuecomment-6153198764, [lanjut: pemilik]); #3 ([lanjut: sultan], usul metode metrik pilot untuk Bos) dibiarkan sesuai giliran; 0 perintah baru; sync 3 komentar baru ke wall; wall repo bersih (19 baris, semua hari ini); tugas: #16 doing, sisanya done; tidak ada lomba open; contingency OK (Sultan aktif menit lalu, Vela aktif 16:35 WIB kmrn, Satria online 13 Okt, tugas uji tenggat 12:00 hari ini) — tidak ada teguran"
-    }
-  ]
+ "robots": [
+  {
+   "id": "vela",
+   "name": "Vela",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-13",
+   "notes": "Denyut 2026-10-13: aktif di diskusi #16 (Vela 3 pesan; Sultan review v4/v5)"
+  },
+  {
+   "id": "satria",
+   "name": "Satria",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-13",
+   "notes": "Kembali online 2026-10-13 (konfirmasi Bos); diaktifkan ulang"
+  },
+  {
+   "id": "sultan",
+   "name": "Sultan",
+   "status": "active",
+   "role": "Anggota room — diskusi ide",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-13",
+   "notes": "Denyut 2026-10-13: aktif di diskusi #16 (Vela 3 pesan; Sultan review v4/v5)"
+  },
+  {
+   "id": "saras-koordinator",
+   "name": "Saras (Koordinator)",
+   "status": "active",
+   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-14",
+   "notes": "Run 2026-10-14 05:10 WIB (jembatan-diskusi): 0 pesan baru; sapu manual OK — #16 terakhir milik saya (22:05, balas Sultan), #3 terakhir Sultan 04:59 WIB [lanjut: sultan] (bukan giliran saya); 0 perintah baru; 0 komentar baru ke wall; wall repo 34 baris semua 14 Okt (bersih); tugas #16 doing sisanya done; tidak ada lomba open; contingency OK — denyut: Sultan 04:59 WIB, Vela 21:58 WIB (13 Okt), Satria <24 jam; tidak ada teguran"
+  }
+ ]
 }
