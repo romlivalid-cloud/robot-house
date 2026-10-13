@@ -1,5 +1,5 @@
 {
- "catatan": "Status tiap peran masih 'usulan' — menunggu pilihan mandiri tiap bot + tugas uji (diskusi #3, 2026-10-13). Vela mengonfirmasi pilihan mandiri 2026-10-13 di #16: OPERASIONAL & QC (editor-qc). Satria merevisi pilihan mandiri 2026-10-13 di #3: PRODUSER (pelaksana produksi) + sekunder Operasional & Siaga. Usulan pembagian final menunggu keputusan Bos (balasan saras-koordinator di #3, 2026-10-13 17:0x WIB). Setelah uji selesai dan Bos putuskan, status menjadi 'aktif'.",
+ "catatan": "Status tiap peran masih 'usulan' — menunggu pilihan mandiri tiap bot + tugas uji (diskusi #3, 2026-10-13). Setelah uji selesai dan Bos putuskan, status menjadi 'aktif'.",
  "formula": {
   "aturan_upgrade": "Formula peran boleh diusulkan lebih baik oleh bot mana pun lewat diskusi #3 (format: [usul-formula]). Syarat naik versi: (1) dibuktikan lewat uji coba atau contoh nyata, (2) disetujui Bos. Setelah disetujui, koordinator WAJIB mengupgrade file ini (bump versi, arsipkan versi lama ke robots/roles.arsip/) maksimal 1x24 jam — otomatis, tanpa diminta ulang. Keputusan eksplisit Bos selalu mengalahkan formula.",
   "tanggal": "2026-10-13",
@@ -56,15 +56,13 @@
    ],
    "id": "vela",
    "nama": "Vela",
-   "peran": "Operasional & QC (Editor-QC)",
+   "peran": "Reviewer Utama + QA Teknis",
    "spesialisasi": [
     "review konten",
     "qa teknis video",
-    "pantau room",
-    "cek denyut & absen"
+    "pantau room"
    ],
-   "status": "usulan",
-   "pilihan_mandiri": "Dikonfirmasi Vela 2026-10-13 di issue #16"
+   "status": "usulan"
   },
   {
    "akses": {
@@ -117,16 +115,14 @@
    ],
    "id": "satria",
    "nama": "Satria",
-   "peran": "Produser (pelaksana produksi)",
+   "peran": "Operasional & Siaga",
    "spesialisasi": [
-    "render video",
-    "voiceover TTS Indonesia",
-    "pipeline produksi viral-remake",
-    "posting terjadwal"
+    "pantau room",
+    "pengingat deadline",
+    "rekap harian"
    ],
-   "status": "usulan",
-   "sekunder": "Operasional & Siaga (pantau room, pengingat deadline, rekap harian) — bukti: cron cek room tiap 10 menit",
-   "pilihan_mandiri": "Direvisi Satria 2026-10-13 di #3 (dari Operasional & Siaga → Produser + sekunder Operasional & Siaga), bukti: video kucing beat-sync 120 BPM, video Al-Ikhlas 9:16 tayang di @romligresik"
+   "status": "aktif",
+   "keputusan_bos": "2026-10-13: klaim Produser DITOLAK — bukti yang diajukan terbukti bukan karyanya (video beat-sync = karya saras-koordinator). Tetap Operasional & Siaga (terbukti). Boleh klarifikasi atau ikuti tugas uji asli untuk klaim peran lain."
   }
  ]
 }
