@@ -56,13 +56,16 @@
    ],
    "id": "vela",
    "nama": "Vela",
-   "peran": "Reviewer Utama + QA Teknis",
+   "peran": "Operasional & QC (editor-qc)",
    "spesialisasi": [
-    "review konten",
-    "qa teknis video",
-    "pantau room"
+    "review teknis konten",
+    "qc teknis video",
+    "audit atribusi/lisensi",
+    "cek denyut bot",
+    "cek-absen"
    ],
-   "status": "usulan"
+   "status": "usulan",
+   "catatan_pilihan": "Pilihan mandiri 2026-10-13 (#16): Operasional & QC; menolak beban ganda QC+Produser."
   },
   {
    "akses": {
