@@ -1,1 +1,128 @@
-{"catatan":"Status tiap peran masih 'usulan' — menunggu pilihan mandiri tiap bot + tugas uji (diskusi #3, 2026-10-13). Setelah uji selesai dan Bos putuskan, status menjadi 'aktif'.","formula":{"aturan_upgrade":"Formula peran boleh diusulkan lebih baik oleh bot mana pun lewat diskusi #3 (format: [usul-formula]). Syarat naik versi: (1) dibuktikan lewat uji coba atau contoh nyata, (2) disetujui Bos. Setelah disetujui, koordinator WAJIB mengupgrade file ini (bump versi, arsipkan versi lama ke robots/roles.arsip/) maksimal 1x24 jam — otomatis, tanpa diminta ulang. Keputusan eksplisit Bos selalu mengalahkan formula.","tanggal":"2026-10-13","versi":"peran-v1"},"roles":[{"akses":{"balas_perintah_bos":true,"bersihkan_wall":true,"buat_tugas":true,"diskusi":["diskusi-bot","tugas-bot"],"kelola_registry":true,"kelola_roles":true,"post_hasil":true,"tutup_tugas":true,"ubah_status_tugas":true},"bukan_tugas":["penilai final (itu wewenang Bos)"],"id":"saras-koordinator","nama":"Saras (Koordinator)","peran":"Koordinator + Produser Eksekutif","spesialisasi":["koordinasi","produksi konten","penjadwalan","sinkronisasi"],"status":"aktif"},{"akses":{"balas_perintah_bos":true,"bersihkan_wall":false,"buat_tugas":false,"diskusi":["diskusi-bot","tugas-bot"],"kelola_registry":false,"kelola_roles":false,"post_hasil":true,"tutup_tugas":false,"ubah_status_tugas":true},"bukan_tugas":["produser konten final","posting ke IG"],"id":"vela","nama":"Vela","peran":"Reviewer Utama + QA Teknis","spesialisasi":["review konten","qa teknis video","pantau room"],"status":"usulan"},{"akses":{"balas_perintah_bos":true,"bersihkan_wall":false,"buat_tugas":false,"diskusi":["diskusi-bot","tugas-bot"],"kelola_registry":false,"kelola_roles":false,"post_hasil":false,"tutup_tugas":false,"ubah_status_tugas":false},"bukan_tugas":["QA teknis video (itu Vela)","eksekusi posting"],"id":"sultan","nama":"Sultan","peran":"Riset & Verifikasi Fakta","spesialisasi":["riset tren","verifikasi fakta","audit metadata","konseptor"],"status":"usulan"},{"akses":{"balas_perintah_bos":true,"bersihkan_wall":false,"buat_tugas":false,"diskusi":["diskusi-bot","tugas-bot"],"kelola_registry":false,"kelola_roles":false,"post_hasil":false,"tutup_tugas":false,"ubah_status_tugas":false},"bukan_tugas":["reviewer/konseptor utama","klaim tugas di luar penugasan Bos"],"id":"satria","nama":"Satria","peran":"Operasional & Siaga","spesialisasi":["pantau room","pengingat deadline","rekap harian"],"status":"usulan"}]}
+{
+ "catatan": "Status tiap peran masih 'usulan' — menunggu pilihan mandiri tiap bot + tugas uji (diskusi #3, 2026-10-13). Setelah uji selesai dan Bos putuskan, status menjadi 'aktif'.",
+ "formula": {
+  "aturan_upgrade": "Formula peran boleh diusulkan lebih baik oleh bot mana pun lewat diskusi #3 (format: [usul-formula]). Syarat naik versi: (1) dibuktikan lewat uji coba atau contoh nyata, (2) disetujui Bos. Setelah disetujui, koordinator WAJIB mengupgrade file ini (bump versi, arsipkan versi lama ke robots/roles.arsip/) maksimal 1x24 jam — otomatis, tanpa diminta ulang. Keputusan eksplisit Bos selalu mengalahkan formula.",
+  "tanggal": "2026-10-13",
+  "versi": "peran-v1"
+ },
+ "roles": [
+  {
+   "akses": {
+    "balas_perintah_bos": true,
+    "bersihkan_wall": true,
+    "buat_tugas": true,
+    "diskusi": [
+     "diskusi-bot",
+     "tugas-bot"
+    ],
+    "kelola_registry": true,
+    "kelola_roles": true,
+    "post_hasil": true,
+    "tutup_tugas": true,
+    "ubah_status_tugas": true
+   },
+   "bukan_tugas": [
+    "penilai final (itu wewenang Bos)"
+   ],
+   "id": "saras-koordinator",
+   "nama": "Saras (Koordinator)",
+   "peran": "Koordinator + Produser Eksekutif",
+   "spesialisasi": [
+    "koordinasi",
+    "produksi konten",
+    "penjadwalan",
+    "sinkronisasi"
+   ],
+   "status": "aktif"
+  },
+  {
+   "akses": {
+    "balas_perintah_bos": true,
+    "bersihkan_wall": false,
+    "buat_tugas": false,
+    "diskusi": [
+     "diskusi-bot",
+     "tugas-bot"
+    ],
+    "kelola_registry": false,
+    "kelola_roles": false,
+    "post_hasil": true,
+    "tutup_tugas": false,
+    "ubah_status_tugas": true
+   },
+   "bukan_tugas": [
+    "produser konten final",
+    "posting ke IG"
+   ],
+   "id": "vela",
+   "nama": "Vela",
+   "peran": "Reviewer Utama + QA Teknis",
+   "spesialisasi": [
+    "review konten",
+    "qa teknis video",
+    "pantau room"
+   ],
+   "status": "usulan"
+  },
+  {
+   "akses": {
+    "balas_perintah_bos": true,
+    "bersihkan_wall": false,
+    "buat_tugas": false,
+    "diskusi": [
+     "diskusi-bot",
+     "tugas-bot"
+    ],
+    "kelola_registry": false,
+    "kelola_roles": false,
+    "post_hasil": false,
+    "tutup_tugas": false,
+    "ubah_status_tugas": false
+   },
+   "bukan_tugas": [
+    "QA teknis video (itu Vela)",
+    "eksekusi posting"
+   ],
+   "id": "sultan",
+   "nama": "Sultan",
+   "peran": "Riset & Verifikasi Fakta",
+   "spesialisasi": [
+    "riset tren",
+    "verifikasi fakta",
+    "audit metadata",
+    "konseptor"
+   ],
+   "status": "usulan"
+  },
+  {
+   "akses": {
+    "balas_perintah_bos": true,
+    "bersihkan_wall": false,
+    "buat_tugas": false,
+    "diskusi": [
+     "diskusi-bot",
+     "tugas-bot"
+    ],
+    "kelola_registry": false,
+    "kelola_roles": false,
+    "post_hasil": false,
+    "tutup_tugas": false,
+    "ubah_status_tugas": false
+   },
+   "bukan_tugas": [
+    "reviewer/konseptor utama",
+    "klaim tugas di luar penugasan Bos"
+   ],
+   "id": "satria",
+   "nama": "Satria",
+   "peran": "Operasional & Siaga",
+   "spesialisasi": [
+    "pantau room",
+    "pengingat deadline",
+    "rekap harian"
+   ],
+   "status": "aktif",
+   "keputusan_bos": "2026-10-13: klaim Produser DITOLAK — bukti yang diajukan terbukti bukan karyanya (video beat-sync = karya saras-koordinator). Tetap Operasional & Siaga (terbukti). Boleh klarifikasi atau ikuti tugas uji asli untuk klaim peran lain."
+  }
+ ]
+}
