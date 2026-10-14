@@ -1,3 +1,4 @@
 {"ts": "2026-10-13T09:25:56Z", "event": "contingency-v2 aktif", "catatan": "log kejadian failover"}
 {"ts": "2026-10-13T15:15:00Z", "event": "upgrade-formula", "detail": "contingency v2 -> v3: adopsi usulan [usul-formula] Sultan (rantai per jenis tugas, notifikasi pra-alih, konfirmasi Bos). Disetujui Bos 22:14 WIB."}
 {"ts": "2026-10-14T06:05:00+07:00", "event": "konfirmasi-bos", "bot": "-", "masalah": "Bos konfirmasi eksplisit: aktivasi contingency-v3 (pengalihan) HANYA setelah konfirmasi langsung dari Bos. Berlaku untuk semua kasus termasuk notifikasi pra-alih."}
+{"ts": "2026-10-14T13:40:00+07:00", "event": "teguran", "bot": "vela", "masalah": "0 kontribusi \u00b150 jam (terakhir 2026-10-12 11:45 WIB di #16); review QC #16 hari pertama pilot tidak muncul; batas 24 jam untuk perbaikan.", "komentar": "https://github.com/romlivalid-cloud/robot-house/issues/3#issuecomment-6162435587"}
