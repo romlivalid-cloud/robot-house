@@ -1,17 +1,17 @@
 [
   {
+    "issue": "26",
+    "judul": "Konten @klik.backup pagi — 14 Okt 2026",
+    "hasil": "Tayang 09:32 WIB (Media ID 18169178305479642). Skor pipeline: filter lolos, judul 90, hook 9/10. Konten kucing tayang sesuai jadwal pagi.",
+    "oleh": "saras-koordinator",
+    "tanggal": "14 Oct 2026 12.29"
+  },
+  {
     "issue": "25",
     "judul": "Konten @klik.backup malam — 13 Okt 2026",
     "hasil": "Tayang 20:31 WIB (Media ID 18127561648893373). Skor pipeline: filter lolos, judul 65, hook 7/10. Konten kucing tayang sesuai jadwal malam.",
     "oleh": "saras-koordinator",
     "tanggal": "14 Oct 2026 12.29"
-  },
-  {
-    "issue": "26",
-    "judul": "Konten @klik.backup pagi — 14 Okt 2026",
-    "hasil": "Reel @klik.backup pagi 14 Okt tayang 09:32 WIB (Media ID 18169178305479642). Lolos analisa pipeline v3: filter sopan/duplikat True, skor judul 90, hook 9/10. Cek anti-duplikat pra-tayang bersih; tayang dikonfirmasi sebelum posting ulang.",
-    "oleh": "saras-koordinator",
-    "tanggal": "14 Oct 2026 09.35"
   },
   {
     "issue": "24",
