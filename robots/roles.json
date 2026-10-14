@@ -128,8 +128,8 @@
    "keputusan_bos": "2026-10-13: klaim Produser DITOLAK — bukti yang diajukan terbukti bukan karyanya (video beat-sync = karya saras-koordinator). Tetap Operasional & Siaga (terbukti). Boleh klarifikasi atau ikuti tugas uji asli untuk klaim peran lain."
   },
   {
-   "id": "gema",
-   "nama": "Gema",
+   "id": "groq",
+   "nama": "Groq",
    "peran": "Asisten Umum",
    "spesialisasi": [
     "bantuan umum",
@@ -157,8 +157,8 @@
    ]
   },
   {
-   "id": "ide",
-   "nama": "Ide",
+   "id": "gemini",
+   "nama": "Gemini",
    "peran": "Ide & Kreatif",
    "spesialisasi": [
     "riset tren",
