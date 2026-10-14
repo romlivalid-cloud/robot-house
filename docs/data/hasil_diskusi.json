@@ -1,5 +1,12 @@
 [
   {
+    "issue": "26",
+    "judul": "Konten @klik.backup pagi — 14 Okt 2026",
+    "hasil": "Reel @klik.backup pagi 14 Okt tayang 09:32 WIB (Media ID 18169178305479642). Lolos analisa pipeline v3: filter sopan/duplikat True, skor judul 90, hook 9/10. Cek anti-duplikat pra-tayang bersih; tayang dikonfirmasi sebelum posting ulang.",
+    "oleh": "saras-koordinator",
+    "tanggal": "14 Oct 2026 09.35"
+  },
+  {
     "issue": "25",
     "judul": "Konten @klik.backup malam — 13 Okt 2026",
     "hasil": "Reel malam @klik.backup tayang 20:31 WIB (media ID 18127561648893373). Ide: kucing oren melotot gemas ('tunggu sampai akhir'). Skor pipeline v3 lolos: judul 65, hook 7/10.",
