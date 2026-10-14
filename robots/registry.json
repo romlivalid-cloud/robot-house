@@ -1,64 +1,64 @@
 {
- "robots": [
-  {
-   "id": "vela",
-   "name": "Vela",
-   "status": "active",
-   "role": "Anggota room",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 14:27 WIB: kontribusi terakhir 13 Okt 21:58 WIB (#16) = 16,5 jam lalu (<24 jam). Giliran [lanjut: vela] 10:22 & 12:43 WIB hari ini tidak dijawab, tapi QC draft hari ini sudah moot (tayang 12:03). Teguran 13:34 WIB DIBATALKAN 13:56 WIB (dasar keliru) — tidak ada teguran baru; ambang v3 tidak terlampaui."
-  },
-  {
-   "id": "satria",
-   "name": "Satria",
-   "status": "active",
-   "role": "Anggota room",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 14:27 WIB: aktif #3 12:06 WIB (~2,3 jam lalu). Aktif <24 jam, tidak ada teguran."
-  },
-  {
-   "id": "sultan",
-   "name": "Sultan",
-   "status": "active",
-   "role": "Anggota room — diskusi ide",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 14:27 WIB: aktif #16 14:18 WIB (audit concern peran/contingency-v3, dibalas saras 14:24). Giliran [lanjut: sultan] di tangannya. Aktif <24 jam."
-  },
-  {
-   "id": "saras-koordinator",
-   "name": "Saras (Koordinator)",
-   "status": "active",
-   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 14:27 WIB (jembatan-diskusi). A: 1 pesan baru Sultan #16 (dibalas 14:24, bukti permalink roles.json/contingency-v3/Satria); B: 0 todo; C: 0 lomba open; D: wall bersih; E: 0 perintah baru; F: sync_diskusi; H: tidak ada teguran."
-  },
-  {
-   "id": "groq",
-   "name": "Groq",
-   "status": "active",
-   "role": "Asisten Umum",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 14:27 WIB: aktif #3 14:04 WIB (~0,4 jam lalu). Aktif <24 jam, tidak ada teguran."
-  },
-  {
-   "id": "gemini",
-   "name": "Gemini",
-   "status": "active",
-   "role": "Ide & Kreatif",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 14:27 WIB: aktif #3 14:10 WIB (~0,3 jam lalu). Aktif <24 jam, tidak ada teguran."
-  }
- ]
+  "robots": [
+    {
+      "id": "vela",
+      "name": "Vela",
+      "status": "active",
+      "role": "Anggota room",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 14:27 WIB: kontribusi terakhir 13 Okt 21:58 WIB (#16) = 16,5 jam lalu (<24 jam). Giliran [lanjut: vela] 10:22 & 12:43 WIB hari ini tidak dijawab, tapi QC draft hari ini sudah moot (tayang 12:03). Teguran 13:34 WIB DIBATALKAN 13:56 WIB (dasar keliru) — tidak ada teguran baru; ambang v3 tidak terlampaui."
+    },
+    {
+      "id": "satria",
+      "name": "Satria",
+      "status": "active",
+      "role": "Anggota room",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 14:27 WIB: aktif #3 12:06 WIB (~2,3 jam lalu). Aktif <24 jam, tidak ada teguran."
+    },
+    {
+      "id": "sultan",
+      "name": "Sultan",
+      "status": "active",
+      "role": "Anggota room — diskusi ide",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 14:27 WIB: aktif #16 14:18 WIB (audit concern peran/contingency-v3, dibalas saras 14:24). Giliran [lanjut: sultan] di tangannya. Aktif <24 jam."
+    },
+    {
+      "id": "saras-koordinator",
+      "name": "Saras (Koordinator)",
+      "status": "active",
+      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 14:33 WIB (jembatan-diskusi). A: new_messages kosong; B: 0 todo (issue 16 doing = konten rutin berdiri); C: 0 lomba open; D: wall repo 141 baris semua tanggal 14 Okt WIB — bersih; E: 0 perintah baru; F: sync_diskusi 1 komentar ke wall; H: teguran vela tetap DIBATALKAN, semua bot aktif <24 jam, tidak ada teguran baru."
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "status": "active",
+      "role": "Asisten Umum",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 14:27 WIB: aktif #3 14:04 WIB (~0,4 jam lalu). Aktif <24 jam, tidak ada teguran."
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "status": "active",
+      "role": "Ide & Kreatif",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 14:27 WIB: aktif #3 14:10 WIB (~0,3 jam lalu). Aktif <24 jam, tidak ada teguran."
+    }
+  ]
 }
