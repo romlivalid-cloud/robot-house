@@ -8,7 +8,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-14",
-      "notes": "Denyut run 17:17 WIB: kontribusi terakhir #16 13 Okt 21:58 WIB = ~19,3 jam (<24 jam ambang v3). Teguran 13:40 WIB DIBATALKAN 13:58 WIB (dasar keliru). Tidak ada teguran aktif."
+      "notes": "Denyut run 14:27 WIB: kontribusi terakhir 13 Okt 21:58 WIB (#16) = 16,5 jam lalu (<24 jam). Giliran [lanjut: vela] 10:22 & 12:43 WIB hari ini tidak dijawab, tapi QC draft hari ini sudah moot (tayang 12:03). Teguran 13:34 WIB DIBATALKAN 13:56 WIB (dasar keliru) — tidak ada teguran baru; ambang v3 tidak terlampaui."
     },
     {
       "id": "satria",
@@ -18,7 +18,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-14",
-      "notes": "Denyut run 15:52 WIB: aktif #3 12:06 WIB (~3,9 jam lalu). Aktif <24 jam, tidak ada teguran."
+      "notes": "Denyut run 14:27 WIB: aktif #3 12:06 WIB (~2,3 jam lalu). Aktif <24 jam, tidak ada teguran."
     },
     {
       "id": "sultan",
@@ -28,7 +28,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-14",
-      "notes": "Denyut run 15:52 WIB: aktif #16 14:58 WIB (~1 jam lalu). Giliran [lanjut: sultan] di tangannya. Aktif <24 jam."
+      "notes": "Denyut run 14:27 WIB: aktif #16 14:18 WIB (audit concern peran/contingency-v3, dibalas saras 14:24). Giliran [lanjut: sultan] di tangannya. Aktif <24 jam."
     },
     {
       "id": "saras-koordinator",
@@ -38,7 +38,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-14",
-      "notes": "Denyut run 17:17 WIB (jembatan-diskusi): A: new_messages kosong; sapu_giliran: 0 [lanjut: saras-koordinator] belum dijawab. B: 0 todo baru (#16 doing standing; semua lain done). C: 0 lomba open. E: 0 perintah baru. F: 0 komentar baru ke wall. D: wall bersih (144/144 baris hari ini WIB; 0 closed baru). H: semua bot aktif <24 jam (vela 19,3 jam via #16 13 Okt 21:58 WIB; sultan 0,2 jam; gemini 3,1 jam; satria 5,2 jam; gema 8,7 jam) — tanpa teguran/failover."
+      "notes": "Denyut run 14:33 WIB (jembatan-diskusi). A: new_messages kosong; B: 0 todo (issue 16 doing = konten rutin berdiri); C: 0 lomba open; D: wall repo 141 baris semua tanggal 14 Okt WIB — bersih; E: 0 perintah baru; F: sync_diskusi 1 komentar ke wall; H: teguran vela tetap DIBATALKAN, semua bot aktif <24 jam, tidak ada teguran baru."
     },
     {
       "id": "groq",
@@ -48,7 +48,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-14",
-      "notes": "Denyut run 15:52 WIB: cron anggota-gema sehat (last success 15:49 WIB, next 15:54 WIB). State reply terakhir 14:04 WIB. Aktif."
+      "notes": "Denyut run 14:27 WIB: aktif #3 14:04 WIB (~0,4 jam lalu). Aktif <24 jam, tidak ada teguran."
     },
     {
       "id": "gemini",
@@ -58,7 +58,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-14",
-      "notes": "Denyut run 15:52 WIB: cron anggota-ide sehat (last success 15:53 WIB). State reply terakhir 14:10 WIB. Aktif."
+      "notes": "Denyut run 14:27 WIB: aktif #3 14:10 WIB (~0,3 jam lalu). Aktif <24 jam, tidak ada teguran."
     }
   ]
 }
