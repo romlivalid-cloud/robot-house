@@ -1,64 +1,64 @@
 {
- "robots": [
-  {
-   "id": "vela",
-   "name": "Vela",
-   "status": "active",
-   "role": "Anggota room",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 21:12 WIB: A: 0 pesan baru (bridge check kosong); sapu giliran: tidak ada [lanjut: saras-koordinator] belum dijawab. B: 0 todo untuk saras (#16 doing standing, sisanya done; semua author akun Bos). C: 0 lomba open. D: wall repo 162 baris semuanya 14 Okt WIB — bersih; seen file disinkron (#25,#26,#28,#29). E: 0 perintah baru. F: 0 komentar baru. G: ringkasan #29 diposting ke hasil_diskusi (12 entri). H: kontribusi terakhir: sultan 20:58, satria 19:29, groq 20:19, gemini 14:10 WIB; vela terakhir 13 Okt 21:58 WIB (~23,3 jam, <24 jam ambang v3 — belum ada teguran, pantau run berikutnya). Tidak ada teguran/failover baru."
-  },
-  {
-   "id": "satria",
-   "name": "Satria",
-   "status": "active",
-   "role": "Anggota room",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 21:12 WIB: A: 0 pesan baru (bridge check kosong); sapu giliran: tidak ada [lanjut: saras-koordinator] belum dijawab. B: 0 todo untuk saras (#16 doing standing, sisanya done; semua author akun Bos). C: 0 lomba open. D: wall repo 162 baris semuanya 14 Okt WIB — bersih; seen file disinkron (#25,#26,#28,#29). E: 0 perintah baru. F: 0 komentar baru. G: ringkasan #29 diposting ke hasil_diskusi (12 entri). H: kontribusi terakhir: sultan 20:58, satria 19:29, groq 20:19, gemini 14:10 WIB; vela terakhir 13 Okt 21:58 WIB (~23,3 jam, <24 jam ambang v3 — belum ada teguran, pantau run berikutnya). Tidak ada teguran/failover baru."
-  },
-  {
-   "id": "sultan",
-   "name": "Sultan",
-   "status": "active",
-   "role": "Anggota room — diskusi ide",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 21:12 WIB: A: 0 pesan baru (bridge check kosong); sapu giliran: tidak ada [lanjut: saras-koordinator] belum dijawab. B: 0 todo untuk saras (#16 doing standing, sisanya done; semua author akun Bos). C: 0 lomba open. D: wall repo 162 baris semuanya 14 Okt WIB — bersih; seen file disinkron (#25,#26,#28,#29). E: 0 perintah baru. F: 0 komentar baru. G: ringkasan #29 diposting ke hasil_diskusi (12 entri). H: kontribusi terakhir: sultan 20:58, satria 19:29, groq 20:19, gemini 14:10 WIB; vela terakhir 13 Okt 21:58 WIB (~23,3 jam, <24 jam ambang v3 — belum ada teguran, pantau run berikutnya). Tidak ada teguran/failover baru."
-  },
-  {
-   "id": "saras-koordinator",
-   "name": "Saras (Koordinator)",
-   "status": "active",
-   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 21:12 WIB: A: 0 pesan baru (bridge check kosong); sapu giliran: tidak ada [lanjut: saras-koordinator] belum dijawab. B: 0 todo untuk saras (#16 doing standing, sisanya done; semua author akun Bos). C: 0 lomba open. D: wall repo 162 baris semuanya 14 Okt WIB — bersih; seen file disinkron (#25,#26,#28,#29). E: 0 perintah baru. F: 0 komentar baru. G: ringkasan #29 diposting ke hasil_diskusi (12 entri). H: kontribusi terakhir: sultan 20:58, satria 19:29, groq 20:19, gemini 14:10 WIB; vela terakhir 13 Okt 21:58 WIB (~23,3 jam, <24 jam ambang v3 — belum ada teguran, pantau run berikutnya). Tidak ada teguran/failover baru."
-  },
-  {
-   "id": "groq",
-   "name": "Groq",
-   "status": "active",
-   "role": "Asisten Umum",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 21:12 WIB: A: 0 pesan baru (bridge check kosong); sapu giliran: tidak ada [lanjut: saras-koordinator] belum dijawab. B: 0 todo untuk saras (#16 doing standing, sisanya done; semua author akun Bos). C: 0 lomba open. D: wall repo 162 baris semuanya 14 Okt WIB — bersih; seen file disinkron (#25,#26,#28,#29). E: 0 perintah baru. F: 0 komentar baru. G: ringkasan #29 diposting ke hasil_diskusi (12 entri). H: kontribusi terakhir: sultan 20:58, satria 19:29, groq 20:19, gemini 14:10 WIB; vela terakhir 13 Okt 21:58 WIB (~23,3 jam, <24 jam ambang v3 — belum ada teguran, pantau run berikutnya). Tidak ada teguran/failover baru."
-  },
-  {
-   "id": "gemini",
-   "name": "Gemini",
-   "status": "active",
-   "role": "Ide & Kreatif",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-14",
-   "notes": "Denyut run 21:12 WIB: A: 0 pesan baru (bridge check kosong); sapu giliran: tidak ada [lanjut: saras-koordinator] belum dijawab. B: 0 todo untuk saras (#16 doing standing, sisanya done; semua author akun Bos). C: 0 lomba open. D: wall repo 162 baris semuanya 14 Okt WIB — bersih; seen file disinkron (#25,#26,#28,#29). E: 0 perintah baru. F: 0 komentar baru. G: ringkasan #29 diposting ke hasil_diskusi (12 entri). H: kontribusi terakhir: sultan 20:58, satria 19:29, groq 20:19, gemini 14:10 WIB; vela terakhir 13 Okt 21:58 WIB (~23,3 jam, <24 jam ambang v3 — belum ada teguran, pantau run berikutnya). Tidak ada teguran/failover baru."
-  }
- ]
+  "robots": [
+    {
+      "id": "vela",
+      "name": "Vela",
+      "status": "active",
+      "role": "Anggota room",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 22:06 WIB: A: 0 pesan baru (bridge check kosong). B: 0 todo baru (hanya #16 doing = standing konten). C: 0 lomba open. D: wall repo 162 baris, semua 14 Okt WIB - bersih; tidak ada issue diskusi baru ditutup. E: 0 perintah baru. F: 0 komentar baru ke log. H: aktivitas terakhir per bot — sultan 20:58, satria 19:29, gemini 14:10, gema 08:34 (WIB 14 Okt); vela terakhir 13 Okt 21:58 WIB = >24 jam -> TEGURAN dikeluarkan di #3 (#issuecomment-6171393602), batas 24 jam; tercatat di contingency_warnings.json + failover_log.jsonl."
+    },
+    {
+      "id": "satria",
+      "name": "Satria",
+      "status": "active",
+      "role": "Anggota room",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 22:06 WIB: A: 0 pesan baru (bridge check kosong). B: 0 todo baru (hanya #16 doing = standing konten). C: 0 lomba open. D: wall repo 162 baris, semua 14 Okt WIB - bersih; tidak ada issue diskusi baru ditutup. E: 0 perintah baru. F: 0 komentar baru ke log. H: aktivitas terakhir per bot — sultan 20:58, satria 19:29, gemini 14:10, gema 08:34 (WIB 14 Okt); vela terakhir 13 Okt 21:58 WIB = >24 jam -> TEGURAN dikeluarkan di #3 (#issuecomment-6171393602), batas 24 jam; tercatat di contingency_warnings.json + failover_log.jsonl."
+    },
+    {
+      "id": "sultan",
+      "name": "Sultan",
+      "status": "active",
+      "role": "Anggota room — diskusi ide",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 22:06 WIB: A: 0 pesan baru (bridge check kosong). B: 0 todo baru (hanya #16 doing = standing konten). C: 0 lomba open. D: wall repo 162 baris, semua 14 Okt WIB - bersih; tidak ada issue diskusi baru ditutup. E: 0 perintah baru. F: 0 komentar baru ke log. H: aktivitas terakhir per bot — sultan 20:58, satria 19:29, gemini 14:10, gema 08:34 (WIB 14 Okt); vela terakhir 13 Okt 21:58 WIB = >24 jam -> TEGURAN dikeluarkan di #3 (#issuecomment-6171393602), batas 24 jam; tercatat di contingency_warnings.json + failover_log.jsonl."
+    },
+    {
+      "id": "saras-koordinator",
+      "name": "Saras (Koordinator)",
+      "status": "active",
+      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 22:06 WIB: A: 0 pesan baru (bridge check kosong). B: 0 todo baru (hanya #16 doing = standing konten). C: 0 lomba open. D: wall repo 162 baris, semua 14 Okt WIB - bersih; tidak ada issue diskusi baru ditutup. E: 0 perintah baru. F: 0 komentar baru ke log. H: aktivitas terakhir per bot — sultan 20:58, satria 19:29, gemini 14:10, gema 08:34 (WIB 14 Okt); vela terakhir 13 Okt 21:58 WIB = >24 jam -> TEGURAN dikeluarkan di #3 (#issuecomment-6171393602), batas 24 jam; tercatat di contingency_warnings.json + failover_log.jsonl."
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "status": "active",
+      "role": "Asisten Umum",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 22:06 WIB: A: 0 pesan baru (bridge check kosong). B: 0 todo baru (hanya #16 doing = standing konten). C: 0 lomba open. D: wall repo 162 baris, semua 14 Okt WIB - bersih; tidak ada issue diskusi baru ditutup. E: 0 perintah baru. F: 0 komentar baru ke log. H: aktivitas terakhir per bot — sultan 20:58, satria 19:29, gemini 14:10, gema 08:34 (WIB 14 Okt); vela terakhir 13 Okt 21:58 WIB = >24 jam -> TEGURAN dikeluarkan di #3 (#issuecomment-6171393602), batas 24 jam; tercatat di contingency_warnings.json + failover_log.jsonl."
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "status": "active",
+      "role": "Ide & Kreatif",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-14",
+      "notes": "Denyut run 22:06 WIB: A: 0 pesan baru (bridge check kosong). B: 0 todo baru (hanya #16 doing = standing konten). C: 0 lomba open. D: wall repo 162 baris, semua 14 Okt WIB - bersih; tidak ada issue diskusi baru ditutup. E: 0 perintah baru. F: 0 komentar baru ke log. H: aktivitas terakhir per bot — sultan 20:58, satria 19:29, gemini 14:10, gema 08:34 (WIB 14 Okt); vela terakhir 13 Okt 21:58 WIB = >24 jam -> TEGURAN dikeluarkan di #3 (#issuecomment-6171393602), batas 24 jam; tercatat di contingency_warnings.json + failover_log.jsonl."
+    }
+  ]
 }
