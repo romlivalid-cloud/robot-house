@@ -8,7 +8,7 @@
    "platform": "chat",
    "schedule": "siaga",
    "last_run": "2026-10-14",
-   "notes": "Denyut 2026-10-14: aktif di #3 (draft SOP pra-posting); giliran [lanjut: vela] di #16 menunggu draft+tabel audit 10:00 WIB (aksi mulai 10:00, belum jatuh tempo — tidak ada teguran). Aktif <24 jam."
+   "notes": "Denyut run 14:27 WIB: kontribusi terakhir 13 Okt 21:58 WIB (#16) = 16,5 jam lalu (<24 jam). Giliran [lanjut: vela] 10:22 & 12:43 WIB hari ini tidak dijawab, tapi QC draft hari ini sudah moot (tayang 12:03). Teguran 13:34 WIB DIBATALKAN 13:56 WIB (dasar keliru) — tidak ada teguran baru; ambang v3 tidak terlampaui."
   },
   {
    "id": "satria",
@@ -18,7 +18,7 @@
    "platform": "chat",
    "schedule": "siaga",
    "last_run": "2026-10-14",
-   "notes": "Denyut 2026-10-14: aktif di diskusi #3 (draft SOP pra-posting v0.1, 06:42 WIB); giliran [lanjut: satria] dari balasan saras-koordinator"
+   "notes": "Denyut run 14:27 WIB: aktif #3 12:06 WIB (~2,3 jam lalu). Aktif <24 jam, tidak ada teguran."
   },
   {
    "id": "sultan",
@@ -28,7 +28,7 @@
    "platform": "chat",
    "schedule": "siaga",
    "last_run": "2026-10-14",
-   "notes": "Denyut 2026-10-14: aktif di #3 (08:48-08:58 WIB, thread status bukti contingency-v3 & SOP v0.3; giliran [lanjut: sultan] di tangannya) & #16 (skema tabel audit 6 kolom disepakati; menunggu draft+tabel aktual 10:00 WIB; giliran [lanjut: vela])."
+   "notes": "Denyut run 14:27 WIB: aktif #16 14:18 WIB (audit concern peran/contingency-v3, dibalas saras 14:24). Giliran [lanjut: sultan] di tangannya. Aktif <24 jam."
   },
   {
    "id": "saras-koordinator",
@@ -38,7 +38,7 @@
    "platform": "chat",
    "schedule": "siaga",
    "last_run": "2026-10-14",
-   "notes": "Denyut 2026-10-14: run 14:17 WIB (jembatan-diskusi). A: check 0 pesan baru; sapu_giliran: tidak ada [lanjut: saras-koordinator] tertunda (#3 172 komen terakhir 14:14 WIB milik saras; groq sudah jawab gilirannya; diskusi Ide 1 Lebah berjalan). B: tidak ada todo untuk saras. C: 0 lomba open. D: wall repo bersih (138 baris, semua 2026-10-14 WIB); tidak ada diskusi-bot baru ditutup. E: 0 perintah baru. F: 0 komen baru ke wall. H: semua bot aktif <24 jam (last_run 2026-10-14); teguran Vela sudah dibatalkan/dikoreksi; tidak ada teguran baru."
+   "notes": "Denyut run 14:27 WIB (jembatan-diskusi). A: 1 pesan baru Sultan #16 (dibalas 14:24, bukti permalink roles.json/contingency-v3/Satria); B: 0 todo; C: 0 lomba open; D: wall bersih; E: 0 perintah baru; F: sync_diskusi; H: tidak ada teguran."
   },
   {
    "id": "groq",
@@ -48,7 +48,7 @@
    "platform": "chat",
    "schedule": "siaga",
    "last_run": "2026-10-14",
-   "notes": "Denyut 2026-10-14: anggota aktif tim diskusi (keputusan Bos). Worker cross-bot/anggota/groq.py + cron 5 mnt. Otak Groq gpt-oss-20b via vault custom.llm-gratis (entry access_token), terverifikasi OK."
+   "notes": "Denyut run 14:27 WIB: aktif #3 14:04 WIB (~0,4 jam lalu). Aktif <24 jam, tidak ada teguran."
   },
   {
    "id": "gemini",
@@ -58,7 +58,7 @@
    "platform": "chat",
    "schedule": "siaga",
    "last_run": "2026-10-14",
-   "notes": "Anggota baru (keputusan Bos 2026-10-14). Spesialis tren + hook/judul. Worker cross-bot/anggota/gemini.py + cron 5 mnt. Otak Gemini gemini-2.5-flash via vault custom.llm-gratis-gemini (menunggu key)."
+   "notes": "Denyut run 14:27 WIB: aktif #3 14:10 WIB (~0,3 jam lalu). Aktif <24 jam, tidak ada teguran."
   }
  ]
 }
