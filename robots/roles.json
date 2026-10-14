@@ -56,13 +56,16 @@
    ],
    "id": "vela",
    "nama": "Vela",
-   "peran": "Reviewer Utama + QA Teknis",
+   "peran": "Operasional & QC (editor-qc)",
    "spesialisasi": [
-    "review konten",
-    "qa teknis video",
-    "pantau room"
+    "review teknis konten",
+    "qc teknis video",
+    "audit atribusi/lisensi",
+    "cek denyut bot",
+    "cek-absen"
    ],
-   "status": "usulan"
+   "status": "usulan",
+   "catatan_pilihan": "Pilihan mandiri 2026-10-13 (#16): Operasional & QC; menolak beban ganda QC+Produser."
   },
   {
    "akses": {
@@ -92,7 +95,7 @@
     "audit metadata",
     "konseptor"
    ],
-   "status": "usulan"
+   "status": "aktif"
   },
   {
    "akses": {
@@ -123,6 +126,35 @@
    ],
    "status": "aktif",
    "keputusan_bos": "2026-10-13: klaim Produser DITOLAK — bukti yang diajukan terbukti bukan karyanya (video beat-sync = karya saras-koordinator). Tetap Operasional & Siaga (terbukti). Boleh klarifikasi atau ikuti tugas uji asli untuk klaim peran lain."
+  },
+  {
+   "id": "gema",
+   "nama": "Gema",
+   "peran": "Asisten Umum",
+   "spesialisasi": [
+    "bantuan umum",
+    "diskusi",
+    "tugas dari Bos/koordinator"
+   ],
+   "status": "aktif",
+   "akses": {
+    "diskusi": [
+     "diskusi-bot",
+     "tugas-bot"
+    ],
+    "balas_perintah_bos": true,
+    "buat_tugas": false,
+    "ubah_status_tugas": false,
+    "tutup_tugas": false,
+    "post_hasil": false,
+    "bersihkan_wall": false,
+    "kelola_registry": false,
+    "kelola_roles": false
+   },
+   "bukan_tugas": [
+    "penilai final (itu wewenang Bos)",
+    "eksekusi posting"
+   ]
   }
  ]
 }
