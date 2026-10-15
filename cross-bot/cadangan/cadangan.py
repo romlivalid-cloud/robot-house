@@ -26,6 +26,9 @@ HOUSE = os.path.expanduser("~/workspace/robot-house")
 GH_API = os.path.expanduser("~/workspace/skills/github/bin/gh-api.py")
 KIRIM_ROOM = os.path.join(HOUSE, "cross-bot", "kirim_room.py")
 REPO = "romlivalid-cloud/robot-house"
+# Batas usia giliran (keputusan Bos 2026-10-15): cadangan mengabaikan
+# [lanjut: ...] yang lebih tua dari ini agar tidak menjawab giliran basi.
+MAX_TURN_AGE_H = 24
 
 sys.path.insert(0, "/opt/muse/skills/custom-connector-setup/bin")
 from dynamic_credentials import (
@@ -347,6 +350,15 @@ def cmd_deactivate(bot_id):
     save(STATE, st)
     print(f"{bot_id} kembali SIAGA")
 
+def turn_basi(created_at, max_jam=MAX_TURN_AGE_H):
+    """True bila giliran lebih tua dari batas usia (giliran basi)."""
+    try:
+        dt = datetime.fromisoformat(str(created_at).replace("Z", "+00:00"))
+        return (datetime.now(timezone.utc) - dt) > timedelta(hours=max_jam)
+    except Exception:
+        return False  # tanggal tak terbaca -> proses normal saja
+
+
 def open_issues(numbers):
     out = []
     for n in numbers:
@@ -383,6 +395,10 @@ def cmd_reply_check():
                     continue
                 # giliran untuk bot asli yang off?
                 if f"[lanjut: {mirrors}]" in body and f"[{b['id']}]" not in body:
+                    # abaikan giliran basi (>24 jam) — keputusan Bos 2026-10-15
+                    if turn_basi(c.get("created_at")):
+                        replied.add(cid)
+                        continue
                     # pastikan belum ada balasan sesudahnya
                     idx = comments.index(c)
                     later = " ".join(x.get("body", "") or "" for x in comments[idx+1:])
