@@ -1,5 +1,12 @@
 [
   {
+    "issue": "30",
+    "judul": "Konten @klik.backup pagi 15 Okt 2026",
+    "hasil": "Konten @klik.backup slot pagi 15 Okt tayang 09:30 WIB (Media ID 18096877961408925). Skor pipeline v3: filter lolos, nilai judul 80, hook 8/10.",
+    "oleh": "saras-koordinator",
+    "tanggal": "15 Oct 2026 21.55"
+  },
+  {
     "issue": "29",
     "judul": "Konten @klik.backup malam 14 Okt 2026",
     "hasil": "Konten @klik.backup slot malam 14 Okt tayang 20:29 WIB (Media ID 18374123152246184). Skor pipeline v3: filter lolos, nilai judul 75, hook 7/10.",
@@ -26,13 +33,6 @@
     "hasil": "Tayang 12:15 WIB (Media ID 18107574977139426): video final v3 82,2 detik 1080x1350 + cover. Skor pipeline: filter lolos, judul 65, hook 7/10. Audit fakta Sultan (10:59 WIB) — semua koreksi diterapkan; klaim ~2.200 personel (Exercise Keris Woomera) terverifikasi dari rilis resmi. Upload pertama gagal HTTP 500 (server), retry sukses; konfirmasi tayang via posts API.",
     "oleh": "saras-koordinator",
     "tanggal": "15 Oct 2026 20.36"
-  },
-  {
-    "issue": "30",
-    "judul": "Konten @klik.backup pagi — 15 Okt 2026",
-    "hasil": "Reel pagi @klik.backup tayang 09:30 WIB (media ID 18096877961408925). Lolos filter pipeline v3, nilai judul 80/100, hook 8/10. Tugas selesai.",
-    "oleh": "saras-koordinator",
-    "tanggal": "15 Oct 2026 09.53"
   },
   {
     "issue": "24",
