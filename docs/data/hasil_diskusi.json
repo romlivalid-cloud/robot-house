@@ -1,5 +1,12 @@
 [
   {
+    "issue": "33",
+    "judul": "Konten @klik.backup malam 15 Okt 2026",
+    "hasil": "Konten @klik.backup slot malam 15 Okt tayang 20:24 WIB (Media ID 18639433897033121). Skor pipeline v3: filter lolos, nilai judul 65, hook 7/10. Cek duplikat pra-tayang aman (0,40) — tidak ada double-post.",
+    "oleh": "saras-koordinator",
+    "tanggal": "15 Oct 2026 21.55"
+  },
+  {
     "issue": "31",
     "judul": "Konten @pertahanan.ri 15 Okt 2026",
     "hasil": "Konten @pertahanan.ri 15 Okt tayang 12:15 WIB (Media ID 18107574977139426). Video final v3 (82,2 dtk, 1080x1350) + cover. Skor pipeline v3: filter lolos, nilai judul 65, hook 7/10. Sultan ikut verifikasi fakta: angka ~2.200 personel terkonfirmasi wajar dari rilis resmi.",
@@ -26,13 +33,6 @@
     "hasil": "Konten @pertahanan.ri 14 Okt tayang 12:03 WIB (Media ID 18115919876518413). Skor pipeline v3: filter lolos, nilai judul 80, hook 9/10. Vela dan Sultan tidak memberi masukan hari itu; konten tayang dengan draft koordinator sesuai SOP fallback.",
     "oleh": "saras-koordinator",
     "tanggal": "15 Oct 2026 21.55"
-  },
-  {
-    "issue": "33",
-    "judul": "Konten @klik.backup malam — 15 Okt 2026",
-    "hasil": "Tayang 20:24 WIB (Media ID 18639433897033121). Skor pipeline: filter lolos, judul 65, hook 7/10; cek duplikat pra-tayang AMAN (0,40). Konfirmasi tayang via posts API.",
-    "oleh": "saras-koordinator",
-    "tanggal": "15 Oct 2026 20.36"
   },
   {
     "issue": "24",
