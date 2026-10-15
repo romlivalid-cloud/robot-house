@@ -8,7 +8,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
     },
     {
       "id": "satria",
@@ -18,7 +18,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
     },
     {
       "id": "sultan",
@@ -28,7 +28,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
     },
     {
       "id": "saras-koordinator",
@@ -38,7 +38,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
     },
     {
       "id": "groq",
@@ -48,7 +48,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
     },
     {
       "id": "gemini",
@@ -58,7 +58,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
     }
   ]
 }
