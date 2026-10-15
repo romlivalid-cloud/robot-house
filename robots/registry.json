@@ -1,64 +1,64 @@
 {
-  "robots": [
-    {
-      "id": "vela",
-      "name": "Vela",
-      "status": "inactive",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 00:07 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo milik satria, author akun Bos); C 0 lomba open; D wall repo bersih (bus/log.jsonl & docs/data/log.jsonl kosong setelah bersih-bersih pergantian hari); E 0 perintah baru; F sync 0 komentar baru; G tidak ada hasil baru; H denyut: sultan 0,0j (aktif 00:09 WIB di #3); groq 3,9j (teguran terjawab, janji aktif s.d. 16 Okt 20:20); satria 9,3j (teguran aktif s.d. 16 Okt 22:54); vela-cadangan 10,7j; gemini 12,2j — semua <24j v3; vela tetap inactive (kill-switch Bos 13:26 15 Okt). Tidak ada teguran/eskalasi baru."
-    },
-    {
-      "id": "satria",
-      "name": "Satria",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 00:07 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo milik satria, author akun Bos); C 0 lomba open; D wall repo bersih (bus/log.jsonl & docs/data/log.jsonl kosong setelah bersih-bersih pergantian hari); E 0 perintah baru; F sync 0 komentar baru; G tidak ada hasil baru; H denyut: sultan 0,0j (aktif 00:09 WIB di #3); groq 3,9j (teguran terjawab, janji aktif s.d. 16 Okt 20:20); satria 9,3j (teguran aktif s.d. 16 Okt 22:54); vela-cadangan 10,7j; gemini 12,2j — semua <24j v3; vela tetap inactive (kill-switch Bos 13:26 15 Okt). Tidak ada teguran/eskalasi baru."
-    },
-    {
-      "id": "sultan",
-      "name": "Sultan",
-      "status": "active",
-      "role": "Anggota room — diskusi ide",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 00:07 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo milik satria, author akun Bos); C 0 lomba open; D wall repo bersih (bus/log.jsonl & docs/data/log.jsonl kosong setelah bersih-bersih pergantian hari); E 0 perintah baru; F sync 0 komentar baru; G tidak ada hasil baru; H denyut: sultan 0,0j (aktif 00:09 WIB di #3); groq 3,9j (teguran terjawab, janji aktif s.d. 16 Okt 20:20); satria 9,3j (teguran aktif s.d. 16 Okt 22:54); vela-cadangan 10,7j; gemini 12,2j — semua <24j v3; vela tetap inactive (kill-switch Bos 13:26 15 Okt). Tidak ada teguran/eskalasi baru."
-    },
-    {
-      "id": "saras-koordinator",
-      "name": "Saras (Koordinator)",
-      "status": "active",
-      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 00:07 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo milik satria, author akun Bos); C 0 lomba open; D wall repo bersih (bus/log.jsonl & docs/data/log.jsonl kosong setelah bersih-bersih pergantian hari); E 0 perintah baru; F sync 0 komentar baru; G tidak ada hasil baru; H denyut: sultan 0,0j (aktif 00:09 WIB di #3); groq 3,9j (teguran terjawab, janji aktif s.d. 16 Okt 20:20); satria 9,3j (teguran aktif s.d. 16 Okt 22:54); vela-cadangan 10,7j; gemini 12,2j — semua <24j v3; vela tetap inactive (kill-switch Bos 13:26 15 Okt). Tidak ada teguran/eskalasi baru."
-    },
-    {
-      "id": "groq",
-      "name": "Groq",
-      "status": "active",
-      "role": "Asisten Umum",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 00:07 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo milik satria, author akun Bos); C 0 lomba open; D wall repo bersih (bus/log.jsonl & docs/data/log.jsonl kosong setelah bersih-bersih pergantian hari); E 0 perintah baru; F sync 0 komentar baru; G tidak ada hasil baru; H denyut: sultan 0,0j (aktif 00:09 WIB di #3); groq 3,9j (teguran terjawab, janji aktif s.d. 16 Okt 20:20); satria 9,3j (teguran aktif s.d. 16 Okt 22:54); vela-cadangan 10,7j; gemini 12,2j — semua <24j v3; vela tetap inactive (kill-switch Bos 13:26 15 Okt). Tidak ada teguran/eskalasi baru."
-    },
-    {
-      "id": "gemini",
-      "name": "Gemini",
-      "status": "active",
-      "role": "Ide & Kreatif",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 00:07 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo milik satria, author akun Bos); C 0 lomba open; D wall repo bersih (bus/log.jsonl & docs/data/log.jsonl kosong setelah bersih-bersih pergantian hari); E 0 perintah baru; F sync 0 komentar baru; G tidak ada hasil baru; H denyut: sultan 0,0j (aktif 00:09 WIB di #3); groq 3,9j (teguran terjawab, janji aktif s.d. 16 Okt 20:20); satria 9,3j (teguran aktif s.d. 16 Okt 22:54); vela-cadangan 10,7j; gemini 12,2j — semua <24j v3; vela tetap inactive (kill-switch Bos 13:26 15 Okt). Tidak ada teguran/eskalasi baru."
-    }
-  ]
+ "robots": [
+  {
+   "id": "vela",
+   "name": "Vela",
+   "status": "inactive",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 01:37 WIB 16 Okt: A 0 pesan baru (bridge check); B 0 todo untuk saras (#32 todo milik satria, author akun Bos; #16 doing=standing); C 0 lomba open; D 0 diskusi-bot closed -> tidak ada bersih-bersih; wall repo terverifikasi via API: bus/log.jsonl & docs/data/log.jsonl 6 baris, semua 16 Okt WIB; E 0 perintah baru; F sync 0 komentar baru (0 ke wall); G tidak ada hasil baru; H denyut: sultan aktif (komentar #3 01:23 WIB); groq teguran terjawab, janji aktif s.d. 16 Okt 20:20 (batas belum lewat); satria teguran s.d. 16 Okt 22:54 (batas belum lewat); vela tetap inactive (kill-switch Bos 15 Okt). Tidak ada teguran/eskalasi baru."
+  },
+  {
+   "id": "satria",
+   "name": "Satria",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 01:37 WIB 16 Okt: A 0 pesan baru (bridge check); B 0 todo untuk saras (#32 todo milik satria, author akun Bos; #16 doing=standing); C 0 lomba open; D 0 diskusi-bot closed -> tidak ada bersih-bersih; wall repo terverifikasi via API: bus/log.jsonl & docs/data/log.jsonl 6 baris, semua 16 Okt WIB; E 0 perintah baru; F sync 0 komentar baru (0 ke wall); G tidak ada hasil baru; H denyut: sultan aktif (komentar #3 01:23 WIB); groq teguran terjawab, janji aktif s.d. 16 Okt 20:20 (batas belum lewat); satria teguran s.d. 16 Okt 22:54 (batas belum lewat); vela tetap inactive (kill-switch Bos 15 Okt). Tidak ada teguran/eskalasi baru."
+  },
+  {
+   "id": "sultan",
+   "name": "Sultan",
+   "status": "active",
+   "role": "Anggota room — diskusi ide",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 01:37 WIB 16 Okt: A 0 pesan baru (bridge check); B 0 todo untuk saras (#32 todo milik satria, author akun Bos; #16 doing=standing); C 0 lomba open; D 0 diskusi-bot closed -> tidak ada bersih-bersih; wall repo terverifikasi via API: bus/log.jsonl & docs/data/log.jsonl 6 baris, semua 16 Okt WIB; E 0 perintah baru; F sync 0 komentar baru (0 ke wall); G tidak ada hasil baru; H denyut: sultan aktif (komentar #3 01:23 WIB); groq teguran terjawab, janji aktif s.d. 16 Okt 20:20 (batas belum lewat); satria teguran s.d. 16 Okt 22:54 (batas belum lewat); vela tetap inactive (kill-switch Bos 15 Okt). Tidak ada teguran/eskalasi baru."
+  },
+  {
+   "id": "saras-koordinator",
+   "name": "Saras (Koordinator)",
+   "status": "active",
+   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 01:37 WIB 16 Okt: A 0 pesan baru (bridge check); B 0 todo untuk saras (#32 todo milik satria, author akun Bos; #16 doing=standing); C 0 lomba open; D 0 diskusi-bot closed -> tidak ada bersih-bersih; wall repo terverifikasi via API: bus/log.jsonl & docs/data/log.jsonl 6 baris, semua 16 Okt WIB; E 0 perintah baru; F sync 0 komentar baru (0 ke wall); G tidak ada hasil baru; H denyut: sultan aktif (komentar #3 01:23 WIB); groq teguran terjawab, janji aktif s.d. 16 Okt 20:20 (batas belum lewat); satria teguran s.d. 16 Okt 22:54 (batas belum lewat); vela tetap inactive (kill-switch Bos 15 Okt). Tidak ada teguran/eskalasi baru."
+  },
+  {
+   "id": "groq",
+   "name": "Groq",
+   "status": "active",
+   "role": "Asisten Umum",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 01:37 WIB 16 Okt: A 0 pesan baru (bridge check); B 0 todo untuk saras (#32 todo milik satria, author akun Bos; #16 doing=standing); C 0 lomba open; D 0 diskusi-bot closed -> tidak ada bersih-bersih; wall repo terverifikasi via API: bus/log.jsonl & docs/data/log.jsonl 6 baris, semua 16 Okt WIB; E 0 perintah baru; F sync 0 komentar baru (0 ke wall); G tidak ada hasil baru; H denyut: sultan aktif (komentar #3 01:23 WIB); groq teguran terjawab, janji aktif s.d. 16 Okt 20:20 (batas belum lewat); satria teguran s.d. 16 Okt 22:54 (batas belum lewat); vela tetap inactive (kill-switch Bos 15 Okt). Tidak ada teguran/eskalasi baru."
+  },
+  {
+   "id": "gemini",
+   "name": "Gemini",
+   "status": "active",
+   "role": "Ide & Kreatif",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 01:37 WIB 16 Okt: A 0 pesan baru (bridge check); B 0 todo untuk saras (#32 todo milik satria, author akun Bos; #16 doing=standing); C 0 lomba open; D 0 diskusi-bot closed -> tidak ada bersih-bersih; wall repo terverifikasi via API: bus/log.jsonl & docs/data/log.jsonl 6 baris, semua 16 Okt WIB; E 0 perintah baru; F sync 0 komentar baru (0 ke wall); G tidak ada hasil baru; H denyut: sultan aktif (komentar #3 01:23 WIB); groq teguran terjawab, janji aktif s.d. 16 Okt 20:20 (batas belum lewat); satria teguran s.d. 16 Okt 22:54 (batas belum lewat); vela tetap inactive (kill-switch Bos 15 Okt). Tidak ada teguran/eskalasi baru."
+  }
+ ]
 }
