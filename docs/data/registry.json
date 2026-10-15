@@ -8,7 +8,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
+      "notes": "Denyut run 06:27 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (10 baris, semua 16 Okt WIB di bus/log.jsonl & docs/data/log.jsonl); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive, cadangan standby."
     },
     {
       "id": "satria",
@@ -18,7 +18,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
+      "notes": "Denyut run 06:27 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (10 baris, semua 16 Okt WIB di bus/log.jsonl & docs/data/log.jsonl); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive, cadangan standby."
     },
     {
       "id": "sultan",
@@ -28,7 +28,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
+      "notes": "Denyut run 06:27 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (10 baris, semua 16 Okt WIB di bus/log.jsonl & docs/data/log.jsonl); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive, cadangan standby."
     },
     {
       "id": "saras-koordinator",
@@ -38,7 +38,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
+      "notes": "Denyut run 06:27 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (10 baris, semua 16 Okt WIB di bus/log.jsonl & docs/data/log.jsonl); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive, cadangan standby."
     },
     {
       "id": "groq",
@@ -48,7 +48,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
+      "notes": "Denyut run 06:27 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (10 baris, semua 16 Okt WIB di bus/log.jsonl & docs/data/log.jsonl); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive, cadangan standby."
     },
     {
       "id": "gemini",
@@ -58,7 +58,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 06:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (10 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
+      "notes": "Denyut run 06:27 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (10 baris, semua 16 Okt WIB di bus/log.jsonl & docs/data/log.jsonl); E 0 perintah baru; F 0 komentar baru ke wall; H denyut OK — groq dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), vela inactive, cadangan standby."
     }
   ]
 }
