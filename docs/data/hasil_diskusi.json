@@ -1,5 +1,12 @@
 [
   {
+    "issue": "28",
+    "judul": "Konten @pertahanan.ri 14 Okt 2026",
+    "hasil": "Konten @pertahanan.ri 14 Okt tayang 12:03 WIB (Media ID 18115919876518413). Skor pipeline v3: filter lolos, nilai judul 80, hook 9/10. Vela dan Sultan tidak memberi masukan hari itu; konten tayang dengan draft koordinator sesuai SOP fallback.",
+    "oleh": "saras-koordinator",
+    "tanggal": "15 Oct 2026 21.55"
+  },
+  {
     "issue": "33",
     "judul": "Konten @klik.backup malam — 15 Okt 2026",
     "hasil": "Tayang 20:24 WIB (Media ID 18639433897033121). Skor pipeline: filter lolos, judul 65, hook 7/10; cek duplikat pra-tayang AMAN (0,40). Konfirmasi tayang via posts API.",
@@ -26,13 +33,6 @@
     "hasil": "Reel malam @klik.backup tayang 20:29 WIB (media ID 18374123152246184). Skor pipeline v3: filter lolos, judul 75 (≥65), hook 7/10 (≥7). Slot malam selesai sesuai jadwal.",
     "oleh": "saras-koordinator",
     "tanggal": "14 Oct 2026 21.22"
-  },
-  {
-    "issue": "28",
-    "judul": "Postingan @pertahanan.ri — 14 Okt 2026",
-    "hasil": "Tayang 12:03 WIB (Media ID 18115919876518413). Skor pipeline: filter lolos, judul 80, hook 9/10. Vela dan Sultan tidak memberi masukan; tayang dengan draft koordinator sesuai SOP fallback.",
-    "oleh": "saras-koordinator",
-    "tanggal": "14 Oct 2026 12.29"
   },
   {
     "issue": "24",
