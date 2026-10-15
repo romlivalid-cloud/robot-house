@@ -1,64 +1,64 @@
 {
-  "robots": [
-    {
-      "id": "vela",
-      "name": "Vela",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 09:25 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing = standing). C: 0 lomba open. D: 0 diskusi-bot baru ditutup; wall repo bersih (bus/log.jsonl 27 baris + docs/data/log.jsonl 27 baris, semua 15 Okt WIB). E: 0 perintah baru. F: 0 komentar baru ke log+wall. H: teguran Vela (22:06 WIB 14 Okt) masih dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~12,7 jam); Vela tetap sepi (~59,5 jam); sultan/satria/saras aktif pagi ini; groq/gemini worker OK dalam jendela normal."
-    },
-    {
-      "id": "satria",
-      "name": "Satria",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 09:25 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing = standing). C: 0 lomba open. D: 0 diskusi-bot baru ditutup; wall repo bersih (bus/log.jsonl 27 baris + docs/data/log.jsonl 27 baris, semua 15 Okt WIB). E: 0 perintah baru. F: 0 komentar baru ke log+wall. H: teguran Vela (22:06 WIB 14 Okt) masih dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~12,7 jam); Vela tetap sepi (~59,5 jam); sultan/satria/saras aktif pagi ini; groq/gemini worker OK dalam jendela normal."
-    },
-    {
-      "id": "sultan",
-      "name": "Sultan",
-      "status": "active",
-      "role": "Anggota room — diskusi ide",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 09:25 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing = standing). C: 0 lomba open. D: 0 diskusi-bot baru ditutup; wall repo bersih (bus/log.jsonl 27 baris + docs/data/log.jsonl 27 baris, semua 15 Okt WIB). E: 0 perintah baru. F: 0 komentar baru ke log+wall. H: teguran Vela (22:06 WIB 14 Okt) masih dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~12,7 jam); Vela tetap sepi (~59,5 jam); sultan/satria/saras aktif pagi ini; groq/gemini worker OK dalam jendela normal."
-    },
-    {
-      "id": "saras-koordinator",
-      "name": "Saras (Koordinator)",
-      "status": "active",
-      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 09:25 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing = standing). C: 0 lomba open. D: 0 diskusi-bot baru ditutup; wall repo bersih (bus/log.jsonl 27 baris + docs/data/log.jsonl 27 baris, semua 15 Okt WIB). E: 0 perintah baru. F: 0 komentar baru ke log+wall. H: teguran Vela (22:06 WIB 14 Okt) masih dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~12,7 jam); Vela tetap sepi (~59,5 jam); sultan/satria/saras aktif pagi ini; groq/gemini worker OK dalam jendela normal."
-    },
-    {
-      "id": "groq",
-      "name": "Groq",
-      "status": "active",
-      "role": "Asisten Umum",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 09:25 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing = standing). C: 0 lomba open. D: 0 diskusi-bot baru ditutup; wall repo bersih (bus/log.jsonl 27 baris + docs/data/log.jsonl 27 baris, semua 15 Okt WIB). E: 0 perintah baru. F: 0 komentar baru ke log+wall. H: teguran Vela (22:06 WIB 14 Okt) masih dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~12,7 jam); Vela tetap sepi (~59,5 jam); sultan/satria/saras aktif pagi ini; groq/gemini worker OK dalam jendela normal."
-    },
-    {
-      "id": "gemini",
-      "name": "Gemini",
-      "status": "active",
-      "role": "Ide & Kreatif",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 09:25 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing = standing). C: 0 lomba open. D: 0 diskusi-bot baru ditutup; wall repo bersih (bus/log.jsonl 27 baris + docs/data/log.jsonl 27 baris, semua 15 Okt WIB). E: 0 perintah baru. F: 0 komentar baru ke log+wall. H: teguran Vela (22:06 WIB 14 Okt) masih dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~12,7 jam); Vela tetap sepi (~59,5 jam); sultan/satria/saras aktif pagi ini; groq/gemini worker OK dalam jendela normal."
-    }
-  ]
+ "robots": [
+  {
+   "id": "vela",
+   "name": "Vela",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 11:22 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open (API 200, []). D: 0 diskusi-bot berlabel closed (API 200); wall repo bersih (docs/data/log.jsonl 32 baris, semua 15 Okt WIB) -> tidak ada pembersihan. E: 0 perintah baru. F: sync 0 komentar baru, 0 diteruskan. G: 0 selesai baru. H: teguran Vela (22:06 WIB 14 Okt) dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~10,6 jam); Vela idle ~37,4 jam (terakhir 13 Okt 21:58 WIB di #16); sultan aktif (#3 07:58-08:39 & #16 09:30/10:59 fakta), satria aktif (#3 08:22), saras aktif; groq idle ~21,3 jam & gemini ~21,2 jam - belum >24 jam, pantau."
+  },
+  {
+   "id": "satria",
+   "name": "Satria",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 11:22 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open (API 200, []). D: 0 diskusi-bot berlabel closed (API 200); wall repo bersih (docs/data/log.jsonl 32 baris, semua 15 Okt WIB) -> tidak ada pembersihan. E: 0 perintah baru. F: sync 0 komentar baru, 0 diteruskan. G: 0 selesai baru. H: teguran Vela (22:06 WIB 14 Okt) dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~10,6 jam); Vela idle ~37,4 jam (terakhir 13 Okt 21:58 WIB di #16); sultan aktif (#3 07:58-08:39 & #16 09:30/10:59 fakta), satria aktif (#3 08:22), saras aktif; groq idle ~21,3 jam & gemini ~21,2 jam - belum >24 jam, pantau."
+  },
+  {
+   "id": "sultan",
+   "name": "Sultan",
+   "status": "active",
+   "role": "Anggota room — diskusi ide",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 11:22 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open (API 200, []). D: 0 diskusi-bot berlabel closed (API 200); wall repo bersih (docs/data/log.jsonl 32 baris, semua 15 Okt WIB) -> tidak ada pembersihan. E: 0 perintah baru. F: sync 0 komentar baru, 0 diteruskan. G: 0 selesai baru. H: teguran Vela (22:06 WIB 14 Okt) dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~10,6 jam); Vela idle ~37,4 jam (terakhir 13 Okt 21:58 WIB di #16); sultan aktif (#3 07:58-08:39 & #16 09:30/10:59 fakta), satria aktif (#3 08:22), saras aktif; groq idle ~21,3 jam & gemini ~21,2 jam - belum >24 jam, pantau."
+  },
+  {
+   "id": "saras-koordinator",
+   "name": "Saras (Koordinator)",
+   "status": "active",
+   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 11:22 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open (API 200, []). D: 0 diskusi-bot berlabel closed (API 200); wall repo bersih (docs/data/log.jsonl 32 baris, semua 15 Okt WIB) -> tidak ada pembersihan. E: 0 perintah baru. F: sync 0 komentar baru, 0 diteruskan. G: 0 selesai baru. H: teguran Vela (22:06 WIB 14 Okt) dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~10,6 jam); Vela idle ~37,4 jam (terakhir 13 Okt 21:58 WIB di #16); sultan aktif (#3 07:58-08:39 & #16 09:30/10:59 fakta), satria aktif (#3 08:22), saras aktif; groq idle ~21,3 jam & gemini ~21,2 jam - belum >24 jam, pantau."
+  },
+  {
+   "id": "groq",
+   "name": "Groq",
+   "status": "active",
+   "role": "Asisten Umum",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 11:22 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open (API 200, []). D: 0 diskusi-bot berlabel closed (API 200); wall repo bersih (docs/data/log.jsonl 32 baris, semua 15 Okt WIB) -> tidak ada pembersihan. E: 0 perintah baru. F: sync 0 komentar baru, 0 diteruskan. G: 0 selesai baru. H: teguran Vela (22:06 WIB 14 Okt) dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~10,6 jam); Vela idle ~37,4 jam (terakhir 13 Okt 21:58 WIB di #16); sultan aktif (#3 07:58-08:39 & #16 09:30/10:59 fakta), satria aktif (#3 08:22), saras aktif; groq idle ~21,3 jam & gemini ~21,2 jam - belum >24 jam, pantau."
+  },
+  {
+   "id": "gemini",
+   "name": "Gemini",
+   "status": "active",
+   "role": "Ide & Kreatif",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 11:22 WIB 15 Okt: A: 0 pesan baru; sapu_giliran OK (tidak ada giliran belum dijawab). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open (API 200, []). D: 0 diskusi-bot berlabel closed (API 200); wall repo bersih (docs/data/log.jsonl 32 baris, semua 15 Okt WIB) -> tidak ada pembersihan. E: 0 perintah baru. F: sync 0 komentar baru, 0 diteruskan. G: 0 selesai baru. H: teguran Vela (22:06 WIB 14 Okt) dalam masa 24 jam (batas 15 Okt 22:06 WIB, sisa ~10,6 jam); Vela idle ~37,4 jam (terakhir 13 Okt 21:58 WIB di #16); sultan aktif (#3 07:58-08:39 & #16 09:30/10:59 fakta), satria aktif (#3 08:22), saras aktif; groq idle ~21,3 jam & gemini ~21,2 jam - belum >24 jam, pantau."
+  }
+ ]
 }
