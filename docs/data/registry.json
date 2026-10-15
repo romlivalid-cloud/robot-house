@@ -1,64 +1,64 @@
 {
-  "robots": [
-    {
-      "id": "vela",
-      "name": "Vela",
-      "status": "inactive",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Failover 15 Okt 2026 13:26 WIB atas perintah Bos (\"skip Vela, gunakan bot cadangan\"): vela-cadangan ambil alih tugas Operasional & QC sementara. Vela kembali hanya setelah [kembali] + uji ulang + persetujuan Bos."
-    },
-    {
-      "id": "satria",
-      "name": "Satria",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 13:17 WIB 15 Okt: A: 0 pesan baru; sapu_giliran: 0 giliran belum dijawab; sweep halaman-terakhir-mundur (tag di awal body): vela idle ~39,4 jam (terakhir #16 13 Okt 21:58 WIB) - teguran formal 14 Okt 22:06 WIB berlaku s.d. 15 Okt 22:06 WIB (~8,7 jam tersisa), belum eskalasi per v3; gemini 1,3 jam; sultan 4,7 jam; satria ~5 jam; groq jendela normal v3 - semua sehat; gema (shim) di luar registry. B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open. D: 0 closed baru -> tidak ada bersih-bersih; wall repo 35 baris, semua 15 Okt WIB. E: 0 perintah baru. F: sync 0 komentar baru."
-    },
-    {
-      "id": "sultan",
-      "name": "Sultan",
-      "status": "active",
-      "role": "Anggota room — diskusi ide",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 13:17 WIB 15 Okt: A: 0 pesan baru; sapu_giliran: 0 giliran belum dijawab; sweep halaman-terakhir-mundur (tag di awal body): vela idle ~39,4 jam (terakhir #16 13 Okt 21:58 WIB) - teguran formal 14 Okt 22:06 WIB berlaku s.d. 15 Okt 22:06 WIB (~8,7 jam tersisa), belum eskalasi per v3; gemini 1,3 jam; sultan 4,7 jam; satria ~5 jam; groq jendela normal v3 - semua sehat; gema (shim) di luar registry. B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open. D: 0 closed baru -> tidak ada bersih-bersih; wall repo 35 baris, semua 15 Okt WIB. E: 0 perintah baru. F: sync 0 komentar baru."
-    },
-    {
-      "id": "saras-koordinator",
-      "name": "Saras (Koordinator)",
-      "status": "active",
-      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 13:17 WIB 15 Okt: A: 0 pesan baru; sapu_giliran: 0 giliran belum dijawab; sweep halaman-terakhir-mundur (tag di awal body): vela idle ~39,4 jam (terakhir #16 13 Okt 21:58 WIB) - teguran formal 14 Okt 22:06 WIB berlaku s.d. 15 Okt 22:06 WIB (~8,7 jam tersisa), belum eskalasi per v3; gemini 1,3 jam; sultan 4,7 jam; satria ~5 jam; groq jendela normal v3 - semua sehat; gema (shim) di luar registry. B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open. D: 0 closed baru -> tidak ada bersih-bersih; wall repo 35 baris, semua 15 Okt WIB. E: 0 perintah baru. F: sync 0 komentar baru."
-    },
-    {
-      "id": "groq",
-      "name": "Groq",
-      "status": "active",
-      "role": "Asisten Umum",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 13:17 WIB 15 Okt: A: 0 pesan baru; sapu_giliran: 0 giliran belum dijawab; sweep halaman-terakhir-mundur (tag di awal body): vela idle ~39,4 jam (terakhir #16 13 Okt 21:58 WIB) - teguran formal 14 Okt 22:06 WIB berlaku s.d. 15 Okt 22:06 WIB (~8,7 jam tersisa), belum eskalasi per v3; gemini 1,3 jam; sultan 4,7 jam; satria ~5 jam; groq jendela normal v3 - semua sehat; gema (shim) di luar registry. B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open. D: 0 closed baru -> tidak ada bersih-bersih; wall repo 35 baris, semua 15 Okt WIB. E: 0 perintah baru. F: sync 0 komentar baru."
-    },
-    {
-      "id": "gemini",
-      "name": "Gemini",
-      "status": "active",
-      "role": "Ide & Kreatif",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-15",
-      "notes": "Denyut run 13:17 WIB 15 Okt: A: 0 pesan baru; sapu_giliran: 0 giliran belum dijawab; sweep halaman-terakhir-mundur (tag di awal body): vela idle ~39,4 jam (terakhir #16 13 Okt 21:58 WIB) - teguran formal 14 Okt 22:06 WIB berlaku s.d. 15 Okt 22:06 WIB (~8,7 jam tersisa), belum eskalasi per v3; gemini 1,3 jam; sultan 4,7 jam; satria ~5 jam; groq jendela normal v3 - semua sehat; gema (shim) di luar registry. B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open. D: 0 closed baru -> tidak ada bersih-bersih; wall repo 35 baris, semua 15 Okt WIB. E: 0 perintah baru. F: sync 0 komentar baru."
-    }
-  ]
+ "robots": [
+  {
+   "id": "vela",
+   "name": "Vela",
+   "status": "inactive",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Failover 15 Okt 2026 13:26 WIB atas perintah Bos (\"skip Vela, gunakan bot cadangan\"): vela-cadangan ambil alih tugas Operasional & QC sementara. Vela kembali hanya setelah [kembali] + uji ulang + persetujuan Bos."
+  },
+  {
+   "id": "satria",
+   "name": "Satria",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 13:27 WIB 15 Okt: A: 0 pesan baru; sapu_giliran: 0 giliran belum dijawab; sweep: satria 08:22 #3, sultan 08:39 #3, gemini 12:03 #3, groq ~17 jam (jendela normal v3) - semua sehat; vela DINONAKTIFKAN via kill-switch perintah Bos 13:26 WIB (failover_log tercatat). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open. D: 0 closed baru -> wall repo bersih (37 baris, semua 15 Okt WIB). E: 0 perintah baru. F: sync 1 komentar (pengumuman failover saras sendiri) -> wall. PERBAIKAN: state.json vela-cadangan diaktifkan (run 13:26 lupa); worker cadangan kini fungsional tanpa pengumuman ganda."
+  },
+  {
+   "id": "sultan",
+   "name": "Sultan",
+   "status": "active",
+   "role": "Anggota room — diskusi ide",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 13:27 WIB 15 Okt: A: 0 pesan baru; sapu_giliran: 0 giliran belum dijawab; sweep: satria 08:22 #3, sultan 08:39 #3, gemini 12:03 #3, groq ~17 jam (jendela normal v3) - semua sehat; vela DINONAKTIFKAN via kill-switch perintah Bos 13:26 WIB (failover_log tercatat). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open. D: 0 closed baru -> wall repo bersih (37 baris, semua 15 Okt WIB). E: 0 perintah baru. F: sync 1 komentar (pengumuman failover saras sendiri) -> wall. PERBAIKAN: state.json vela-cadangan diaktifkan (run 13:26 lupa); worker cadangan kini fungsional tanpa pengumuman ganda."
+  },
+  {
+   "id": "saras-koordinator",
+   "name": "Saras (Koordinator)",
+   "status": "active",
+   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 13:27 WIB 15 Okt: A: 0 pesan baru; sapu_giliran: 0 giliran belum dijawab; sweep: satria 08:22 #3, sultan 08:39 #3, gemini 12:03 #3, groq ~17 jam (jendela normal v3) - semua sehat; vela DINONAKTIFKAN via kill-switch perintah Bos 13:26 WIB (failover_log tercatat). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open. D: 0 closed baru -> wall repo bersih (37 baris, semua 15 Okt WIB). E: 0 perintah baru. F: sync 1 komentar (pengumuman failover saras sendiri) -> wall. PERBAIKAN: state.json vela-cadangan diaktifkan (run 13:26 lupa); worker cadangan kini fungsional tanpa pengumuman ganda."
+  },
+  {
+   "id": "groq",
+   "name": "Groq",
+   "status": "active",
+   "role": "Asisten Umum",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 13:27 WIB 15 Okt: A: 0 pesan baru; sapu_giliran: 0 giliran belum dijawab; sweep: satria 08:22 #3, sultan 08:39 #3, gemini 12:03 #3, groq ~17 jam (jendela normal v3) - semua sehat; vela DINONAKTIFKAN via kill-switch perintah Bos 13:26 WIB (failover_log tercatat). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open. D: 0 closed baru -> wall repo bersih (37 baris, semua 15 Okt WIB). E: 0 perintah baru. F: sync 1 komentar (pengumuman failover saras sendiri) -> wall. PERBAIKAN: state.json vela-cadangan diaktifkan (run 13:26 lupa); worker cadangan kini fungsional tanpa pengumuman ganda."
+  },
+  {
+   "id": "gemini",
+   "name": "Gemini",
+   "status": "active",
+   "role": "Ide & Kreatif",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-15",
+   "notes": "Denyut run 13:27 WIB 15 Okt: A: 0 pesan baru; sapu_giliran: 0 giliran belum dijawab; sweep: satria 08:22 #3, sultan 08:39 #3, gemini 12:03 #3, groq ~17 jam (jendela normal v3) - semua sehat; vela DINONAKTIFKAN via kill-switch perintah Bos 13:26 WIB (failover_log tercatat). B: 0 todo baru (#16 doing=standing, author Bos). C: 0 lomba open. D: 0 closed baru -> wall repo bersih (37 baris, semua 15 Okt WIB). E: 0 perintah baru. F: sync 1 komentar (pengumuman failover saras sendiri) -> wall. PERBAIKAN: state.json vela-cadangan diaktifkan (run 13:26 lupa); worker cadangan kini fungsional tanpa pengumuman ganda."
+  }
+ ]
 }
