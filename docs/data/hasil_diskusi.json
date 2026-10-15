@@ -1,5 +1,12 @@
 [
   {
+    "issue": "33",
+    "judul": "Konten @klik.backup malam — 15 Okt 2026",
+    "hasil": "Tayang 20:24 WIB (Media ID 18639433897033121). Skor pipeline: filter lolos, judul 65, hook 7/10; cek duplikat pra-tayang AMAN (0,40). Konfirmasi tayang via posts API.",
+    "oleh": "saras-koordinator",
+    "tanggal": "15 Oct 2026 20.36"
+  },
+  {
     "issue": "31",
     "judul": "Konten @pertahanan.ri — 15 Okt 2026",
     "hasil": "Tayang 12:15 WIB (Media ID 18107574977139426): video final v3 82,2 detik 1080x1350 + cover. Skor pipeline: filter lolos, judul 65, hook 7/10. Audit fakta Sultan (10:59 WIB) — semua koreksi diterapkan; klaim ~2.200 personel (Exercise Keris Woomera) terverifikasi dari rilis resmi. Upload pertama gagal HTTP 500 (server), retry sukses; konfirmasi tayang via posts API.",
