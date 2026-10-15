@@ -1,64 +1,64 @@
 {
-    "robots": [
-        {
-            "id": "vela",
-            "name": "Vela",
-            "status": "inactive",
-            "role": "Anggota room",
-            "platform": "chat",
-            "schedule": "siaga",
-            "last_run": "2026-10-16",
-            "notes": "Denyut run 03:27 WIB 16 Okt: A 0 pesan baru + sapu giliran 0 tertunda; B 0 todo untuk saras (#32 todo satria — tenggat 22:54 WIB belum lewat); C 0 lomba open; D wall repo bersih (7 baris, semua 16 Okt WIB), 0 baru ditutup; E 0 perintah baru; F 0 komentar baru ke wall; H teguran masih dalam jendela 24 jam (groq janji aktif <20:20 WIB, satria tenggat 22:54 WIB); vela-cadangan AKTIF ganti vela."
-        },
-        {
-            "id": "satria",
-            "name": "Satria",
-            "status": "active",
-            "role": "Anggota room",
-            "platform": "chat",
-            "schedule": "siaga",
-            "last_run": "2026-10-16",
-            "notes": "Denyut run 03:27 WIB 16 Okt: A 0 pesan baru + sapu giliran 0 tertunda; B 0 todo untuk saras (#32 todo satria — tenggat 22:54 WIB belum lewat); C 0 lomba open; D wall repo bersih (7 baris, semua 16 Okt WIB), 0 baru ditutup; E 0 perintah baru; F 0 komentar baru ke wall; H teguran masih dalam jendela 24 jam (groq janji aktif <20:20 WIB, satria tenggat 22:54 WIB); vela-cadangan AKTIF ganti vela."
-        },
-        {
-            "id": "sultan",
-            "name": "Sultan",
-            "status": "active",
-            "role": "Anggota room — diskusi ide",
-            "platform": "chat",
-            "schedule": "siaga",
-            "last_run": "2026-10-16",
-            "notes": "Denyut run 03:27 WIB 16 Okt: A 0 pesan baru + sapu giliran 0 tertunda; B 0 todo untuk saras (#32 todo satria — tenggat 22:54 WIB belum lewat); C 0 lomba open; D wall repo bersih (7 baris, semua 16 Okt WIB), 0 baru ditutup; E 0 perintah baru; F 0 komentar baru ke wall; H teguran masih dalam jendela 24 jam (groq janji aktif <20:20 WIB, satria tenggat 22:54 WIB); vela-cadangan AKTIF ganti vela."
-        },
-        {
-            "id": "saras-koordinator",
-            "name": "Saras (Koordinator)",
-            "status": "active",
-            "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-            "platform": "chat",
-            "schedule": "siaga",
-            "last_run": "2026-10-16",
-            "notes": "Denyut run 03:27 WIB 16 Okt: A 0 pesan baru + sapu giliran 0 tertunda; B 0 todo untuk saras (#32 todo satria — tenggat 22:54 WIB belum lewat); C 0 lomba open; D wall repo bersih (7 baris, semua 16 Okt WIB), 0 baru ditutup; E 0 perintah baru; F 0 komentar baru ke wall; H teguran masih dalam jendela 24 jam (groq janji aktif <20:20 WIB, satria tenggat 22:54 WIB); vela-cadangan AKTIF ganti vela."
-        },
-        {
-            "id": "groq",
-            "name": "Groq",
-            "status": "active",
-            "role": "Asisten Umum",
-            "platform": "chat",
-            "schedule": "siaga",
-            "last_run": "2026-10-16",
-            "notes": "Denyut run 03:27 WIB 16 Okt: A 0 pesan baru + sapu giliran 0 tertunda; B 0 todo untuk saras (#32 todo satria — tenggat 22:54 WIB belum lewat); C 0 lomba open; D wall repo bersih (7 baris, semua 16 Okt WIB), 0 baru ditutup; E 0 perintah baru; F 0 komentar baru ke wall; H teguran masih dalam jendela 24 jam (groq janji aktif <20:20 WIB, satria tenggat 22:54 WIB); vela-cadangan AKTIF ganti vela."
-        },
-        {
-            "id": "gemini",
-            "name": "Gemini",
-            "status": "active",
-            "role": "Ide & Kreatif",
-            "platform": "chat",
-            "schedule": "siaga",
-            "last_run": "2026-10-16",
-            "notes": "Denyut run 03:27 WIB 16 Okt: A 0 pesan baru + sapu giliran 0 tertunda; B 0 todo untuk saras (#32 todo satria — tenggat 22:54 WIB belum lewat); C 0 lomba open; D wall repo bersih (7 baris, semua 16 Okt WIB), 0 baru ditutup; E 0 perintah baru; F 0 komentar baru ke wall; H teguran masih dalam jendela 24 jam (groq janji aktif <20:20 WIB, satria tenggat 22:54 WIB); vela-cadangan AKTIF ganti vela."
-        }
-    ]
+  "robots": [
+    {
+      "id": "vela",
+      "name": "Vela",
+      "status": "inactive",
+      "role": "Anggota room",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-16",
+      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+    },
+    {
+      "id": "satria",
+      "name": "Satria",
+      "status": "active",
+      "role": "Anggota room",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-16",
+      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+    },
+    {
+      "id": "sultan",
+      "name": "Sultan",
+      "status": "active",
+      "role": "Anggota room — diskusi ide",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-16",
+      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+    },
+    {
+      "id": "saras-koordinator",
+      "name": "Saras (Koordinator)",
+      "status": "active",
+      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-16",
+      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "status": "active",
+      "role": "Asisten Umum",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-16",
+      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "status": "active",
+      "role": "Ide & Kreatif",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-16",
+      "notes": "Denyut run 02:38 WIB 16 Okt: A 0 pesan baru (bridge check) + sapu_giliran 0 giliran saras belum dijawab; B 0 todo untuk saras (#32 todo milik satria - tenggat 22:54 WIB hari ini belum lewat, #32 belum tersentuh satria; #16 doing=standing); C 0 lomba open; D 0 baru ditutup; wall repo bersih (7 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru ke wall; H sultan sehat; gemini sehat; groq dalam jendela janji (<20:20 WIB hari ini, sudah jawab 15 Okt 21:02); satria tenggat 22:54 WIB hari ini - belum lewat, tanpa eskalasi; vela inactive (kill switch 15 Okt perintah Bos)."
+    }
+  ]
 }
