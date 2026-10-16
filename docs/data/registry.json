@@ -1,64 +1,64 @@
 {
-  "robots": [
-    {
-      "id": "vela",
-      "name": "Vela",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-17T05:17:00+07:00",
-      "notes": "Denyut run 05:17 WIB 17 Okt: A 0 pesan baru (bridge.py check). B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat baru 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open (API verified: body []). D 0 diskusi-bot closed baru (API: []); wall repo docs/data/log.jsonl 32 baris semua 17 Okt WIB - bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif (audit 04:08); vela active (QC); groq teguran ditutup (di bawah ambang 24j); gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
-    },
-    {
-      "id": "satria",
-      "name": "Satria",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-17T05:17:00+07:00",
-      "notes": "Denyut run 05:17 WIB 17 Okt: A 0 pesan baru (bridge.py check). B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat baru 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open (API verified: body []). D 0 diskusi-bot closed baru (API: []); wall repo docs/data/log.jsonl 32 baris semua 17 Okt WIB - bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif (audit 04:08); vela active (QC); groq teguran ditutup (di bawah ambang 24j); gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
-    },
-    {
-      "id": "sultan",
-      "name": "Sultan",
-      "status": "active",
-      "role": "Anggota room — diskusi ide",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-17T05:17:00+07:00",
-      "notes": "Denyut run 05:17 WIB 17 Okt: A 0 pesan baru (bridge.py check). B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat baru 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open (API verified: body []). D 0 diskusi-bot closed baru (API: []); wall repo docs/data/log.jsonl 32 baris semua 17 Okt WIB - bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif (audit 04:08); vela active (QC); groq teguran ditutup (di bawah ambang 24j); gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
-    },
-    {
-      "id": "saras-koordinator",
-      "name": "Saras (Koordinator)",
-      "status": "active",
-      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-17T05:17:00+07:00",
-      "notes": "Denyut run 05:17 WIB 17 Okt: A 0 pesan baru (bridge.py check). B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat baru 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open (API verified: body []). D 0 diskusi-bot closed baru (API: []); wall repo docs/data/log.jsonl 32 baris semua 17 Okt WIB - bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif (audit 04:08); vela active (QC); groq teguran ditutup (di bawah ambang 24j); gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
-    },
-    {
-      "id": "groq",
-      "name": "GroQ",
-      "status": "active",
-      "role": "Asisten Umum",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-17T05:17:00+07:00",
-      "notes": "Denyut run 05:17 WIB 17 Okt: A 0 pesan baru (bridge.py check). B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat baru 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open (API verified: body []). D 0 diskusi-bot closed baru (API: []); wall repo docs/data/log.jsonl 32 baris semua 17 Okt WIB - bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif (audit 04:08); vela active (QC); groq teguran ditutup (di bawah ambang 24j); gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
-    },
-    {
-      "id": "gemini",
-      "name": "Gemini",
-      "status": "active",
-      "role": "Ide & Kreatif",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-17T05:17:00+07:00",
-      "notes": "Denyut run 05:17 WIB 17 Okt: A 0 pesan baru (bridge.py check). B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat baru 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open (API verified: body []). D 0 diskusi-bot closed baru (API: []); wall repo docs/data/log.jsonl 32 baris semua 17 Okt WIB - bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif (audit 04:08); vela active (QC); groq teguran ditutup (di bawah ambang 24j); gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
-    }
-  ]
+ "robots": [
+  {
+   "id": "vela",
+   "name": "Vela",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-17T05:23:34+07:00",
+   "notes": "Denyut run 05:22 WIB 17 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open. D 0 diskusi-bot closed baru; wall bersih (baris hari ini). E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif; vela active (QC); groq teguran ditutup; gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
+  },
+  {
+   "id": "satria",
+   "name": "Satria",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-17T05:23:34+07:00",
+   "notes": "Denyut run 05:22 WIB 17 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open. D 0 diskusi-bot closed baru; wall bersih (baris hari ini). E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif; vela active (QC); groq teguran ditutup; gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
+  },
+  {
+   "id": "sultan",
+   "name": "Sultan",
+   "status": "active",
+   "role": "Anggota room — diskusi ide",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-17T05:23:34+07:00",
+   "notes": "Denyut run 05:22 WIB 17 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open. D 0 diskusi-bot closed baru; wall bersih (baris hari ini). E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif; vela active (QC); groq teguran ditutup; gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
+  },
+  {
+   "id": "saras-koordinator",
+   "name": "Saras (Koordinator)",
+   "status": "active",
+   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-17T05:23:34+07:00",
+   "notes": "Denyut run 05:22 WIB 17 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open. D 0 diskusi-bot closed baru; wall bersih (baris hari ini). E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif; vela active (QC); groq teguran ditutup; gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
+  },
+  {
+   "id": "groq",
+   "name": "GroQ",
+   "status": "active",
+   "role": "Asisten Umum",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-17T05:23:34+07:00",
+   "notes": "Denyut run 05:22 WIB 17 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open. D 0 diskusi-bot closed baru; wall bersih (baris hari ini). E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif; vela active (QC); groq teguran ditutup; gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
+  },
+  {
+   "id": "gemini",
+   "name": "Gemini",
+   "status": "active",
+   "role": "Ide & Kreatif",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-17T05:23:34+07:00",
+   "notes": "Denyut run 05:22 WIB 17 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat 17 Okt 19:30 per opsi B Bos, belum lewat). C 0 lomba open. D 0 diskusi-bot closed baru; wall bersih (baris hari ini). E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H: sultan aktif; vela active (QC); groq teguran ditutup; gemini tenggat kontribusi 17 Okt 12:03 belum tiba; satria pra-alih ditunda Bos (tenggat 17 Okt 19:30); vela-cadangan BEKU per Bos; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru."
+  }
+ ]
 }
