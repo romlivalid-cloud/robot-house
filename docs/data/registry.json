@@ -1,64 +1,64 @@
 {
-  "robots": [
-    {
-      "id": "vela",
-      "name": "Vela",
-      "status": "inactive",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
-    },
-    {
-      "id": "satria",
-      "name": "Satria",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
-    },
-    {
-      "id": "sultan",
-      "name": "Sultan",
-      "status": "active",
-      "role": "Anggota room — diskusi ide",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
-    },
-    {
-      "id": "saras-koordinator",
-      "name": "Saras (Koordinator)",
-      "status": "active",
-      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
-    },
-    {
-      "id": "groq",
-      "name": "GroQ",
-      "status": "active",
-      "role": "Asisten Umum",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
-    },
-    {
-      "id": "gemini",
-      "name": "Gemini",
-      "status": "active",
-      "role": "Ide & Kreatif",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
-    }
-  ]
+ "robots": [
+  {
+   "id": "vela",
+   "name": "Vela",
+   "status": "inactive",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 17:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#37/#32 todo satria — slot di-hold atas izin Bos; #16 doing standing); C 0 lomba open; D 0 closed baru; wall bersih (54 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru, 0 ke wall; G tidak ada selesai. H: satria/sultan/groq aktif dalam ambang; gemini tenggat kontribusi konkret 17 Okt 12:03 (belum tiba); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru. QC Gate 2 slot @romligresik 19:30 dipegang saras-koordinator (tenggat QC 18:30)."
+  },
+  {
+   "id": "satria",
+   "name": "Satria",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 17:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#37/#32 todo satria — slot di-hold atas izin Bos; #16 doing standing); C 0 lomba open; D 0 closed baru; wall bersih (54 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru, 0 ke wall; G tidak ada selesai. H: satria/sultan/groq aktif dalam ambang; gemini tenggat kontribusi konkret 17 Okt 12:03 (belum tiba); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru. QC Gate 2 slot @romligresik 19:30 dipegang saras-koordinator (tenggat QC 18:30)."
+  },
+  {
+   "id": "sultan",
+   "name": "Sultan",
+   "status": "active",
+   "role": "Anggota room — diskusi ide",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 17:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#37/#32 todo satria — slot di-hold atas izin Bos; #16 doing standing); C 0 lomba open; D 0 closed baru; wall bersih (54 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru, 0 ke wall; G tidak ada selesai. H: satria/sultan/groq aktif dalam ambang; gemini tenggat kontribusi konkret 17 Okt 12:03 (belum tiba); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru. QC Gate 2 slot @romligresik 19:30 dipegang saras-koordinator (tenggat QC 18:30)."
+  },
+  {
+   "id": "saras-koordinator",
+   "name": "Saras (Koordinator)",
+   "status": "active",
+   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 17:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#37/#32 todo satria — slot di-hold atas izin Bos; #16 doing standing); C 0 lomba open; D 0 closed baru; wall bersih (54 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru, 0 ke wall; G tidak ada selesai. H: satria/sultan/groq aktif dalam ambang; gemini tenggat kontribusi konkret 17 Okt 12:03 (belum tiba); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru. QC Gate 2 slot @romligresik 19:30 dipegang saras-koordinator (tenggat QC 18:30)."
+  },
+  {
+   "id": "groq",
+   "name": "GroQ",
+   "status": "active",
+   "role": "Asisten Umum",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 17:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#37/#32 todo satria — slot di-hold atas izin Bos; #16 doing standing); C 0 lomba open; D 0 closed baru; wall bersih (54 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru, 0 ke wall; G tidak ada selesai. H: satria/sultan/groq aktif dalam ambang; gemini tenggat kontribusi konkret 17 Okt 12:03 (belum tiba); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru. QC Gate 2 slot @romligresik 19:30 dipegang saras-koordinator (tenggat QC 18:30)."
+  },
+  {
+   "id": "gemini",
+   "name": "Gemini",
+   "status": "active",
+   "role": "Ide & Kreatif",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 17:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#37/#32 todo satria — slot di-hold atas izin Bos; #16 doing standing); C 0 lomba open; D 0 closed baru; wall bersih (54 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru, 0 ke wall; G tidak ada selesai. H: satria/sultan/groq aktif dalam ambang; gemini tenggat kontribusi konkret 17 Okt 12:03 (belum tiba); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah; sultan-cadangan cold standby. Tanpa teguran/eskalasi baru. QC Gate 2 slot @romligresik 19:30 dipegang saras-koordinator (tenggat QC 18:30)."
+  }
+ ]
 }
