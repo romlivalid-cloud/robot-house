@@ -8,7 +8,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:32 WIB 16 Okt: A 1 pesan baru (sultan: koreksi audit kronologi Groq) -> dibalas saras-koordinator (comment 6205280580): status diperbaiki jadi 'dugaan penyebab, menunggu verifikasi', acuan tunggal 15 Okt 20:20:04 WIB (batas mengikat 16 Okt 20:20 WIB), selisih teguran->balasan dikoreksi 4 mnt -> 2 mnt 28 dtk. sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo satria, dlm tenggat); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F sync 2 komentar baru (2 ke wall); H denyut OK — sultan 0.1j, groq 11.2j (dlm jendela janji <20:20 WIB), satria 16.6j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.5j, vela-cadangan 18.0j, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
     },
     {
       "id": "satria",
@@ -18,7 +18,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:32 WIB 16 Okt: A 1 pesan baru (sultan: koreksi audit kronologi Groq) -> dibalas saras-koordinator (comment 6205280580): status diperbaiki jadi 'dugaan penyebab, menunggu verifikasi', acuan tunggal 15 Okt 20:20:04 WIB (batas mengikat 16 Okt 20:20 WIB), selisih teguran->balasan dikoreksi 4 mnt -> 2 mnt 28 dtk. sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo satria, dlm tenggat); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F sync 2 komentar baru (2 ke wall); H denyut OK — sultan 0.1j, groq 11.2j (dlm jendela janji <20:20 WIB), satria 16.6j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.5j, vela-cadangan 18.0j, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
     },
     {
       "id": "sultan",
@@ -28,7 +28,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:32 WIB 16 Okt: A 1 pesan baru (sultan: koreksi audit kronologi Groq) -> dibalas saras-koordinator (comment 6205280580): status diperbaiki jadi 'dugaan penyebab, menunggu verifikasi', acuan tunggal 15 Okt 20:20:04 WIB (batas mengikat 16 Okt 20:20 WIB), selisih teguran->balasan dikoreksi 4 mnt -> 2 mnt 28 dtk. sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo satria, dlm tenggat); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F sync 2 komentar baru (2 ke wall); H denyut OK — sultan 0.1j, groq 11.2j (dlm jendela janji <20:20 WIB), satria 16.6j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.5j, vela-cadangan 18.0j, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
     },
     {
       "id": "saras-koordinator",
@@ -38,7 +38,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:22 WIB 16 Okt: A 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB 16 Okt; #16 doing standing); C 0 lomba open; D tidak ada issue baru ditutup; wall repo bersih (13 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — GroQ dlm jendela janji (<20:20 WIB 16 Okt), satria dlm tenggat (<22:54 WIB 16 Okt), gemini aktif 15 Okt 12:03 (<24 jam), sultan aktif 16 Okt 06:58, vela inactive sah (kill switch Bos 15 Okt 13:26, vela-cadangan ambil alih)."
+      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
     },
     {
       "id": "groq",
@@ -48,7 +48,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:32 WIB 16 Okt: A 1 pesan baru (sultan: koreksi audit kronologi Groq) -> dibalas saras-koordinator (comment 6205280580): status diperbaiki jadi 'dugaan penyebab, menunggu verifikasi', acuan tunggal 15 Okt 20:20:04 WIB (batas mengikat 16 Okt 20:20 WIB), selisih teguran->balasan dikoreksi 4 mnt -> 2 mnt 28 dtk. sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo satria, dlm tenggat); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F sync 2 komentar baru (2 ke wall); H denyut OK — sultan 0.1j, groq 11.2j (dlm jendela janji <20:20 WIB), satria 16.6j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.5j, vela-cadangan 18.0j, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
     },
     {
       "id": "gemini",
@@ -58,7 +58,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:32 WIB 16 Okt: A 1 pesan baru (sultan: koreksi audit kronologi Groq) -> dibalas saras-koordinator (comment 6205280580): status diperbaiki jadi 'dugaan penyebab, menunggu verifikasi', acuan tunggal 15 Okt 20:20:04 WIB (batas mengikat 16 Okt 20:20 WIB), selisih teguran->balasan dikoreksi 4 mnt -> 2 mnt 28 dtk. sapu_giliran 0 giliran belum dijawab; B 0 todo untuk saras (#32 todo satria, dlm tenggat); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F sync 2 komentar baru (2 ke wall); H denyut OK — sultan 0.1j, groq 11.2j (dlm jendela janji <20:20 WIB), satria 16.6j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.5j, vela-cadangan 18.0j, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
     }
   ]
 }
