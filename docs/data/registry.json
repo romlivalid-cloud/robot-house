@@ -8,7 +8,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 12:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#32 todo satria, teguran ditutup; #16 doing standing). C 0 lomba open. D wall repo bersih (36 baris, semua 16 Okt WIB). E 0 perintah baru. F 1 komentar baru ke wall (teguran gemini). Denyut: saras 0.1j, satria 1.7j, groq 1.2j (jendela <20:20 WIB), sultan 6.7j, vela-cadangan 22.5j (<24j, ambang ~13:42 WIB), gemini 24.2j (teguran aktif, tenggat 17 Okt 12:03 WIB), vela inactive sah (kill switch Bos). Tanpa teguran/eskalasi baru."
     },
     {
       "id": "satria",
@@ -18,7 +18,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 12:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#32 todo satria, teguran ditutup; #16 doing standing). C 0 lomba open. D wall repo bersih (36 baris, semua 16 Okt WIB). E 0 perintah baru. F 1 komentar baru ke wall (teguran gemini). Denyut: saras 0.1j, satria 1.7j, groq 1.2j (jendela <20:20 WIB), sultan 6.7j, vela-cadangan 22.5j (<24j, ambang ~13:42 WIB), gemini 24.2j (teguran aktif, tenggat 17 Okt 12:03 WIB), vela inactive sah (kill switch Bos). Tanpa teguran/eskalasi baru."
     },
     {
       "id": "sultan",
@@ -28,7 +28,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 12:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#32 todo satria, teguran ditutup; #16 doing standing). C 0 lomba open. D wall repo bersih (36 baris, semua 16 Okt WIB). E 0 perintah baru. F 1 komentar baru ke wall (teguran gemini). Denyut: saras 0.1j, satria 1.7j, groq 1.2j (jendela <20:20 WIB), sultan 6.7j, vela-cadangan 22.5j (<24j, ambang ~13:42 WIB), gemini 24.2j (teguran aktif, tenggat 17 Okt 12:03 WIB), vela inactive sah (kill switch Bos). Tanpa teguran/eskalasi baru."
     },
     {
       "id": "saras-koordinator",
@@ -38,7 +38,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 12:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#32 todo satria, teguran ditutup; #16 doing standing). C 0 lomba open. D wall repo bersih (36 baris, semua 16 Okt WIB). E 0 perintah baru. F 1 komentar baru ke wall (teguran gemini). Denyut: saras 0.1j, satria 1.7j, groq 1.2j (jendela <20:20 WIB), sultan 6.7j, vela-cadangan 22.5j (<24j, ambang ~13:42 WIB), gemini 24.2j (teguran aktif, tenggat 17 Okt 12:03 WIB), vela inactive sah (kill switch Bos). Tanpa teguran/eskalasi baru."
     },
     {
       "id": "groq",
@@ -48,7 +48,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 12:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#32 todo satria, teguran ditutup; #16 doing standing). C 0 lomba open. D wall repo bersih (36 baris, semua 16 Okt WIB). E 0 perintah baru. F 1 komentar baru ke wall (teguran gemini). Denyut: saras 0.1j, satria 1.7j, groq 1.2j (jendela <20:20 WIB), sultan 6.7j, vela-cadangan 22.5j (<24j, ambang ~13:42 WIB), gemini 24.2j (teguran aktif, tenggat 17 Okt 12:03 WIB), vela inactive sah (kill switch Bos). Tanpa teguran/eskalasi baru."
     },
     {
       "id": "gemini",
@@ -58,7 +58,7 @@
       "platform": "chat",
       "schedule": "siaga",
       "last_run": "2026-10-16",
-      "notes": "Denyut run 07:42 WIB 16 Okt: A 0 pesan baru; B 0 todo untuk saras (#32 todo satria dlm tenggat <22:54 WIB; #16 doing standing); C 0 lomba open; D wall repo bersih (15 baris, semua 16 Okt WIB); E 0 perintah baru; F 0 komentar baru; H denyut OK — sultan 0.3j, groq 11.3j (jendela janji <20:20 WIB), satria 16.7j (teguran aktif, tenggat 16 Okt 22:54), gemini 19.7j (<24j), vela-cadangan 18.1j siaga, vela inactive sah (kill switch Bos 15 Okt 13:26)."
+      "notes": "Denyut run 12:12 WIB 16 Okt: A 0 pesan baru; sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#32 todo satria, teguran ditutup; #16 doing standing). C 0 lomba open. D wall repo bersih (36 baris, semua 16 Okt WIB). E 0 perintah baru. F 1 komentar baru ke wall (teguran gemini). Denyut: saras 0.1j, satria 1.7j, groq 1.2j (jendela <20:20 WIB), sultan 6.7j, vela-cadangan 22.5j (<24j, ambang ~13:42 WIB), gemini 24.2j (teguran aktif, tenggat 17 Okt 12:03 WIB), vela inactive sah (kill switch Bos). Tanpa teguran/eskalasi baru."
     }
   ]
 }
