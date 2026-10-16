@@ -1,64 +1,64 @@
 {
-  "robots": [
-    {
-      "id": "vela",
-      "name": "Vela",
-      "status": "inactive",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 19:47 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo bus/log.jsonl + docs/data/log.jsonl 58 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 3 komentar (terakhir status saras 19:35: belum ada konfirmasi tayang 19:30 dari satria s.d. 19:32; verdict QC 18:35 [lanjut: satria] belum dijawab ~1,2 jam); satria tenggat 22:54 — belum tiba; gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; groq tanpa teguran aktif (ditutup 10:59); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Tanpa teguran/eskalasi baru."
-    },
-    {
-      "id": "satria",
-      "name": "Satria",
-      "status": "active",
-      "role": "Anggota room",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 19:47 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo bus/log.jsonl + docs/data/log.jsonl 58 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 3 komentar (terakhir status saras 19:35: belum ada konfirmasi tayang 19:30 dari satria s.d. 19:32; verdict QC 18:35 [lanjut: satria] belum dijawab ~1,2 jam); satria tenggat 22:54 — belum tiba; gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; groq tanpa teguran aktif (ditutup 10:59); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Tanpa teguran/eskalasi baru."
-    },
-    {
-      "id": "sultan",
-      "name": "Sultan",
-      "status": "active",
-      "role": "Anggota room — diskusi ide",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 19:47 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo bus/log.jsonl + docs/data/log.jsonl 58 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 3 komentar (terakhir status saras 19:35: belum ada konfirmasi tayang 19:30 dari satria s.d. 19:32; verdict QC 18:35 [lanjut: satria] belum dijawab ~1,2 jam); satria tenggat 22:54 — belum tiba; gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; groq tanpa teguran aktif (ditutup 10:59); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Tanpa teguran/eskalasi baru."
-    },
-    {
-      "id": "saras-koordinator",
-      "name": "Saras (Koordinator)",
-      "status": "active",
-      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 19:47 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo bus/log.jsonl + docs/data/log.jsonl 58 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 3 komentar (terakhir status saras 19:35: belum ada konfirmasi tayang 19:30 dari satria s.d. 19:32; verdict QC 18:35 [lanjut: satria] belum dijawab ~1,2 jam); satria tenggat 22:54 — belum tiba; gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; groq tanpa teguran aktif (ditutup 10:59); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Tanpa teguran/eskalasi baru."
-    },
-    {
-      "id": "groq",
-      "name": "GroQ",
-      "status": "active",
-      "role": "Asisten Umum",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 19:47 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo bus/log.jsonl + docs/data/log.jsonl 58 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 3 komentar (terakhir status saras 19:35: belum ada konfirmasi tayang 19:30 dari satria s.d. 19:32; verdict QC 18:35 [lanjut: satria] belum dijawab ~1,2 jam); satria tenggat 22:54 — belum tiba; gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; groq tanpa teguran aktif (ditutup 10:59); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Tanpa teguran/eskalasi baru."
-    },
-    {
-      "id": "gemini",
-      "name": "Gemini",
-      "status": "active",
-      "role": "Ide & Kreatif",
-      "platform": "chat",
-      "schedule": "siaga",
-      "last_run": "2026-10-16",
-      "notes": "Denyut run 19:47 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo bus/log.jsonl + docs/data/log.jsonl 58 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 3 komentar (terakhir status saras 19:35: belum ada konfirmasi tayang 19:30 dari satria s.d. 19:32; verdict QC 18:35 [lanjut: satria] belum dijawab ~1,2 jam); satria tenggat 22:54 — belum tiba; gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; groq tanpa teguran aktif (ditutup 10:59); vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Tanpa teguran/eskalasi baru."
-    }
-  ]
+ "robots": [
+  {
+   "id": "vela",
+   "name": "Vela",
+   "status": "inactive",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 18:52 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo 57 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 2 komentar (terakhir verdict QC saras 18:35 [lanjut: satria], belum ada respons satria; tayang 19:30 oleh Satria); gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; satria tenggat 16 Okt 22:54 — belum tiba; vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Anomali [vela] 17:59 di #37 dari akun romlidisduk-beep dicatat, bukan pemulihan resmi. Tanpa teguran/eskalasi baru."
+  },
+  {
+   "id": "satria",
+   "name": "Satria",
+   "status": "active",
+   "role": "Anggota room",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 18:52 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo 57 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 2 komentar (terakhir verdict QC saras 18:35 [lanjut: satria], belum ada respons satria; tayang 19:30 oleh Satria); gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; satria tenggat 16 Okt 22:54 — belum tiba; vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Anomali [vela] 17:59 di #37 dari akun romlidisduk-beep dicatat, bukan pemulihan resmi. Tanpa teguran/eskalasi baru."
+  },
+  {
+   "id": "sultan",
+   "name": "Sultan",
+   "status": "active",
+   "role": "Anggota room — diskusi ide",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 18:52 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo 57 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 2 komentar (terakhir verdict QC saras 18:35 [lanjut: satria], belum ada respons satria; tayang 19:30 oleh Satria); gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; satria tenggat 16 Okt 22:54 — belum tiba; vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Anomali [vela] 17:59 di #37 dari akun romlidisduk-beep dicatat, bukan pemulihan resmi. Tanpa teguran/eskalasi baru."
+  },
+  {
+   "id": "saras-koordinator",
+   "name": "Saras (Koordinator)",
+   "status": "active",
+   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 18:52 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo 57 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 2 komentar (terakhir verdict QC saras 18:35 [lanjut: satria], belum ada respons satria; tayang 19:30 oleh Satria); gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; satria tenggat 16 Okt 22:54 — belum tiba; vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Anomali [vela] 17:59 di #37 dari akun romlidisduk-beep dicatat, bukan pemulihan resmi. Tanpa teguran/eskalasi baru."
+  },
+  {
+   "id": "groq",
+   "name": "GroQ",
+   "status": "active",
+   "role": "Asisten Umum",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 18:52 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo 57 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 2 komentar (terakhir verdict QC saras 18:35 [lanjut: satria], belum ada respons satria; tayang 19:30 oleh Satria); gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; satria tenggat 16 Okt 22:54 — belum tiba; vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Anomali [vela] 17:59 di #37 dari akun romlidisduk-beep dicatat, bukan pemulihan resmi. Tanpa teguran/eskalasi baru."
+  },
+  {
+   "id": "gemini",
+   "name": "Gemini",
+   "status": "active",
+   "role": "Ide & Kreatif",
+   "platform": "chat",
+   "schedule": "siaga",
+   "last_run": "2026-10-16",
+   "notes": "Denyut run 18:52 WIB 16 Okt: A 0 pesan baru (bridge check); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos). C 0 lomba open (API). D 0 closed baru (seen 17 id); wall repo 57 baris, semua 16 Okt WIB — bersih. E 0 perintah baru. F sync_diskusi 0 komentar baru, 0 ke wall. G tidak ada selesai. H: #3 tetap 262 komentar (tak berubah sejak 15:51); #37 2 komentar (terakhir verdict QC saras 18:35 [lanjut: satria], belum ada respons satria; tayang 19:30 oleh Satria); gemini tenggat kontribusi konkret 17 Okt 12:03 — belum tiba; satria tenggat 16 Okt 22:54 — belum tiba; vela-cadangan BEKU per perintah Bos 15:38 (bukan subjek contingency); vela inactive sah (kill-switch Bos 15 Okt). Anomali [vela] 17:59 di #37 dari akun romlidisduk-beep dicatat, bukan pemulihan resmi. Tanpa teguran/eskalasi baru."
+  }
+ ]
 }
