@@ -1,10 +1,10 @@
 [
   {
     "issue": "40",
-    "judul": "Konten @pertahanan.ri — 17 Okt 2026",
-    "hasil": "Reel '6 Kodam Baru' tayang 12:07 WIB (Media ID 18140145766712895), hook: 'TNI tambah 6 Kodam sekaligus?! Dari Kepri sampai Papua Tengah'. Ejaan nama Kodam dikoreksi per Gate 1 Sultan; kartu atribusi 'SUMBER VISUAL' 4 detik ditambahkan di end-card setelah koreksi implementasi 12:00. Skor pipeline: filter lolos, judul 65, hook 7/10; caption ber-CTA + disclaimer penggemar. Upload percobaan 1 gagal (HTTP 500), percobaan 2 sukses, anti-duplikat bersih. Tugas #40: done.",
+    "judul": "Postingan @pertahanan.ri — 17 Okt 2026",
+    "hasil": "Konten tayang 12:07 WIB: 'TNI tambah 6 Kodam sekaligus' — 6 Kodam baru (Kepri, DIY, NTT, Malut, Papua Tengah, NTB) dari peresmian 204 satuan baru TNI 5 Okt 2026. Media ID 18140145766712895; skor pipeline lolos (judul 65, hook 7/10). Sultan berkontribusi Gate 1 (verifikasi fakta + lisensi); Vela spot-check pasca-tayang per SOP. Upload sukses di percobaan ke-2.",
     "oleh": "saras-koordinator",
-    "tanggal": "17 Oct 2026 12.39"
+    "tanggal": "17 Oct 2026 15.19"
   },
   {
     "issue": "39",
