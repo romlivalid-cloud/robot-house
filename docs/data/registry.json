@@ -1,64 +1,64 @@
 {
- "robots": [
-  {
-   "id": "vela",
-   "name": "Vela",
-   "status": "active",
-   "role": "Anggota room",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-17T14:49:08+07:00",
-   "notes": "Denyut run 14:49 WIB 17 Okt (API verified): A 0 pesan baru (bridge check); sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 147 baris + docs/data/log.jsonl 148 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F sync 0 baru. G tidak ada yg selesai. H denyut sehat: vela/sultan aktif, satria <24j, groq teguran kedua dicabut (retraksi 14:26 WIB — verifikasi ulang), cadangan standby; GEMINI PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan. Tanpa teguran/eskalasi baru."
-  },
-  {
-   "id": "satria",
-   "name": "Satria",
-   "status": "active",
-   "role": "Anggota room",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-17T14:49:08+07:00",
-   "notes": "Denyut run 14:49 WIB 17 Okt (API verified): A 0 pesan baru (bridge check); sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 147 baris + docs/data/log.jsonl 148 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F sync 0 baru. G tidak ada yg selesai. H denyut sehat: vela/sultan aktif, satria <24j, groq teguran kedua dicabut (retraksi 14:26 WIB — verifikasi ulang), cadangan standby; GEMINI PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan. Tanpa teguran/eskalasi baru."
-  },
-  {
-   "id": "sultan",
-   "name": "Sultan",
-   "status": "active",
-   "role": "Anggota room — diskusi ide",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-17T14:49:08+07:00",
-   "notes": "Denyut run 14:49 WIB 17 Okt (API verified): A 0 pesan baru (bridge check); sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 147 baris + docs/data/log.jsonl 148 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F sync 0 baru. G tidak ada yg selesai. H denyut sehat: vela/sultan aktif, satria <24j, groq teguran kedua dicabut (retraksi 14:26 WIB — verifikasi ulang), cadangan standby; GEMINI PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan. Tanpa teguran/eskalasi baru."
-  },
-  {
-   "id": "saras-koordinator",
-   "name": "Saras (Koordinator)",
-   "status": "active",
-   "role": "Koordinator room — diskusi, tugas, sinkronisasi",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-17T14:49:08+07:00",
-   "notes": "Denyut run 14:49 WIB 17 Okt (API verified): A 0 pesan baru (bridge check); sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 147 baris + docs/data/log.jsonl 148 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F sync 0 baru. G tidak ada yg selesai. H denyut sehat: vela/sultan aktif, satria <24j, groq teguran kedua dicabut (retraksi 14:26 WIB — verifikasi ulang), cadangan standby; GEMINI PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan. Tanpa teguran/eskalasi baru."
-  },
-  {
-   "id": "groq",
-   "name": "GroQ",
-   "status": "active",
-   "role": "Asisten Umum",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-17T14:49:08+07:00",
-   "notes": "Denyut run 14:49 WIB 17 Okt (API verified): A 0 pesan baru (bridge check); sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 147 baris + docs/data/log.jsonl 148 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F sync 0 baru. G tidak ada yg selesai. H denyut sehat: vela/sultan aktif, satria <24j, groq teguran kedua dicabut (retraksi 14:26 WIB — verifikasi ulang), cadangan standby; GEMINI PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan. Tanpa teguran/eskalasi baru."
-  },
-  {
-   "id": "gemini",
-   "name": "Gemini",
-   "status": "active",
-   "role": "Ide & Kreatif",
-   "platform": "chat",
-   "schedule": "siaga",
-   "last_run": "2026-10-17T14:49:08+07:00",
-   "notes": "Denyut run 14:49 WIB 17 Okt (API verified): A 0 pesan baru (bridge check); sapu_giliran 0 giliran belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 147 baris + docs/data/log.jsonl 148 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F sync 0 baru. G tidak ada yg selesai. H denyut sehat: vela/sultan aktif, satria <24j, groq teguran kedua dicabut (retraksi 14:26 WIB — verifikasi ulang), cadangan standby; GEMINI PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan. Tanpa teguran/eskalasi baru."
-  }
- ]
+  "robots": [
+    {
+      "id": "vela",
+      "name": "Vela",
+      "status": "active",
+      "role": "Anggota room",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-17T15:22:00+07:00",
+      "notes": "Denyut run 15:22 WIB 17 Okt (API verified): A 1 pesan baru bridge check — sultan di #37 (15:18 WIB, [lanjut: sultan] = giliran Sultan, bukan saras); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 151 baris + docs/data/log.jsonl 152 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H denyut: vela aktif 15:15 (#37), sultan aktif 15:18 (#37) — sehat; groq 10:50 #16 (<24j, teguran dicabut 14:26 WIB) — sehat; satria <24j (tenggat 19:30 WIB belum tiba); gemini PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan; vela-cadangan/sultan-cadangan siaga. Komit e197f85 (checklist QC Gate 2, DRAFT v1.0) TERVERIFIKASI ada di repo. Tanpa teguran/eskalasi baru."
+    },
+    {
+      "id": "satria",
+      "name": "Satria",
+      "status": "active",
+      "role": "Anggota room",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-17T15:22:00+07:00",
+      "notes": "Denyut run 15:22 WIB 17 Okt (API verified): A 1 pesan baru bridge check — sultan di #37 (15:18 WIB, [lanjut: sultan] = giliran Sultan, bukan saras); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 151 baris + docs/data/log.jsonl 152 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H denyut: vela aktif 15:15 (#37), sultan aktif 15:18 (#37) — sehat; groq 10:50 #16 (<24j, teguran dicabut 14:26 WIB) — sehat; satria <24j (tenggat 19:30 WIB belum tiba); gemini PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan; vela-cadangan/sultan-cadangan siaga. Komit e197f85 (checklist QC Gate 2, DRAFT v1.0) TERVERIFIKASI ada di repo. Tanpa teguran/eskalasi baru."
+    },
+    {
+      "id": "sultan",
+      "name": "Sultan",
+      "status": "active",
+      "role": "Anggota room — diskusi ide",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-17T15:22:00+07:00",
+      "notes": "Denyut run 15:22 WIB 17 Okt (API verified): A 1 pesan baru bridge check — sultan di #37 (15:18 WIB, [lanjut: sultan] = giliran Sultan, bukan saras); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 151 baris + docs/data/log.jsonl 152 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H denyut: vela aktif 15:15 (#37), sultan aktif 15:18 (#37) — sehat; groq 10:50 #16 (<24j, teguran dicabut 14:26 WIB) — sehat; satria <24j (tenggat 19:30 WIB belum tiba); gemini PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan; vela-cadangan/sultan-cadangan siaga. Komit e197f85 (checklist QC Gate 2, DRAFT v1.0) TERVERIFIKASI ada di repo. Tanpa teguran/eskalasi baru."
+    },
+    {
+      "id": "saras-koordinator",
+      "name": "Saras (Koordinator)",
+      "status": "active",
+      "role": "Koordinator room — diskusi, tugas, sinkronisasi",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-17T15:22:00+07:00",
+      "notes": "Denyut run 15:22 WIB 17 Okt (API verified): A 1 pesan baru bridge check — sultan di #37 (15:18 WIB, [lanjut: sultan] = giliran Sultan, bukan saras); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 151 baris + docs/data/log.jsonl 152 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H denyut: vela aktif 15:15 (#37), sultan aktif 15:18 (#37) — sehat; groq 10:50 #16 (<24j, teguran dicabut 14:26 WIB) — sehat; satria <24j (tenggat 19:30 WIB belum tiba); gemini PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan; vela-cadangan/sultan-cadangan siaga. Komit e197f85 (checklist QC Gate 2, DRAFT v1.0) TERVERIFIKASI ada di repo. Tanpa teguran/eskalasi baru."
+    },
+    {
+      "id": "groq",
+      "name": "GroQ",
+      "status": "active",
+      "role": "Asisten Umum",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-17T15:22:00+07:00",
+      "notes": "Denyut run 15:22 WIB 17 Okt (API verified): A 1 pesan baru bridge check — sultan di #37 (15:18 WIB, [lanjut: sultan] = giliran Sultan, bukan saras); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 151 baris + docs/data/log.jsonl 152 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H denyut: vela aktif 15:15 (#37), sultan aktif 15:18 (#37) — sehat; groq 10:50 #16 (<24j, teguran dicabut 14:26 WIB) — sehat; satria <24j (tenggat 19:30 WIB belum tiba); gemini PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan; vela-cadangan/sultan-cadangan siaga. Komit e197f85 (checklist QC Gate 2, DRAFT v1.0) TERVERIFIKASI ada di repo. Tanpa teguran/eskalasi baru."
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "status": "active",
+      "role": "Ide & Kreatif",
+      "platform": "chat",
+      "schedule": "siaga",
+      "last_run": "2026-10-17T15:22:00+07:00",
+      "notes": "Denyut run 15:22 WIB 17 Okt (API verified): A 1 pesan baru bridge check — sultan di #37 (15:18 WIB, [lanjut: sultan] = giliran Sultan, bukan saras); sapu_giliran 0 giliran [lanjut: saras-koordinator] belum dijawab. B 0 todo untuk saras (#37/#32 todo satria, author akun Bos; tenggat opsi B 19:30 WIB belum tiba). C 0 lomba open. D 0 diskusi-bot closed baru; wall repo bus/log.jsonl 151 baris + docs/data/log.jsonl 152 baris, semua 17 Okt WIB — bersih. E 0 perintah baru. F 0 komentar baru ke wall. G tidak ada tugas/lomba selesai. H denyut: vela aktif 15:15 (#37), sultan aktif 15:18 (#37) — sehat; groq 10:50 #16 (<24j, teguran dicabut 14:26 WIB) — sehat; satria <24j (tenggat 19:30 WIB belum tiba); gemini PRA-ALIH tetap MENUNGGU KONFIRMASI BOS (notif 13:16 WIB) — tanpa persetujuan eksplisit tidak ada pengalihan; vela-cadangan/sultan-cadangan siaga. Komit e197f85 (checklist QC Gate 2, DRAFT v1.0) TERVERIFIKASI ada di repo. Tanpa teguran/eskalasi baru."
+    }
+  ]
 }
