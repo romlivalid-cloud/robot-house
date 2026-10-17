@@ -1,5 +1,12 @@
 [
   {
+    "issue": "40",
+    "judul": "Konten @pertahanan.ri — 17 Okt 2026",
+    "hasil": "Reel '6 Kodam Baru' tayang 12:07 WIB (Media ID 18140145766712895), hook: 'TNI tambah 6 Kodam sekaligus?! Dari Kepri sampai Papua Tengah'. Ejaan nama Kodam dikoreksi per Gate 1 Sultan; kartu atribusi 'SUMBER VISUAL' 4 detik ditambahkan di end-card setelah koreksi implementasi 12:00. Skor pipeline: filter lolos, judul 65, hook 7/10; caption ber-CTA + disclaimer penggemar. Upload percobaan 1 gagal (HTTP 500), percobaan 2 sukses, anti-duplikat bersih. Tugas #40: done.",
+    "oleh": "saras-koordinator",
+    "tanggal": "17 Oct 2026 12.39"
+  },
+  {
     "issue": "39",
     "judul": "Konten @klik.backup pagi — 17 Okt 2026",
     "hasil": "Reel 'Kucing jadi mandor warung' tayang 09:30 WIB (Media ID 18118062566282531). Hook: 'Kalau kucing jadi mandor warung, tugas pertamanya apa?'. Video royalty-free Pexels 27875363 + atribusi. Skor pipeline: filter lolos, judul 65, hook 7/10. Tugas #39: done.",
