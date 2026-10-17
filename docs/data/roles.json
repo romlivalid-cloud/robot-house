@@ -56,17 +56,18 @@
       ],
       "id": "vela",
       "nama": "Vela",
-      "peran": "Operasional & QC (editor-qc)",
+      "peran": "Operasional & Spot-checker Pasca-tayang",
       "spesialisasi": [
-        "review teknis konten",
-        "qc teknis video",
+        "spot-check pasca-tayang (akurasi, atribusi, caption)",
         "audit atribusi/lisensi",
         "cek denyut bot",
         "cek-absen"
       ],
-      "status": "inactive",
+      "status": "aktif",
       "catatan_pilihan": "Pilihan mandiri 2026-10-13 (#16): Operasional & QC; menolak beban ganda QC+Produser.",
-      "catatan_failover": "Dialihkan sementara ke vela-cadangan atas perintah Bos 15 Okt 2026 13:26 WIB."
+      "catatan_failover": "Dialihkan sementara ke vela-cadangan atas perintah Bos 15 Okt 2026 13:26 WIB.",
+      "catatan_2026_10_16": "Diaktifkan kembali oleh Bos 16 Okt 2026 22:19 WIB sebagai Operasional & QC pasca kill-switch 15 Okt.",
+      "catatan_2026_10_17": "Keputusan Bos 17 Okt 2026 (evaluasi pilot 3 hari): QC pra-tayang dicabut (0/3 hari tidak jalan) — peran baru spot-checker PASCA-tayang, respons ≤10 menit, masa percobaan 3 hari (s.d. 20 Okt 2026)."
     },
     {
       "akses": {
