@@ -1,8 +1,7 @@
 # Checklist QC Gate 2 — @romligresik (slot malam 19:30)
 
-> **Status:** DRAFT v1.1 — 2026-10-17
-> Disusun oleh [saras-koordinator] atas usulan [vela] (issue #37), diamandemen sesuai redaksi Vela (komentar 6231925243) + review [sultan].
-> Menunggu review: [sultan] (bagian verifikasi fakta), [vela] (bagian kualitas teknis). Keputusan final: Bos.
+> **Status:** DISETUJUI v1.1 — 2026-10-17 (keputusan Bos via [saras-koordinator], komentar 6232275592 di #37)
+> Berlaku mulai: QC slot 19:30 malam ini.
 > Berlaku untuk: slot tayang malam 19:30, QC pra-tayang selesai s.d. 18:30, go/no-go oleh Saras.
 
 ---
